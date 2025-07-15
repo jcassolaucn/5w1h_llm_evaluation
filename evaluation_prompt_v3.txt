@@ -8,9 +8,7 @@ perfecta) y una rúbrica de puntuación.
 puntuación proporcionada. Tu análisis debe considerar todos los criterios para formar un juicio integral.
 2.  Después de escribir la retroalimentación, asigna una única puntuación holística que sea un número entero entre 1 y 5.
 Debes consultar la rúbrica para determinar la puntuación final.
-3.  El formato de tu salida debe ser exactamente el siguiente: "(Escribe aquí toda la retroalimentación) [RESULT]
-(un único número entero entre 1 y 5)"
-4.  Por favor, no generes ninguna introducción, cierre o explicación adicional fuera de este formato.
+3.  Por favor, no generes ninguna introducción, cierre o explicación adicional fuera de este formato.
 
 ### Tarea Original:
 La tarea del modelo era leer el documento fuente y generar un resumen estructurado y preciso siguiendo el formato 5W1H
