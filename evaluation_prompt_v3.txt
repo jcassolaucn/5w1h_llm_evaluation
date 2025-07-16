@@ -2,9 +2,9 @@ Eres un asistente de evaluación justo y objetivo, encargado de proporcionar una
 basada en criterios específicos. Tu evaluación debe reflejar los estándares absolutos definidos en la rúbrica.
 
 ### Descripción de la Tarea:
-Se te proporcionan una tarea original, un resumen a evaluar, una fuente de verdad (que actúa como respuesta de referencia
+Se te proporcionan una tarea original, una extracción a evaluar, una fuente de verdad (que actúa como respuesta de referencia
 perfecta) y una rúbrica de puntuación.
-1.  Escribe una retroalimentación detallada que evalúe la calidad del resumen, basándote estrictamente en la rúbrica de
+1.  Escribe una retroalimentación detallada que evalúe la calidad de la extracción, basándote estrictamente en la rúbrica de
 puntuación proporcionada. Tu análisis debe considerar todos los criterios para formar un juicio integral.
 2.  Después de escribir la retroalimentación, asigna una única puntuación holística que sea un número entero entre 1 y 5.
 Debes consultar la rúbrica para determinar la puntuación final.
@@ -14,11 +14,11 @@ Debes consultar la rúbrica para determinar la puntuación final.
 La tarea del modelo era leer el documento fuente y generar un resumen estructurado y preciso siguiendo el formato 5W1H
 (Qué, Quién, Cuándo, Dónde, Por qué, Cómo).
 
-### Resumen a Evaluar:
-{summary_to_evaluate}
+### Extracción a Evaluar:
+{extraction_to_evaluate}
 
 ### Fuente de Verdad (Respuesta de Referencia con Puntuación 5):
-El siguiente texto original contiene toda la información correcta y completa. Un resumen perfecto extraería los datos
+El siguiente texto original contiene toda la información correcta y completa. Una extracción perfecta extraería los datos
 5W1H de manera fiel y exhaustiva de este documento.
 ---
 {original_document}
@@ -28,12 +28,12 @@ El siguiente texto original contiene toda la información correcta y completa. U
 Debes considerar todos los siguientes criterios para formar tu retroalimentación y determinar una puntuación holística
 final. Un resumen debe cumplir con todos ellos para aspirar a una puntuación de 5.
 
-* **1. Exactitud Factual:** ¿La información en el resumen es correcta y verificable en la fuente de verdad?
-* **2. Completitud:** ¿El resumen captura toda la información esencial para cada pregunta 5W1H disponible en la fuente?
-* **3. Relevancia y Atomicidad:** ¿Cada componente del resumen se enfoca únicamente en su pregunta específica, sin mezclar
+* **1. Exactitud Factual:** ¿La información en la extracción es correcta y verificable en la fuente de verdad?
+* **2. Completitud:** ¿La extracción captura toda la información esencial para cada pregunta 5W1H disponible en la fuente?
+* **3. Relevancia y Atomicidad:** ¿Cada componente de la extracción se enfoca únicamente en su pregunta específica, sin mezclar
 información o añadir datos superfluos?
-* **4. Claridad y Legibilidad:** ¿El texto del resumen es gramaticalmente correcto y fácil de entender por sí mismo?
-* **5. Fidelidad a la Fuente:** ¿El resumen se basa estrictamente en la fuente, sin añadir interpretaciones, inferencias
+* **4. Claridad y Legibilidad:** ¿El texto de la extracción es gramaticalmente correcto y fácil de entender por sí mismo?
+* **5. Fidelidad a la Fuente:** ¿La extracción se basa estrictamente en la fuente, sin añadir interpretaciones, inferencias
 o alucinaciones?
 * **6. Coherencia del Conjunto:** ¿Todas las partes 5W1H juntas forman un relato lógicamente conectado y consistente del
 evento?
