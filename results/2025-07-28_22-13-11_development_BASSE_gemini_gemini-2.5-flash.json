@@ -1,0 +1,680 @@
+{
+  "total_tokens": 144454,
+  "results": [
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información presentada en la extracción es precisa y directamente verificable en la fuente de verdad proporcionada.",
+          "completeness": "La sección 'Quién' omite información relevante sobre las ausencias de jugadores clave (Marc Gasol y Rudy Fernández) y no menciona a los jugadores rusos destacados en la fuente, lo que afecta la completitud general de este elemento.",
+          "relevance_and_conciseness": "Cada elemento 5W1H se enfoca estrictamente en su pregunta específica, sin incluir información superflua o mezclada.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y fácil de comprender en todas sus partes.",
+          "source_faithfulness": "La extracción se adhiere fielmente al contenido de la fuente, sin introducir interpretaciones, inferencias o alucinaciones.",
+          "overall_coherence": "Las diferentes secciones 5W1H se conectan lógicamente para formar un relato coherente y comprensible del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2489,
+        "completion_tokens": 284,
+        "total_tokens": 5620
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 3,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La información proporcionada en la extracción es en su mayoría correcta y verificable en la fuente. Se identificaron ligeras imprecisiones debido a interpretaciones en las secciones 'Quién' y 'Dónde', como la frase 'liderada por' y la inferencia sobre el tipo de partido, que afectan marginalmente la precisión estricta de los hechos extraídos.",
+          "completeness": "La extracción captura la mayoría de la información esencial para las preguntas 5W1H. En la sección 'Quién', aunque menciona a jugadores clave, podría ser más exhaustiva al no detallar otros jugadores relevantes o las ausencias mencionadas en la fuente. La información para el resto de las preguntas es bastante completa.",
+          "relevance_and_conciseness": "Cada componente de la extracción se enfoca pertinentemente en su pregunta específica 5W1H. Sin embargo, en la respuesta a 'Dónde', la adición de 'pero se entiende que fue en un partido amistoso de preparación para el Mundial' introduce una inferencia que no es una respuesta directa a la ubicación, afectando ligeramente la atomicidad y concisión.",
+          "clarity_and_readability": "El texto de la extracción es gramaticalmente correcto, claro y fácil de entender en todas sus secciones 5W1H, contribuyendo a una buena legibilidad general.",
+          "source_faithfulness": "La extracción es en gran parte fiel a la fuente. No obstante, presenta ligeras inferencias o interpretaciones que no están explícitamente en el texto original, como la descripción de la selección como 'liderada por Ricky y Willy Hernangómez' en 'Quién', y la justificación 'se entiende que fue en un partido amistoso...' en 'Dónde'. Estas adiciones reducen la fidelidad estricta a la fuente.",
+          "overall_coherence": "Todas las partes de la extracción 5W1H se conectan lógicamente y forman un relato coherente y consistente del evento. La información fluye de manera natural y permite comprender el contexto y los detalles de lo sucedido."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2465,
+        "completion_tokens": 513,
+        "total_tokens": 6229
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción presenta información que es completamente verificable y correcta según la fuente de verdad. No se observan errores o datos incorrectos.",
+          "completeness": "Aunque la extracción captura los puntos principales de cada 5W1H, le faltan algunos detalles específicos presentes en la fuente, como el marcador exacto (55-74), los porcentajes de tiro detallados y el número preciso de pérdidas de balón. Para el \"Quién\", no se mencionan a todos los jugadores relevantes destacados en la fuente (ej., jugadores rusos, otros jugadores españoles con roles específicos).",
+          "relevance_and_conciseness": "Cada segmento 5W1H se adhiere estrictamente a su pregunta correspondiente, sin incluir información superflua o que pertenezca a otra categoría.",
+          "clarity_and_readability": "El texto de la extracción está bien redactado, es gramaticalmente correcto y fácil de entender de forma independiente.",
+          "source_faithfulness": "La extracción se basa estrictamente en el contenido de la fuente, sin añadir interpretaciones, inferencias o información no presente en el texto original.",
+          "overall_coherence": "El conjunto de extracciones 5W1H forma un relato cohesionado y lógicamente conectado del evento descrito."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2437,
+        "completion_tokens": 342,
+        "total_tokens": 5925
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 3,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La información sobre el lugar del partido ('Dónde: El partido se llevó a cabo en España') es una inferencia que no se menciona en la fuente de verdad. El resto de la información es factualmente correcta.",
+          "completeness": "La sección 'Quién' omite la destacada actuación de Willy Hernangómez (26 puntos y 11 rebotes) y la mención de otros jugadores relevantes como Llull, Rabaseda y Claver que son detallados en la fuente. La información de 'Dónde' no está presente en la fuente.",
+          "relevance_and_conciseness": "La sección 'Quién' incluye detalles sobre el rendimiento (15 puntos en los últimos cuatro minutos) que podrían ser más apropiados para 'Cómo' o 'Por qué', diluyendo la atomicidad de la respuesta. La frase 'aunque no se especifica la ciudad exacta' en 'Dónde' es información superflua ya que el lugar no se menciona en absoluto.",
+          "clarity_and_readability": "El texto de la extracción es claro, conciso, gramaticalmente correcto y fácil de comprender en todas sus secciones.",
+          "source_faithfulness": "La extracción infiere que el partido se llevó a cabo 'en España' en la sección 'Dónde', lo cual no se menciona en la fuente de verdad. Esto representa una falta de fidelidad a la fuente.",
+          "overall_coherence": "A pesar de las imprecisiones puntuales, las diferentes secciones 5W1H se conectan lógicamente para formar un relato consistente del evento, creando una narrativa fluida."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2506,
+        "completion_tokens": 413,
+        "total_tokens": 5813
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información proporcionada en la extracción es correcta y directamente verificable en la fuente de verdad.",
+          "completeness": "La extracción captura la mayoría de la información esencial para cada pregunta 5W1H. Sin embargo, en la sección 'Por qué', aunque se explica que España jugó mal y cometió errores, no se detallan las razones específicas como los bajos porcentajes de tiro o el alto número de pérdidas, que son datos esenciales en la fuente.",
+          "relevance_and_conciseness": "Cada sección 5W1H se enfoca precisamente en su pregunta, evitando información superflua o mezclada.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto, bien estructurado y muy fácil de entender de forma independiente.",
+          "source_faithfulness": "La extracción se adhiere estrictamente a la información de la fuente, sin añadir interpretaciones, inferencias o elementos no presentes.",
+          "overall_coherence": "Todas las partes de la extracción se combinan de manera lógica y forman un relato coherente y consistente del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2496,
+        "completion_tokens": 304,
+        "total_tokens": 5256
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información proporcionada en la extracción es correcta y se verifica plenamente con la fuente de verdad. No hay imprecisiones.",
+          "completeness": "La extracción es en gran medida completa para la mayoría de los elementos 5W1H. Sin embargo, en el \"Quién\" omite la mención inicial de la ONG Acción Geoda y el número exacto de 20 compañeros que viajaron. En el \"Cuándo\", aunque menciona el inicio y la continuidad, podría haber incluido alguna otra fecha clave como la consecución de objetivos económicos o la fecha específica del viaje.",
+          "relevance_and_conciseness": "Cada respuesta 5W1H se mantiene enfocada estrictamente en la pregunta correspondiente, evitando información redundante o que pertenezca a otra categoría. La información es precisa y al grano.",
+          "clarity_and_readability": "La extracción es gramaticalmente correcta y su lenguaje es claro y conciso, facilitando la comprensión de cada segmento 5W1H de forma independiente.",
+          "source_faithfulness": "La extracción se adhiere estrictamente a la información presente en el texto original, sin añadir ninguna inferencia, interpretación o detalle no respaldado por la fuente.",
+          "overall_coherence": "Los diferentes elementos 5W1H se conectan de manera lógica y fluida, formando un relato cohesivo y consistente del proyecto descrito en la fuente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2552,
+        "completion_tokens": 371,
+        "total_tokens": 5093
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 3,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información proporcionada en la extracción 5W1H es precisa y se puede verificar directamente en el texto fuente.",
+          "completeness": "La extracción captura la información esencial para cada pregunta 5W1H, aunque algunos detalles menores sobre la evolución del 'Quién' y fechas secundarias podrían haberse incluido.",
+          "relevance_and_conciseness": "Cada sección individual de 5W1H es atómica. Sin embargo, se incluyó una oración adicional al final que actúa como una explicación o cierre, contraviniendo las instrucciones de no generar texto superfluo.",
+          "clarity_and_readability": "El texto de la extracción es gramaticalmente correcto, claro y fácil de entender por sí mismo.",
+          "source_faithfulness": "El contenido de cada sección 5W1H se adhiere fielmente a la fuente. No obstante, la oración final es un comentario del modelo sobre su propio resumen, no extraído de la fuente, lo que afecta la fidelidad.",
+          "overall_coherence": "El conjunto de respuestas 5W1H forma un relato coherente y lógicamente conectado del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2651,
+        "completion_tokens": 316,
+        "total_tokens": 5552
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información presentada en la extracción es precisa y se verifica directamente con la fuente de verdad. No se observan imprecisiones o datos incorrectos.",
+          "completeness": "La extracción captura la mayoría de la información esencial para cada pregunta 5W1H. Sin embargo, en el apartado \"Cuándo\", no se menciona la fecha de \"septiembre de 2018\" como el momento en que se alcanzaron los objetivos económicos, lo cual es un hito temporal relevante.",
+          "relevance_and_conciseness": "Cada respuesta 5W1H se mantiene enfocada estrictamente en su pregunta correspondiente, sin incluir información superflua o que pertenezca a otra categoría. La información adicional se maneja adecuadamente en su propia sección.",
+          "clarity_and_readability": "La extracción es clara, concisa y gramaticalmente correcta. Cada elemento 5W1H se presenta de manera comprensible e independiente.",
+          "source_faithfulness": "La extracción se basa enteramente en la información proporcionada en la fuente, sin añadir interpretaciones, inferencias o elementos que no estén explícitamente mencionados.",
+          "overall_coherence": "Los diferentes elementos 5W1H se conectan lógicamente para formar un relato coherente y completo del proyecto, incluyendo el contexto adicional que refuerza la narrativa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2589,
+        "completion_tokens": 359,
+        "total_tokens": 6867
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción es en su mayoría precisa. Sin embargo, en la respuesta a '¿Qué?', se afirma que las universitarias 'fundaron una ONG llamada Acción Geoda'. La fuente indica que ellas fueron presentadas a una ONG ya existente ('casi nueva') llamada Acción Geoda y que ellas iniciaron un proyecto dentro o en colaboración con esta ONG, no que la fundaron directamente. Este es un error factual menor pero presente.",
+          "completeness": "La extracción captura de manera exhaustiva toda la información esencial de la fuente para cada una de las preguntas 5W1H, sin omitir detalles relevantes.",
+          "relevance_and_conciseness": "Cada componente de la extracción se enfoca únicamente en la pregunta 5W1H específica, evitando información superflua o la mezcla de datos entre categorías. Las respuestas son atómicas y directas.",
+          "clarity_and_readability": "El texto de la extracción es gramaticalmente correcto, coherente y fácil de entender. La formulación de cada respuesta 5W1H es clara y concisa.",
+          "source_faithfulness": "La extracción se basa estrictamente en la información de la fuente, sin añadir interpretaciones, inferencias o alucinaciones. La única desviación notable es la afirmación de que las universitarias 'fundaron' Acción Geoda, lo cual es una ligera alteración del rol descrito en la fuente.",
+          "overall_coherence": "Todas las partes de la extracción 5W1H se conectan lógicamente y forman un relato cohesivo y consistente del evento. La secuencia de la información tiene sentido."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2582,
+        "completion_tokens": 415,
+        "total_tokens": 5706
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información proporcionada en la extracción es correcta y verificable directamente en la fuente de verdad.",
+          "completeness": "La extracción captura toda la información esencial de la fuente de verdad para cada pregunta 5W1H. Solo se omitió un detalle menor sobre una fecha de objetivo financiero en septiembre de 2018, lo cual no afecta significativamente la completitud general de la respuesta a 'cuándo'.",
+          "relevance_and_conciseness": "Cada elemento 5W1H se enfoca exclusivamente en su pregunta específica, evitando información superflua o mezcla de contenidos, yendo directamente al grano.",
+          "clarity_and_readability": "El texto de la extracción es gramaticalmente correcto, coherente y fácil de entender en todas sus secciones.",
+          "source_faithfulness": "La extracción se basa estrictamente en la información presente en el texto fuente, sin introducir interpretaciones, inferencias o contenido alucinado.",
+          "overall_coherence": "Todas las partes de la extracción (Qué, Quién, Cuándo, Dónde, Por qué, Cómo) se conectan lógicamente y forman un relato consistente y fluido del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2598,
+        "completion_tokens": 324,
+        "total_tokens": 4579
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/ccaa/2019/09/12/madrid/1568307703_277564.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información contenida en la extracción es precisa y verificable directamente en el texto fuente proporcionado.",
+          "completeness": "La extracción captura toda la información esencial para cada pregunta 5W1H disponible en la fuente de verdad, incluyendo detalles como los tipos de vecinos y el resultado de la votación.",
+          "relevance_and_conciseness": "Cada componente de la extracción se enfoca únicamente en su pregunta específica, evitando mezclar información o añadir datos superfluos.",
+          "clarity_and_readability": "La extracción es gramaticalmente correcta y utiliza un lenguaje claro y conciso, facilitando su comprensión.",
+          "source_faithfulness": "La extracción se basa estrictamente en el texto fuente, sin introducir interpretaciones, inferencias o alucinaciones. La inferencia del año en 'Cuándo' es una deducción lógica basada en el contexto del real decreto.",
+          "overall_coherence": "El conjunto de las partes 5W1H forma un relato lógicamente conectado y consistente del evento, creando una narrativa fluida y comprensible."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3380,
+        "completion_tokens": 300,
+        "total_tokens": 5727
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/ccaa/2019/09/12/madrid/1568307703_277564.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información proporcionada en la extracción es correcta y directamente verificable en la fuente de verdad.",
+          "completeness": "La extracción captura la información esencial para los elementos 5W1H primarios. Sin embargo, la inclusión de una 'pregunta de fondo' no directamente relacionada con los hechos concretos del evento principal (aunque presente en la fuente) la hace ligeramente menos enfocada en la completitud de los hechos del suceso en sí.",
+          "relevance_and_conciseness": "Cada componente 5W1H está bien enfocado en su pregunta específica. No obstante, la inclusión de la 'pregunta de fondo' al final no corresponde a un elemento 5W1H del evento concreto y, por tanto, introduce información que excede el formato solicitado y reduce la atomicidad esperada para un resumen 5W1H.",
+          "clarity_and_readability": "La extracción es gramaticalmente correcta y muy fácil de entender, con una redacción clara y directa para cada elemento.",
+          "source_faithfulness": "La extracción se adhiere estrictamente a la información de la fuente, sin añadir interpretaciones, inferencias o alucinaciones.",
+          "overall_coherence": "Los elementos 5W1H principales forman un relato lógicamente conectado y consistente del evento. La adición de la 'pregunta de fondo' no rompe la coherencia de la narrativa principal, pero la extiende más allá del alcance estricto de un resumen 5W1H del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3368,
+        "completion_tokens": 394,
+        "total_tokens": 6740
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/ccaa/2019/09/12/madrid/1568307703_277564.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información contenida en la extracción es precisa y directamente verificable con la fuente de verdad proporcionada.",
+          "completeness": "La extracción captura toda la información esencial para cada pregunta 5W1H, sin omisiones relevantes de la fuente.",
+          "relevance_and_conciseness": "Cada componente de la extracción se centra exclusivamente en su pregunta 5W1H, evitando información superflua o mezclada.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y fácil de entender, con una redacción clara y concisa.",
+          "source_faithfulness": "La extracción se adhiere estrictamente a la información de la fuente, sin añadir interpretaciones, inferencias o alucinaciones.",
+          "overall_coherence": "Todas las partes 5W1H se conectan lógicamente, formando un relato cohesivo y consistente del evento descrito."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3380,
+        "completion_tokens": 266,
+        "total_tokens": 5010
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/ccaa/2019/09/12/madrid/1568307703_277564.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información contenida en la extracción es precisa y directamente verificable con la fuente de verdad proporcionada.",
+          "completeness": "Todos los elementos 5W1H capturan la información esencial y relevante de la fuente, sin omisiones significativas.",
+          "relevance_and_conciseness": "Cada respuesta 5W1H es atómica y se centra estrictamente en la información solicitada, sin incluir detalles superfluos o irrelevantes.",
+          "clarity_and_readability": "La extracción es gramaticalmente correcta y fácil de entender, con cada respuesta 5W1H formulada de manera clara y concisa.",
+          "source_faithfulness": "La extracción se basa exclusivamente en la fuente de verdad, sin añadir interpretaciones, inferencias o información no presente en el texto original.",
+          "overall_coherence": "Las respuestas 5W1H se combinan para formar una narrativa lógica y cohesiva del evento, que es fácil de seguir."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3312,
+        "completion_tokens": 280,
+        "total_tokens": 5362
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/ccaa/2019/09/12/madrid/1568307703_277564.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información presentada en la extracción es correcta y directamente verificable en la fuente de verdad.",
+          "completeness": "La extracción captura la mayor parte de la información esencial para cada elemento 5W1H. Sin embargo, en el \"Quién\" podría haberse mencionado al grupo de inquilinos que arriendan indefinidamente, y en el \"Cómo\" omitió el detalle crucial de las \"tres quintas partes\" requerido por el real decreto para la aprobación de la limitación de pisos turísticos.",
+          "relevance_and_conciseness": "Cada sección de la extracción se enfoca precisamente en su pregunta específica, evitando información superflua o la mezcla de datos entre categorías.",
+          "clarity_and_readability": "La extracción es gramaticalmente correcta y su redacción es clara y fácil de entender.",
+          "source_faithfulness": "La extracción demuestra una estricta fidelidad a la fuente proporcionada, sin introducir interpretaciones, inferencias o alucinaciones.",
+          "overall_coherence": "Los diferentes elementos 5W1H se conectan lógicamente y forman una narrativa coherente del evento, presentando un relato consistente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3335,
+        "completion_tokens": 318,
+        "total_tokens": 7835
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/10/actualidad/1565426201_075062.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "All information presented in the extraction is factually accurate and directly verifiable against the provided source text.",
+          "completeness": "The extraction captures almost all essential information, but it misses one specific proposed rule change under the 'Cómo' section regarding ball recovery by the defending team after a turnover on the try line.",
+          "relevance_and_conciseness": "Each segment of the extraction is highly relevant to its specific 5W1H question, avoiding superfluous information or mixing categories.",
+          "clarity_and_readability": "The extraction is grammatically correct, coherent, and very easy to understand, utilizing clear headings and bullet points for readability.",
+          "source_faithfulness": "The extraction strictly adheres to the information presented in the source text, without introducing any interpretations, inferences, or hallucinations.",
+          "overall_coherence": "The combined 5W1H elements form a logically connected and consistent narrative, providing a complete picture of the proposed rule changes."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2281,
+        "completion_tokens": 273,
+        "total_tokens": 5388
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/10/actualidad/1565426201_075062.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La información presentada es en gran medida correcta. Sin embargo, en la sección 'Dónde', la descripción de 'alta tasa de lesiones y fallecimientos' es una generalización de la información más específica de la fuente ('tres jugadores en la última temporada').",
+          "completeness": "La extracción captura la mayor parte de la información esencial para cada pregunta 5W1H. No obstante, en la sección 'Cómo' omite un cambio propuesto específico sobre la recuperación del balón en la línea de ensayo. En la sección 'Cuándo', infiere la implementación futura de los cambios en lugar de ceñirse estrictamente a que están 'en estudio'.",
+          "relevance_and_conciseness": "Cada componente de la extracción se enfoca de manera precisa en su pregunta 5W1H correspondiente, evitando información superflua o la mezcla de detalles entre secciones.",
+          "clarity_and_readability": "La extracción es gramaticalmente correcta, coherente y fácil de entender en cada una de sus secciones, asegurando una buena legibilidad.",
+          "source_faithfulness": "La extracción se mantiene mayormente fiel a la fuente original. No obstante, se observa una ligera inferencia sobre la implementación futura bajo 'Cuándo' y una generalización en 'Dónde', lo que representa una pequeña desviación de la adherencia estricta al texto fuente.",
+          "overall_coherence": "Todas las partes de la extracción, correspondientes a cada pregunta 5W1H, forman un relato lógicamente conectado y consistente sobre los cambios en las reglas del rugby."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2395,
+        "completion_tokens": 406,
+        "total_tokens": 5193
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/10/actualidad/1565426201_075062.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información presentada en la extracción es factualmente correcta y está directamente respaldada por el texto fuente. No hay inexactitudes o tergiversaciones.",
+          "completeness": "Aunque en gran parte completa, la extracción omite algunos detalles específicos sobre el 'Qué' (la naturaleza precisa de todos los cambios normativos más allá del objetivo general) y el 'Cómo' (específicamente, la regla sobre la recompensa defensiva cuando un jugador es volteado en la línea de ensayo y algunos puntos más finos sobre cómo se revisarán y elevarán las sanciones).",
+          "relevance_and_conciseness": "Cada componente de la extracción se enfoca precisamente en su respectiva pregunta 5W1H, evitando información superflua o mezclando detalles entre categorías. Las respuestas son directas y al grano.",
+          "clarity_and_readability": "La extracción está bien estructurada, es gramaticalmente correcta y fácil de entender. Cada sección es clara y concisa.",
+          "source_faithfulness": "La extracción se adhiere estrictamente a la información proporcionada en el texto fuente. No hay instancias de interpretación, inferencia o alucinación; el contenido es un reflejo directo de la fuente.",
+          "overall_coherence": "Las diferentes secciones de la extracción 5W1H encajan lógicamente y forman una narrativa coherente sobre los cambios que World Rugby está implementando, sus razones y sus métodos."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2197,
+        "completion_tokens": 378,
+        "total_tokens": 5350
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/10/actualidad/1565426201_075062.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 3,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción presenta la sugerencia de la fuente sobre el 'cuándo' y 'dónde' de los ensayos como una certeza y añade una inferencia no respaldada por el texto original en el 'dónde'.",
+          "completeness": "La extracción omite información esencial como otros 'quién' (Bill Beaumont, John Jeffrey) y detalles cruciales del 'cuándo' y 'dónde' (como que no afectará el Mundial de Japón).",
+          "relevance_and_conciseness": "Cada componente 5W1H se enfoca mayormente en su pregunta, pero la sección 'dónde' introduce una especulación no directamente atómica a la información de la fuente.",
+          "clarity_and_readability": "El texto de la extracción es gramaticalmente correcto, coherente y fácil de entender por sí mismo.",
+          "source_faithfulness": "La extracción se desvía de la fuente al presentar una sugerencia como hecho y al introducir información especulativa que no está contenida en el texto original.",
+          "overall_coherence": "Aunque existen problemas de exactitud y completitud en las partes individuales, el conjunto de la extracción forma un relato lógico y consistente del evento principal."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2212,
+        "completion_tokens": 331,
+        "total_tokens": 5731
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/10/actualidad/1565426201_075062.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 3,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información contenida en la extracción es correcta y verificable directamente en la fuente proporcionada, sin presentar errores fácticos.",
+          "completeness": "Aunque la extracción captura la esencia de los cambios, omite detalles importantes. En 'Quién', faltan los nombres de Bill Beaumont (presidente de World Rugby) y John Jeffrey (responsable de la normativa). En 'Cuándo', no se menciona explícitamente que la aplicación de estas normas no afectará al Mundial de Japón a partir de septiembre. En 'Dónde', se omite el detalle relevante de que Francia ha visto morir a tres jugadores en la última temporada, y se presenta la ubicación de los ensayos como un hecho definitivo cuando la fuente original solo lo 'sugiere'. En 'Qué' y 'Cómo', faltan algunos detalles específicos que enriquecerían la respuesta completa.",
+          "relevance_and_conciseness": "Cada componente 5W1H se enfoca exclusivamente en su pregunta específica, evitando información superflua o que corresponda a otro elemento. La extracción es directa y concisa, manteniendo la relevancia.",
+          "clarity_and_readability": "La extracción es gramaticalmente correcta, coherente y muy fácil de entender en cada una de sus partes, presentando la información de manera clara y concisa.",
+          "source_faithfulness": "La extracción se basa estrictamente en la información de la fuente, sin añadir interpretaciones, inferencias o alucinaciones. La única matización menor se encuentra en la sección 'Dónde', donde la extracción afirma que los ensayos 'se llevarán a cabo' cuando la fuente original solo 'sugiere' dicho lugar, lo que representa una ligera variación en la fidelidad del matiz.",
+          "overall_coherence": "Todas las partes de la extracción (5W1H) se conectan lógicamente entre sí, formando un relato consistente y bien estructurado del tema, proporcionando una visión general coherente de los cambios propuestos en el rugby."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2210,
+        "completion_tokens": 493,
+        "total_tokens": 8470
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/11/gente/1562866782_776897.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información extraída es precisa y se verifica directamente con la fuente de verdad.",
+          "completeness": "La extracción captura la información esencial para cada pregunta 5W1H de manera exhaustiva.",
+          "relevance_and_conciseness": "Aunque la mayoría de las secciones son concisas y relevantes, la sección 'Cómo' incluye detalles (liderazgo, pesca, apoyo en redes) que, si bien son ciertos, son tangenciales al 'cómo' específico de la lesión y operación, afectando ligeramente la atomicidad.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto, bien estructurado y fácil de entender.",
+          "source_faithfulness": "La extracción se basa estrictamente en la fuente, sin añadir interpretaciones o alucinaciones.",
+          "overall_coherence": "Las diferentes secciones 5W1H se conectan lógicamente para formar un relato coherente del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3061,
+        "completion_tokens": 272,
+        "total_tokens": 6272
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/11/gente/1562866782_776897.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información presentada en la extracción, incluidas las secciones 5W1H y el párrafo adicional, es completamente precisa y está directamente verificada en el texto fuente. No se identificaron errores factuales.",
+          "completeness": "La extracción captura de manera exhaustiva toda la información esencial de la fuente de verdad necesaria para responder a cada una de las preguntas 5W1H sobre el accidente de Colate.",
+          "relevance_and_conciseness": "Si bien cada elemento 5W1H individual es relevante y conciso, la extracción en su totalidad contiene un párrafo adicional al final con información biográfica (apoyo de la hermana, facetas de empresario/conquistador, divorcio y custodia) que es superflua y no contribuye a responder directamente las preguntas 5W1H sobre el accidente. Esto viola el principio de concisión y enfoque en la tarea específica.",
+          "clarity_and_readability": "La extracción es gramaticalmente correcta y el lenguaje utilizado es claro y fácil de entender, lo que facilita la comprensión de la información.",
+          "source_faithfulness": "La extracción se adhiere estrictamente al contenido de la fuente de verdad. No se observaron interpretaciones, inferencias o alucinaciones; todo lo extraído está explícitamente mencionado en el texto original.",
+          "overall_coherence": "Las respuestas a las preguntas 5W1H son internamente coherentes y forman un relato lógico del evento principal. Sin embargo, la inclusión de un párrafo final con información biográfica adicional que no es parte de la estructura 5W1H específica del accidente principal reduce ligeramente la coherencia general del conjunto como una respuesta directa a la tarea 5W1H."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3088,
+        "completion_tokens": 435,
+        "total_tokens": 6237
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/11/gente/1562866782_776897.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información contenida en la extracción es precisa y directamente verificable en la fuente de verdad proporcionada.",
+          "completeness": "La extracción captura toda la información esencial para cada pregunta 5W1H relacionada con el accidente de Colate y sus consecuencias, basándose íntegramente en la fuente de verdad.",
+          "relevance_and_conciseness": "Cada componente de la extracción se enfoca únicamente en la pregunta 5W1H específica, evitando información superflua o la mezcla de datos entre categorías.",
+          "clarity_and_readability": "El texto es claro, conciso, gramaticalmente correcto y fácil de comprender en cada una de sus secciones.",
+          "source_faithfulness": "La extracción se adhiere estrictamente a la información presente en la fuente de verdad, sin incorporar interpretaciones, inferencias o elementos no documentados.",
+          "overall_coherence": "El conjunto de extracciones 5W1H forma un relato lógico, consistente y bien conectado del evento principal, permitiendo una comprensión fluida del suceso."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3044,
+        "completion_tokens": 299,
+        "total_tokens": 4539
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/11/gente/1562866782_776897.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La información es en su mayoría precisa. No obstante, la afirmación en 'Cuándo' de que la operación ocurrió 'una semana después' es una inferencia de 'esta semana' en la fuente, lo que introduce una ligera imprecisión temporal.",
+          "completeness": "La extracción captura toda la información esencial del texto fuente relacionada con el accidente y la operación de Colate, cubriendo de manera efectiva todos los puntos 5W1H relevantes para el evento principal.",
+          "relevance_and_conciseness": "Cada sección de la extracción se mantiene estrictamente enfocada en su pregunta 5W1H correspondiente, sin incluir información irrelevante o que pertenezca a otra categoría.",
+          "clarity_and_readability": "Las extracciones son gramaticalmente correctas y muy fáciles de entender, presentando la información de manera clara y concisa en cada segmento.",
+          "source_faithfulness": "La extracción se adhiere muy bien a la fuente. Sin embargo, la interpretación temporal en la sección 'Cuándo' ('una semana después' en lugar de 'esta semana') representa una ligera desviación de la fidelidad estricta al texto original.",
+          "overall_coherence": "Todas las partes de la extracción 5W1H se conectan lógicamente para formar un relato coherente y completo del suceso."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3039,
+        "completion_tokens": 358,
+        "total_tokens": 5303
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/11/gente/1562866782_776897.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Toda la información proporcionada en la extracción es completamente correcta y se verifica directamente con la fuente de verdad.",
+          "completeness": "La extracción captura de manera exhaustiva y precisa toda la información esencial relevante para cada pregunta 5W1H, sin omisiones significativas.",
+          "relevance_and_conciseness": "Cada segmento de la extracción se enfoca estrictamente en la pregunta 5W1H a la que responde, evitando cualquier información superflua o irrelevante.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto, claro y fácil de entender en todas sus partes.",
+          "source_faithfulness": "La extracción se adhiere fielmente a la información contenida en la fuente de verdad, sin añadir interpretaciones, inferencias o detalles no presentes.",
+          "overall_coherence": "Todas las respuestas 5W1H se conectan lógicamente y forman un relato coherente y completo del evento principal, el accidente y la operación de Colate."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3050,
+        "completion_tokens": 287,
+        "total_tokens": 4657
+      }
+    }
+  ]
+}

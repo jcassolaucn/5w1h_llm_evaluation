@@ -1,0 +1,140 @@
+{
+  "total_tokens": 13786,
+  "results": [
+    {
+      "document_idx": 732,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los datos son correctos (87 millones de vacunas, Sánchez, periodo entre abril y septiembre, rueda de prensa en la Moncloa), pero no se verifica completamente la fuente original.",
+          "completeness": "Faltan elementos críticos: no se explica el 'Por qué' ni el 'Cómo', dejando dos categorías 5W1H completamente sin responder.",
+          "relevance_and_conciseness": "Los datos proporcionados son directos y relevantes para las categorías donde hay información, sin divagar o incluir información superflua.",
+          "clarity_and_readability": "La extracción es clara, con un formato estructurado y legible, utilizando frases cortas y directas.",
+          "source_faithfulness": "Aunque los datos son cercanos al texto original, no captura completamente el tono crítico ni todos los detalles de la fuente.",
+          "overall_coherence": "La extracción tiene inconsistencias por las categorías incompletas, lo que interrumpe la narrativa completa del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2300,
+        "completion_tokens": 402,
+        "total_tokens": 2702
+      }
+    },
+    {
+      "document_idx": 1229,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "La información sobre 'más del 30% de intervenciones quirúrgicas' y 'hospitales privados' es correcta. Sin embargo, algunos detalles como la razón de mencionar ODS 5 no están completamente contextualizados.",
+          "completeness": "Faltan elementos cruciales en la extracción. No se proporciona información para 'Por qué' y 'Cómo', dejando esos campos sin completar. La fuente original contiene más información que no fue capturada.",
+          "relevance_and_conciseness": "Los elementos extraídos son relevantes y concisos, aunque incompletos. La información se mantiene cercana al texto original sin divagar.",
+          "clarity_and_readability": "El texto es claro y legible, con una estructura gramatical correcta y directa. Cada elemento 5W1H está presentado de manera estructurada.",
+          "source_faithfulness": "La extracción sigue de cerca el texto original, pero omite algunos detalles importantes. No añade información externa, pero tampoco captura toda la riqueza del texto fuente.",
+          "overall_coherence": "La extracción tiene discontinuidades, especialmente por los campos 'Por qué' y 'Cómo' sin información. Esto interrumpe la narrativa completa y coherente que podría construirse."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2541,
+        "completion_tokens": 464,
+        "total_tokens": 3005
+      }
+    },
+    {
+      "document_idx": 840,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción contiene información parcialmente correcta. Los elementos de 'Qué' y 'Quién' son precisos, pero falta información específica sobre la temporalidad y las condiciones.",
+          "completeness": "Faltan elementos críticos como el 'Por qué' y el 'Cómo'. No se capturan detalles importantes como 'a mediados de marzo' o la condición de información 'completa y sólida'.",
+          "relevance_and_conciseness": "Los elementos presentes son relevantes, pero no exhaustivos. La información se mantiene dentro del contexto de cada categoría 5W1H.",
+          "clarity_and_readability": "El texto es claro, gramaticalmente correcto y fácilmente comprensible. Cada elemento está concisamente formulado.",
+          "source_faithfulness": "La extracción se mantiene muy cerca del texto original, sin añadir información externa, aunque omite algunos detalles importantes.",
+          "overall_coherence": "Existe una estructura coherente, pero la ausencia de información en 'Por qué' y 'Cómo' limita la comprensión completa del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2320,
+        "completion_tokens": 422,
+        "total_tokens": 2742
+      }
+    },
+    {
+      "document_idx": 397,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción contiene información parcialmente correcta. Los elementos de 'Quién', 'Cuándo' y 'Dónde' son precisos y extraídos fielmente del texto original.",
+          "completeness": "La extracción es incompleta. Faltan las explicaciones de 'Por qué' y 'Cómo', que están disponibles en el texto original. Específicamente, no se capturó la explicación sobre la letalidad de la tercera ola.",
+          "relevance_and_conciseness": "Los elementos extraídos son relevantes y concisos, aunque limitados. Cada campo se mantiene enfocado sin introducir información superflua.",
+          "clarity_and_readability": "La extracción está escrita de manera clara, con oraciones concisas y gramaticalmente correctas. Cada campo es legible y directo.",
+          "source_faithfulness": "La extracción se mantiene muy cerca del texto original, utilizando palabras y frases textuales sin añadir contenido nuevo o interpretaciones.",
+          "overall_coherence": "La extracción tiene una coherencia limitada debido a la falta de información en 'Por qué' y 'Cómo', lo que interrumpe la narrativa completa del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2281,
+        "completion_tokens": 445,
+        "total_tokens": 2726
+      }
+    },
+    {
+      "document_idx": 1523,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La información principal es correcta: 322.092 personas han superado la enfermedad en la Comunidad Valenciana desde el inicio de la pandemia.",
+          "completeness": "Faltan explicaciones para los campos 'Por qué' y 'Cómo', que están marcados como 'No especificado', lo que reduce la completitud de la extracción.",
+          "relevance_and_conciseness": "Cada campo se mantiene conciso y centrado en la información relevante de la fuente, sin agregar información externa.",
+          "clarity_and_readability": "El texto es claro, directo y gramaticalmente correcto, con una estructura simple y entendible.",
+          "source_faithfulness": "La extracción se ajusta estrictamente al texto original, sin añadir información no presente en la fuente.",
+          "overall_coherence": "Aunque los datos son correctos, la falta de información en 'Por qué' y 'Cómo' reduce la coherencia global del resumen."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2234,
+        "completion_tokens": 377,
+        "total_tokens": 2611
+      }
+    }
+  ]
+}
