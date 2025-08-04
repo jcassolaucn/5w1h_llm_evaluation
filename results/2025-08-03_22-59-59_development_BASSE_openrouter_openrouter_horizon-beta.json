@@ -1,0 +1,680 @@
+{
+  "total_tokens": 81789,
+  "results": [
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Resultados, marcador (55-74), protagonistas (Willy 26+11, minutos limitados de Ricky), contexto (amistoso de preparación, segunda derrota, sin Marc y Rudy) y desarrollo general coinciden con la fuente. Sin embargo, la causa “falta de concentración” y “rendimiento deficiente” se afirma de forma más interpretativa, y se omiten matices como que Ricky anotó 15 puntos al final vs Argentina (no en este juego) y detalles de parciales exactos.",
+          "completeness": "Cubre el qué, quién, cuándo, por qué y cómo de forma general, pero omite datos esenciales presentes en la fuente: que fue la segunda derrota, estadísticas clave (porcentajes, pérdidas), el límite de 15 minutos de Ricky fue anunciado por Scariolo en la previa y su no participación en la segunda mitad, el dominio ruso con nombres concretos, el intento de remontada hasta -8 y que el partido fue 24 horas después del de Argentina. “Dónde” se mantiene como no especificado, lo cual es correcto si no aparece.",
+          "relevance_and_conciseness": "Cada sección se mantiene mayormente enfocada y sin mezclar elementos, aunque el “Por qué” mezcla diagnóstico general con causas que rozan la interpretación. En conjunto, es conciso y centrado.",
+          "clarity_and_readability": "Texto claro, bien estructurado y comprensible, sin errores gramaticales significativos.",
+          "source_faithfulness": "Mayormente fiel, pero incorpora ligeras inferencias (“falta de concentración” como causa, “dominó en el rebote” sí aparece; “rendimiento deficiente” es interpretación de los datos). Falta citar cifras exactas disponibles y algunos matices del rol de Ricky.",
+          "overall_coherence": "Las 5W1H forman un relato coherente y consistente con el evento descrito, aunque con algunas omisiones y leves interpretaciones que reducen la precisión global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2512,
+        "completion_tokens": 475,
+        "total_tokens": 2987
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los puntos coinciden con la fuente: derrota de España ante Rusia, tres días antes del Mundial, segunda derrota, problemas de rebote, pérdidas y bajos porcentajes, gran actuación de Willy. Sin embargo, hay una inexactitud: se dice “liderada por Ricky y Willy Hernangómez”, cuando la fuente indica minutos limitados de Ricky y que no jugó la segunda mitad; además no se menciona el marcador 55-74 ni algunas cifras exactas.",
+          "completeness": "Cubre las 5W1H básicas, pero omite datos esenciales disponibles: marcador final (55-74), ausencia de Marc Gasol y Rudy por precaución, limitación de minutos de Ricky y su no participación en la segunda mitad, datos estadísticos clave (porcentajes, pérdidas), protagonistas rusos mencionados, y el contexto del susto en el codo de Ricky. Por ello, es incompleto.",
+          "relevance_and_conciseness": "En general cada apartado se ciñe a su pregunta y evita información ajena, aunque en “Quién” añade “liderada por Ricky y Willy” que es debatible; en “Dónde” afirma que no se especifica el lugar, lo cual es prudente. El cierre repite el “Qué”, algo redundante.",
+          "clarity_and_readability": "Redacción clara, comprensible y bien estructurada por apartados 5W1H. Frases correctas y coherentes.",
+          "source_faithfulness": "No introduce grandes inferencias, pero la caracterización de “liderada por Ricky” se aparta parcialmente de la fuente, que resalta su limitación de minutos y ausencia en la segunda mitad. También hay una extrapolación leve en el ‘Por qué’ (ajustar automatismos) que sí está en la fuente, pero falta matices.",
+          "overall_coherence": "El conjunto narra coherentemente el evento: derrota en amistoso, razones del juego, momento temporal y protagonistas. Pese a omisiones, mantiene consistencia interna."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2491,
+        "completion_tokens": 489,
+        "total_tokens": 2980
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Acierta en el resultado general (segunda derrota, pobre tiro, muchas pérdidas, dominio ruso en rebote) y menciona a Scariolo, Ricky y Willy; sin embargo, comete inexactitudes: afirma ausencia de Ricky en la segunda mitad como si fuera por decisión/lesión sin matiz (solo tenía minutos limitados; sí dejó de jugar pero la fuente lo enmarca por límite y precaución), y atribuye la causa del desempeño a bajas de jugadores de forma causal simplificada. Además, no indica el marcador 55-74 ni varios detalles numéricos clave.",
+          "completeness": "Faltan datos esenciales presentes en la fuente: marcador (55-74), cifras de tiro y pérdidas exactas, el rol de Fridzon, Zubkov, Ivlev y Antonov, el susto por el codo de Ricky, el límite de 15 minutos, parciales y evolución del partido. El \"Dónde\" es vago (no especifica que fue ante Rusia dentro de los amistosos) y el \"Cuándo\" carece de referencia a las 24 horas tras Argentina.",
+          "relevance_and_conciseness": "Generalmente se mantiene en su casilla, pero mezcla explicaciones causales en el Por qué que no están tan claramente establecidas y parte del contenido del Cómo invade el Qué. Hay algo de redundancia y generalidad en Dónde.",
+          "clarity_and_readability": "Texto claro y comprensible, con buena gramática. Algunas formulaciones son generales pero legibles.",
+          "source_faithfulness": "Añade inferencias: “afectó su desempeño” por bajas y “ausencia de su jugador estrella… en la segunda mitad” como explicación causal; no se menciona explícitamente así en la fuente, que habla de minutos limitados y precaución. Omite cifras concretas disponibles.",
+          "overall_coherence": "El relato es coherente internamente (derrota, dominio ruso, bajas, actuación de Willy y Ricky), pero presenta causalidades no sustentadas y vacíos de datos clave, lo que reduce la coherencia respecto a la fuente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2467,
+        "completion_tokens": 503,
+        "total_tokens": 2970
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Marcador, rival, condición de \"segunda derrota de la preparación\", contexto temporal (24 horas después y a tres días del Mundial), bajas de Marc y Rudy por precaución, estadísticas de tiro y pérdidas, dominio ruso en rebote y mención de Fridzon, Zubkov, Ivlev y Antonov, y el 26-11 de Willy coinciden con la fuente. Sin embargo, atribuye 15 puntos a Ricky en “los últimos cuatro minutos del último encuentro previo al Mundial”, matiz impreciso respecto a la fuente (es ante Argentina, no necesariamente el “último encuentro previo”), e indica “el partido se llevó a cabo en España” sin soporte explícito en el texto fuente.",
+          "completeness": "Cubre la mayoría de elementos clave (resultado, contexto temporal, bajas, rendimiento estadístico, causas del resultado, cómo ganó Rusia, actuación de Willy). Falta especificidad en Dónde (no presente en la fuente), y omite matices relevantes como los minutos limitados de Ricky, la antideportiva, y el desarrollo del marcador, aunque estos últimos no son esenciales para 5W1H. El \"Quién\" no lista a Rusia como contraparte explícita del “quién”.",
+          "relevance_and_conciseness": "Mayormente enfocado en cada W/H. Hay leve mezcla en \"Quién\" al incluir un dato temporal/otro partido sobre Ricky y en “Dónde” añade una suposición. El resto es conciso y pertinente.",
+          "clarity_and_readability": "Redacción clara, correcta y fácil de entender. Frases bien construidas y coherentes.",
+          "source_faithfulness": "En general fiel, pero contiene dos extrapolaciones: sitúa el partido en España sin base en la fuente y formula el dato de Ricky de forma potencialmente engañosa respecto al contexto (fue vs Argentina).",
+          "overall_coherence": "Las partes forman un relato coherente: derrota de España ante Rusia, cuándo ocurrió, por qué y cómo, con actores y estadísticas consistentes, pese a pequeños desajustes en \"Quién\" y \"Dónde\"."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2525,
+        "completion_tokens": 504,
+        "total_tokens": 3029
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Marcador, contexto (amistoso previo al Mundial, tres días antes), ausencia de Marc y Rudy, dominio del rebote de Rusia, protagonismo de Willy y mención de jugadores rusos coinciden con la fuente. Sin embargo, afirma como causa \"jugó mal y cometió muchos errores\" de forma algo interpretativa y no menciona algunos matices (minutos limitados de Ricky, cifras exactas de pérdidas y porcentajes).",
+          "completeness": "Cubre las 6 W/H con lo esencial: resultado, equipos/entrenadores, temporalidad (tres días antes), contexto del partido, razones generales del resultado y el desarrollo (rotación reducida, dominio del rebote, aporte de ciertos jugadores, intento de remontada con Willy). Falta el \"dónde\" (la fuente tampoco lo da), y omite detalles importantes presentes en la fuente como estadísticas clave, límite de minutos de Ricky y el susto en el codo. Por eso no alcanza máxima completitud.",
+          "relevance_and_conciseness": "En general, cada sección responde a su pregunta sin divagar. Hay ligeras mezclas en el \"Cómo\" con nombres y contexto amplio, pero siguen siendo mecanismos del desarrollo del partido. El \"Por qué\" incluye una interpretación genérica, pero está alineada con la fuente.",
+          "clarity_and_readability": "Texto claro, bien estructurado por secciones 5W1H, frases coherentes y comprensibles.",
+          "source_faithfulness": "Mayormente fiel: datos coinciden con la fuente. No obstante, el \"Por qué\" introduce una causalidad resumida y generalista no textual; se omiten cifras concretas y se simplifica el análisis, pero no añade hechos falsos. Leve inferencia reduce la puntuación perfecta.",
+          "overall_coherence": "El conjunto presenta un relato coherente del mismo evento y las partes no se contradicen. Falta alguna conexión con detalles clave de la fuente que enriquecerían la coherencia global (minutaje de Ricky, estadísticas), pero la narración se mantiene consistente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2529,
+        "completion_tokens": 498,
+        "total_tokens": 3027
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los datos coinciden: ubicación (Valle del Tessaout, aldea de Tasslent), objetivo (escuela infantil y empoderamiento de la mujer), origen (colegio mayor en Madrid), inicio temporal (marzo de 2018) y acciones (jornadas solidarias y semana de la mujer, viaje al valle). Sin embargo, hay matices: la extracción dice “continúa en desarrollo” (plausible pero no textual), y simplifica el quién omitiendo que son colegialas de un colegio mayor adscrito a la Complutense y que participaron unos 20 compañeros, aunque menciona expansión general.",
+          "completeness": "Cubre las seis dimensiones 5W1H con lo esencial. Falta especificidad temporal relevante (viaje el 9 de marzo de ese año, metas económicas de septiembre de 2018, duración del viaje de cinco días). En el cómo no menciona la Primera Jornada Solidaria por nombre ni las actividades deportivas/lúdicas, ni la venta de artículos en la Semana de la Mujer, ni el apoyo de “unos 20 compañeros”. En el por qué omite detalles como la falta de acceso al mercado para mujeres/niñas y la desconexión gubernamental.",
+          "relevance_and_conciseness": "Cada apartado se centra en su pregunta sin mezclar, y evita divagaciones. Hay ligeras generalizaciones (“continúa en desarrollo”) y explicaciones amplias en el por qué, pero siguen siendo pertinentes.",
+          "clarity_and_readability": "Texto claro, bien redactado y fácil de leer; frases completas y coherentes, sin errores significativos.",
+          "source_faithfulness": "En general fiel, pero introduce una inferencia (“continúa en desarrollo”) y generaliza la ampliación del equipo sin matizar los “casi la totalidad del colegio mayor” y “20 que fueron a Tessaout”. No hay contradicciones, pero sí ligeras inferencias no textuales.",
+          "overall_coherence": "Las partes encajan en una narrativa consistente del proyecto: quién lo impulsa, qué pretenden, dónde y por qué, y cómo lo financian y se vinculan con la comunidad."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2592,
+        "completion_tokens": 519,
+        "total_tokens": 3111
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los datos clave (cinco universitarias; lugar: Madrid y Tasslent en el Valle del Tessaout; objetivo: escuela infantil y empoderamiento de la mujer; actividades de recaudación y viaje en marzo de 2018) coinciden con la fuente. Sin embargo, hay imprecisiones: menciona “continúa hasta el presente” y generaliza motivaciones (“empoderar a las mujeres”) sin reflejar matices específicos (alfabetización, objetivos económicos alcanzados, fechas concretas como el 9 de marzo y cinco días de viaje).",
+          "completeness": "Cubre los 5W1H básicos, pero omite detalles esenciales presentes en la fuente: fecha exacta del viaje (9 de marzo, cinco días), participación de ~20 compañeros y expansión del proyecto a casi todo el colegio mayor, logro de objetivos económicos en septiembre de 2018, Primera Jornada Solidaria y Primera Semana de la Mujer con venta de artículos, y la situación de infraestructuras (agua/luz) como contexto relevante al ‘Por qué’.",
+          "relevance_and_conciseness": "Cada apartado se mantiene mayormente en su foco, con leve mezcla temporal en el ‘Cuándo’ (añade “hasta el presente”) y cierre metacomentado (“El resumen destaca...”), que es información superflua fuera del 5W1H.",
+          "clarity_and_readability": "Texto claro, gramaticalmente correcto y fácil de entender; estructura 5W1H bien segmentada.",
+          "source_faithfulness": "En general fiel, pero hay ligeras extrapolaciones/interpretaciones: “empoderar a las mujeres” como motivación principal sin matices; “continúa hasta el presente” no está explícito; “ofrecer su ayuda” es genérico. No hay contradicciones graves.",
+          "overall_coherence": "Las partes forman un relato coherente y consistente del proyecto; pequeños desajustes temporales y omisiones no rompen la coherencia general."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2693,
+        "completion_tokens": 483,
+        "total_tokens": 3176
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los datos coinciden con la fuente: qué (escuela infantil y empoderamiento de la mujer), quién (cinco universitarias, colegio mayor adscrito a la Complutense), cuándo (marzo 2018 y viaje el 9 de marzo), dónde (Valle del Tessaout, aldea de Tasslent), cómo (jornada solidaria, actividades deportivas/lúdicas, Semana de la Mujer, viaje). Pequeñas imprecisiones: el “por qué” generaliza (necesidades básicas, igualdad de género) sin matizar alfabetización de la mujer; menciona “fomentar la participación de otros jóvenes” que está en fuente, correcto. No hay contradicciones factuales claras.",
+          "completeness": "Cubre los seis elementos clave, pero falta detalle temporal de “alcanzar objetivos económicos en septiembre de 2018” y matiz específico de “iniciar la educación infantil y la alfabetización de la mujer”. También omite el rol de Acción Geoda y el contexto de 80 aldeas/desconexión, que refuerza el “por qué”.",
+          "relevance_and_conciseness": "Cada apartado se enfoca en su pregunta, sin mezclar ni añadir información irrelevante; conciso y al punto.",
+          "clarity_and_readability": "Texto claro, gramaticalmente correcto y fácil de entender en todos los apartados.",
+          "source_faithfulness": "Se mantiene fiel al contenido, pero el “por qué” añade una generalización de “cubrir necesidades básicas” que, aunque derivable del contexto, no está enunciado como objetivo directo del proyecto; falta el matiz de alfabetización de la mujer. Esto reduce ligeramente la fidelidad.",
+          "overall_coherence": "Las partes forman un relato coherente y consistente del proyecto: origen, actores, lugar, tiempo, motivos y métodos conectados."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2623,
+        "completion_tokens": 458,
+        "total_tokens": 3081
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los datos coinciden con la fuente: cinco universitarias, colegio mayor en Madrid, ONG Acción Geoda, Valle del Tessaout (unas ~80 aldeas, carencias de agua y luz), objetivos (escuela infantil y empoderamiento de la mujer), actividades de recaudación (Primera Jornada Solidaria y Primera Semana de la Mujer) y viaje en marzo. Sin embargo, hay inexactitud al afirmar que las universitarias “fundaron una ONG llamada Acción Geoda” cuando la fuente indica que Acción Geoda ya existía y ellas colaboran con ella. También el “marzo de este año” carece del día (9 de marzo) y ciertos matices temporales.",
+          "completeness": "Cubre todas las secciones 5W1H con lo esencial, pero omite detalles relevantes de la fuente: fecha exacta del viaje (9 de marzo), duración (cinco días), el hecho de que al principio eran cinco y luego se unió casi todo el colegio, mención específica de apoyo de “unos 20 compañeros” en la Jornada y otros matices (objetivos económicos alcanzados en septiembre de 2018).",
+          "relevance_and_conciseness": "En general cada apartado se centra en su pregunta y evita mezclar excesos. Hay ligero contenido adicional en el Cómo (crecimiento del proyecto y apoyo posterior) que podría ir en Qué/Quién, pero sigue siendo pertinente. No hay verborrea innecesaria.",
+          "clarity_and_readability": "Texto claro, bien estructurado y comprensible. Buena gramática y cohesión en español.",
+          "source_faithfulness": "Principal desviación: atribuir la fundación de la ONG a las estudiantes, lo cual no está en la fuente. Por lo demás, la información se mantiene fiel sin interpretaciones ajenas.",
+          "overall_coherence": "Las partes conforman un relato consistente: quiénes, qué hacen, dónde, cuándo, por qué y cómo. La confusión sobre la fundación de la ONG no rompe la coherencia interna, pero afecta la precisión global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2621,
+        "completion_tokens": 497,
+        "total_tokens": 3118
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los elementos coinciden con la fuente: quiénes (cinco universitarias 18–22, colegio mayor), qué (escuela infantil y empoderamiento de la mujer), dónde (Valle del Tessaout, aldea de Tasslent), por qué (pobreza, carencias básicas, discriminación de la mujer), y cómo (financiación mediante actividades como Primera Jornada Solidaria y Primera Semana de la Mujer, y ampliación del grupo). Sin embargo, hay imprecisiones: el \"cuándo\" dice que el proyecto siguió varios meses y un viaje en marzo, pero omite fechas clave (9 de marzo, septiembre 2018) y matiza de modo algo general; también afirma “se ha contagiado el virus del valle” como hecho, que es una frase metafórica en la fuente, y presenta “mantenimiento” de la escuela como parte explícita del proyecto (sí está en la fuente) pero el “viaje a Marruecos en marzo del mismo año” sin especificar duración o contexto puede inducir ambigüedad. Nada es claramente falso, pero hay ligeras simplificaciones.",
+          "completeness": "Cubre los seis elementos 5W1H con lo esencial, pero omite detalles relevantes presentes en la fuente: la fecha exacta del viaje (9 de marzo), la duración de 5 días, la consecución de objetivos económicos en septiembre de 2018, el número aproximado de 80 aldeas, la falta de acceso de algunas familias a agua/luz, y el papel de Acción Geoda. El “cómo” no menciona la participación de unos 20 compañeros clave ni el éxito de la recaudación. Por ello, es parcialmente completo.",
+          "relevance_and_conciseness": "Generalmente enfocado y sin información fuera de lugar. Cada apartado atiende su pregunta específica. Hay leves redundancias/valoraciones (“aldea olvidada”, “virus del valle”) que no son necesarias para responder estrictamente y agregan color más que dato, pero no rompen la atomicidad.",
+          "clarity_and_readability": "Texto claro, gramaticalmente correcto y fácil de entender; estructura 5W1H bien separada.",
+          "source_faithfulness": "Se mantiene cercano a la fuente, pero incluye expresiones y generalizaciones no estrictamente literales (“varios meses”, “virus del valle” como hecho contagioso, “aldea olvidada”), y omite matices temporales exactos. No hay invenciones sustantivas, pero sí cierta parafrasis con matiz interpretativo.",
+          "overall_coherence": "Las partes forman un relato coherente del proyecto: quiénes, qué, cuándo, dónde, por qué y cómo se alinean. Faltan algunos detalles temporales y de actores auxiliares, pero no afectan la consistencia general."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2643,
+        "completion_tokens": 657,
+        "total_tokens": 3300
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/ccaa/2019/09/12/madrid/1568307703_277564.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Todos los datos clave (debate y votación, lugar, actores, motivo, marco legal del real decreto y regla de 3/5, resultado 9–5, decisión de no permitir más pisos turísticos, fecha 9 de julio, ubicación exacta) coinciden con la fuente.",
+          "completeness": "Cubre correctamente los 6 elementos 5W1H. Leve omisión: no menciona que en el edificio hay 15 viviendas y 3 turísticas, ni que la votación se centra en limitar nuevos pisos (ya lo sugiere), ni referencia explícita a que el real decreto es el 7/2019 del 1 de marzo; sin embargo, incluye la esencia. Por ello, 4.",
+          "relevance_and_conciseness": "Cada sección se mantiene enfocada en su W/H respectiva sin información superflua ni mezclas indebidas.",
+          "clarity_and_readability": "Texto claro, bien estructurado, gramaticalmente correcto y fácil de entender.",
+          "source_faithfulness": "No añade interpretaciones ajenas ni contradice la fuente; se ciñe a lo dicho, incluyendo el motivo y el marco legal.",
+          "overall_coherence": "Las seis partes juntas describen coherentemente el evento y sus resultados, alineadas con la narrativa de la fuente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3398,
+        "completion_tokens": 340,
+        "total_tokens": 3738
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/ccaa/2019/09/12/madrid/1568307703_277564.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los datos clave coinciden con la fuente: ubicación (plaza de Cascorro, edificio del siglo XIX), fecha (9 de julio), naturaleza del conflicto (pisos turísticos), actores (vecinos residentes, propietarios que alquilan a turistas y arrendadores indefinidos), resultado de la votación (9 a favor, 5 en contra) y el trasfondo de “modelo de ciudad”. Sin embargo, la extracción omite el detalle crucial del umbral legal de tres quintas partes y el hecho de que no habrá más pisos turísticos, y afirma una “limitación” sin precisar que se aplica solo a nuevos, lo que puede inducir a matiz inexacto respecto a la fuente.",
+          "completeness": "Incluye los seis elementos 5W1H y el trasfondo de la pregunta de ciudad, pero falta información esencial presente en la fuente: el contexto legal (real decreto, requisito de tres quintas partes), el número total de viviendas y cuántas son turísticas (15 y 3), que las viviendas turísticas existentes no se pueden impedir, y que el resultado implica que no habrá más pisos turísticos nuevos. Estas ausencias reducen la completitud.",
+          "relevance_and_conciseness": "En general, cada apartado se mantiene enfocado y conciso. Se incluye un elemento adicional (“¿Qué modelo de ciudad…?”) que aunque está en la fuente, no forma parte estricto del 5W1H, pero es pertinente al tema; no interfiere con la atomicidad de los 5W1H. No hay divagaciones.",
+          "clarity_and_readability": "El texto es claro, gramatical y fácil de entender. Las oraciones están bien construidas y la estructura 5W1H es evidente.",
+          "source_faithfulness": "Aunque la mayor parte es fiel, hay una leve imprecisión: “se decidió limitar la cantidad de pisos turísticos en el edificio” sin especificar que aplica a nuevos y que los existentes no se pueden impedir, lo cual en la fuente está explícitamente matizado. También falta mención del real decreto como base de la votación, lo que no es una falsedad pero su omisión conduce a una interpretación menos precisa.",
+          "overall_coherence": "Los elementos combinados presentan un relato consistente del evento: conflicto, actores, lugar-tiempo, motivo, mecanismo de decisión y resultado. No hay contradicciones internas."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3387,
+        "completion_tokens": 568,
+        "total_tokens": 3955
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/ccaa/2019/09/12/madrid/1568307703_277564.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los datos coinciden con la fuente: debate y votación en junta, ubicación en Plaza de Cascorro, edificio del siglo XIX, fecha 9 de julio, resultado 9 a favor y 5 en contra, objetivo de limitar pisos turísticos, mención del real decreto que permite acuerdos por tres quintas partes. Sin embargo, hay ligeras imprecisiones/matices: \"gobierno de Pedro Sánchez había facilitado esto\" es correcto pero simplifica; \"no se concedieran más permisos\" es fiel, pero la extracción podría matizar que no afecta a los ya existentes; la composición exacta de los bandos es correcta, aunque presenta a Gema como “liderando” de forma algo más enfática que el texto (si bien ella lideró el encuentro).",
+          "completeness": "Cubre todas las 5W1H esenciales: qué, quién, cuándo, dónde, por qué y cómo, incluyendo el mecanismo legal (tres quintas partes) y el resultado. Falta un matiz importante de la fuente: que la limitación aplica a nuevos pisos y no a los ya existentes, y la mención de que había 15 viviendas con tres turísticas, lo cual aporta contexto pero no es estrictamente esencial. Podría incluir que el debate divide al vecindario en tres bandos explícitos, aunque lo insinúa.",
+          "relevance_and_conciseness": "Cada apartado se centra en su pregunta sin divagar. No mezcla información innecesaria y mantiene buena atomicidad. La inclusión del real decreto en el “Por qué” es pertinente.",
+          "clarity_and_readability": "Texto claro, bien redactado y comprensible. Frases completas y coherentes.",
+          "source_faithfulness": "Se basa en la fuente sin introducir afirmaciones no soportadas. La mayor desviación es omitir el matiz de que la prohibición no afecta a pisos ya turísticos, y el énfasis de “liderados por” podría interpretarse como una pequeña inferencia pero está apoyado por el texto que dice que lideró el encuentro.",
+          "overall_coherence": "Conforma un relato coherente y consistente del evento, alineado con la narrativa de la fuente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3403,
+        "completion_tokens": 522,
+        "total_tokens": 3925
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/ccaa/2019/09/12/madrid/1568307703_277564.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Mayormente correcta: fecha (9 de julio), lugar (edificio histórico s. XIX en plaza de Cascorro), división de bandos, regla de 3/5 del RDL 7/2019 y objetivo de limitar pisos turísticos coinciden. Sin embargo, el “Qué” es algo impreciso (afirma que limitó la proliferación en su comunidad, cuando el resultado concreto fue que no habrá más pisos turísticos nuevos; matiz similar pero podría inducir ambigüedad) y el “Por qué” reduce el motivo a molestias, omitiendo el enfoque explícito sobre el modelo de ciudad y la herramienta legal otorgada por el decreto. También falta el resultado exacto de la votación (9-5).",
+          "completeness": "Incluye los elementos clave de 5W1H, pero omite datos esenciales disponibles: número de viviendas y cuántas turísticas (15 y 3), el resultado exacto de la votación (9 a favor, 5 en contra), y el matiz de que la limitación aplica a nuevos pisos, no a los ya existentes. Podría mencionar que la discusión se enmarca en el punto del orden del día y la cuestión de fondo (modelo de ciudad).",
+          "relevance_and_conciseness": "Generalmente enfocado y sin relleno; cada elemento aborda su W/H. El “Por qué” introduce ejemplos de molestias que están en la fuente, pero no hace ruido. El “Cómo” es pertinente, aunque podría ser más preciso sobre que se limita a nuevos pisos.",
+          "clarity_and_readability": "Frases claras, bien redactadas y comprensibles. No hay ambigüedades significativas en la sintaxis.",
+          "source_faithfulness": "Se apega en gran medida a la fuente; no hay invenciones claras. No obstante, hay simplificaciones: se presenta como si ya se hubiera limitado la proliferación sin aclarar el alcance (nuevos vs. existentes) y el “Por qué” prioriza molestias, dejando fuera el énfasis del debate sobre modelo de ciudad.",
+          "overall_coherence": "Las partes forman un relato coherente: contexto vecinal, fecha, lugar, actores, motivo y mecanismo legal. No hay contradicciones internas."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3333,
+        "completion_tokens": 534,
+        "total_tokens": 3867
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/ccaa/2019/09/12/madrid/1568307703_277564.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Los datos clave (junta vecinal, 9 de julio, edificio del siglo XIX en plaza de Cascorro, actores involucrados, motivaciones, real decreto que permite limitar con mayoría de 3/5, resultado 9 a favor y 5 en contra, no más pisos turísticos nuevos) son correctos según la fuente.",
+          "completeness": "Incluye todos los elementos esenciales de 5W1H. Levemente incompleto en el “Qué” (podría mencionar explícitamente que se decidió limitar nuevos pisos y que había 15 viviendas y 3 turísticas) y en el “Cómo” (no precisa el umbral de tres quintas partes ni que la medida aplica a nuevos, no a los ya existentes).",
+          "relevance_and_conciseness": "Mayormente enfocado; hay una ligera mezcla en el “Cómo” con contexto general de organización, pero sigue siendo pertinente. Sin añadidos superfluos ni información ajena a cada W/H.",
+          "clarity_and_readability": "Texto claro, bien estructurado y fácil de entender. Frases correctas y coherentes.",
+          "source_faithfulness": "No introduce inferencias no soportadas; se ciñe a hechos presentes en la fuente (hartazgo vecinal, roles, fecha, lugar, resultado, base legal).",
+          "overall_coherence": "Las seis partes se integran en un relato consistente del evento sin contradicciones."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3356,
+        "completion_tokens": 358,
+        "total_tokens": 3714
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/10/actualidad/1565426201_075062.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los puntos clave coinciden con la fuente: prohibición de placaje por encima de la cintura, líderes (Beaumont y John Jeffrey), pruebas en categorías amateur de Francia, no afecta al Mundial de Japón, razones de seguridad y espectáculo, y medidas adicionales (premiar juego indirecto, castigos más duros). Sin embargo, hay imprecisiones: la fuente habla de prohibir por encima de la cadera (no cintura), y algunos detalles del “Cómo” están generalizados (p. ej., “fomentando un estilo más plástico y con más puntuación” no es literal).",
+          "completeness": "Cubre los 6 elementos 5W1H con los puntos esenciales. Falta especificar datos cuantitativos importantes del diagnóstico (porcentajes de lesiones y conmociones, aumento de tiempo de juego, triplicación de placajes) y detallar mecanismos concretos (revisión de amarilla a roja, umbral de golpes de castigo, recuperación del balón cuando se voltea sobre la línea de ensayo).",
+          "relevance_and_conciseness": "En general, cada sección se enfoca en su pregunta. Hay algo de expansión/interpretación estilística en el “Cómo” (puntos 3–5) y en el “Por qué” con formulaciones amplias que podrían sintetizarse mejor o anclarse más a la fuente.",
+          "clarity_and_readability": "Texto claro, bien estructurado y fácil de leer; lista ordenada para Por qué y Cómo. No hay errores gramaticales relevantes.",
+          "source_faithfulness": "Mayormente fiel, pero incluye una inferencia sobre “prohibición por encima de la cintura” (la fuente dice cadera) y generalizaciones no textuales (“fomentando un estilo más plástico y con más puntuación”). También omite y reformula mecanismos específicos, lo que introduce interpretación leve.",
+          "overall_coherence": "Las partes forman un relato coherente y consistente del cambio regulatorio: quién propone, qué propone, dónde se probaría, cuándo no se aplica, por qué y cómo se instrumentaría."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2318,
+        "completion_tokens": 505,
+        "total_tokens": 2823
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/10/actualidad/1565426201_075062.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Mayormente correcta: identifica a World Rugby, Bill Beaumont y John Jeffrey; objetivos de seguridad y espectáculo; medidas como prohibir placajes por encima de la cintura, revisión de amarillas a rojas, premiar juego indirecto y menos contacto, y cambios no afectan al Mundial de Japón. Sin embargo, hay imprecisiones: dice que los ensayos se harán en Francia de forma afirmativa cuando la fuente dice que se sugiere; además menciona \"por encima de la cintura\" y luego razona \"por encima de la cadera\" en la fuente; incluye que Francia ha visto alta tasa de lesiones sin citar la cifra de tres fallecidos; y afirma \"se implementarán en un futuro cercano\" (no explicitado).",
+          "completeness": "Cubre la mayoría de los elementos clave, pero omite datos esenciales: estadísticas del diagnóstico (mitad de lesiones, 76% conmociones, 72% al placador, aumento de tiempo de juego a 40 min y triplicación de placajes), el matiz de que la aplicación no afectará al Mundial de Japón está, pero falta que Francia acogerá el Mundial 2023; también falta el detalle de premiar al defensor cuando el atacante es volteado sobre la línea de ensayo y el umbral de golpes de castigo para tarjeta amarilla.",
+          "relevance_and_conciseness": "Generalmente enfocado y sin divagaciones, aunque mezcla en el Qué una valoración sobre tecnología que no es central a los cambios normativos; el Quién incluye detalles adecuados; el Por qué añade atracción de audiencia joven que sí aparece al final de la fuente como motivación secundaria. Algunas repeticiones menores.",
+          "clarity_and_readability": "Texto claro, bien redactado y comprensible, con estructura 5W1H correcta y frases gramaticalmente sólidas.",
+          "source_faithfulness": "Principalmente fiel, pero hay extrapolaciones: afirma como hecho la localización en Francia cuando la fuente dice que no está explicitado pero se sugiere; presenta \"se implementarán en un futuro cercano\" sin respaldo; y fija \"por encima de la cintura\" cuando la fuente también menciona cadera como razonamiento, potencial leve inconsistencia.",
+          "overall_coherence": "El conjunto es coherente y consistente, ofreciendo un relato lógico de quién impulsa cambios, por qué, qué medidas y dónde/cuándo se probarían."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2443,
+        "completion_tokens": 565,
+        "total_tokens": 3008
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/10/actualidad/1565426201_075062.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los puntos coinciden con la fuente: cambios para seguridad y dinamismo, líderes (Beaumont y John Jeffrey), ámbito de pruebas en categorías amateur de Francia (sugerido), no afecta al Mundial de 2023 en Japón, motivos de salud y espectáculo, y medidas concretas (placaje por encima de la cintura, premiar juego indirecto, revisión de amarilla a roja, sanciones por reiteración). Sin embargo, hay imprecisiones: la fuente propone prohibir por encima de la cadera (no la cintura), y la implementación temporal/estado (“se están estudiando actualmente”) es vago; en la fuente no se afirma implementación inmediata. También se menciona “elevar sanciones” sin especificar el contexto de revisión durante sin bin, aunque está cerca de lo dicho.",
+          "completeness": "Cubre todos los elementos 5W1H, pero omite detalles clave del Qué y el Cómo: datos justificativos (porcentajes de lesiones/conmociones), el objetivo de reducir percusiones constantes y casos específicos como el cambio de reinicio cuando un jugador es volteado sobre la línea de ensayo; menciona esa idea parcialmente (“revisando las infracciones para elevar sanciones”) pero no incluye el mecanismo de recuperación del balón por el defensor. Tampoco recoge el matiz de que Francia acoge el Mundial 2023 mientras Japón es 2019, aunque sí dice que no afectará al Mundial de 2023 en Japón, que es incorrecto según el texto (2023 es en Francia y el que no se afecta es el de 2019/2023 Japón 2019).",
+          "relevance_and_conciseness": "Cada componente se enfoca mayormente en su pregunta. Hay ligera mezcla: en el Cómo se añade objetivo de estilo de juego; aunque está relacionado, parte pertenece al Por qué. En general, es conciso y relevante.",
+          "clarity_and_readability": "Redacción clara, fluida y gramaticalmente correcta. Se entiende sin ambigüedades importantes.",
+          "source_faithfulness": "En gran parte fiel, pero hay dos desviaciones: “cintura” vs “cadera” y el error temporal/ubicación del Mundial (“2023 en Japón”), que contradice la fuente. También afirma “se están estudiando y su implementación se está planificando”, que no está explícito en la fuente como plan de implementación, solo estudios y ensayos.",
+          "overall_coherence": "El conjunto es coherente y consistente internamente, aunque el error sobre el Mundial de 2023 en Japón introduce una incoherencia con la fuente. La narrativa global del cambio por seguridad/espectáculo y medidas concretas se mantiene."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2241,
+        "completion_tokens": 628,
+        "total_tokens": 2869
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/10/actualidad/1565426201_075062.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Mayormente correcto: refleja la intención de World Rugby de prohibir placajes altos (encima de la cadera/cintura) y de estudiar cambios para seguridad y espectáculo. Sin embargo, incluye una imprecisión temporal/alcance: dice que “se llevarán a cabo en las categorías amateur de Francia antes del Mundial de 2023” y “se aplicarán...”, cuando la fuente solo sugiere Francia como sede de ensayos y no explicita dónde; además, aclara que no afectará al Mundial en Japón (2019).",
+          "completeness": "Cubre los elementos clave del qué, quién, por qué y cómo (incluye premiar juego indirecto y castigo a infracciones). Falta matizar datos relevantes del diagnóstico (porcentajes de lesiones/conmociones, aumento del tiempo de juego, triplicación de placajes) y la segunda intención de mejorar el espectáculo con citas de Bill Beaumont/John Jeffrey, así como la precisión sobre que no afectará al Mundial en Japón.",
+          "relevance_and_conciseness": "En general, cada sección se mantiene en su ámbito. Algunas mezclas menores: el Dónde menciona \"posiblemente en otras ligas y torneos\" (especulación) y el Cuándo infiere ejecución antes del Mundial 2023, lo que excede la fuente.",
+          "clarity_and_readability": "Texto claro, gramaticalmente correcto y entendible en todas las secciones.",
+          "source_faithfulness": "Mayormente fiel pero con extrapolaciones: asume aplicación segura en Francia y posibilidad en otras ligas, cuando la fuente solo sugiere Francia sin explicitar; además, convierte \"prohibición por encima de la cadera\" en \"por encima de la cintura\", que no es equivalente exacto.",
+          "overall_coherence": "Relato consistente y lógico sobre cambios normativos por seguridad, con quién lidera y cómo se implementarían; pequeñas incoherencias por las suposiciones sobre alcance temporal/geográfico."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2256,
+        "completion_tokens": 483,
+        "total_tokens": 2739
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/10/actualidad/1565426201_075062.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los puntos clave coinciden: propósito de reducir lesiones y mejorar el espectáculo, rol de World Rugby, ensayos en categorías amateur de Francia (aunque la fuente dice que no se explicitó pero se sugiere Francia), medidas como prohibir placajes por encima de la cintura, premiar juego indirecto, sancionar infracciones y estilo más dinámico. Sin embargo, hay inexactitudes: la fuente habla de prohibir por encima de la cadera (no cintura) y de que Francia es sugerido, no confirmado; además, el Mundial de 2023 es en Francia pero la aplicación no afectará al de Japón de 2019, detalle omitido o ligeramente desalineado.",
+          "completeness": "Cubre todas las 5W1H con lo esencial, pero omite detalles importantes: datos estadísticos que motivan el cambio (porcentajes de lesiones y conmociones), mención de Bill Beaumont y John Jeffrey, la revisión de amarilla a roja durante el sin-bin, el umbral de golpes de castigo para amarilla, y la aclaración de que no se ha explicitado dónde, solo sugerido. También falta el matiz de que los cambios ya han reducido conmociones recientemente.",
+          "relevance_and_conciseness": "Cada sección se mantiene enfocada y sin mezclar elementos en exceso. Hay una ligera extrapolación temporal en \"se implementarán en un futuro próximo\" que no está en la fuente y podría considerarse superflua o especulativa.",
+          "clarity_and_readability": "Texto claro, bien estructurado y fácilmente comprensible; gramática y sintaxis correctas.",
+          "source_faithfulness": "En general fiel, pero contiene dos inferencias/alteraciones: cintura vs cadera y presenta como hecho que los ensayos serán en Francia, cuando la fuente solo lo sugiere; además, la proyección temporal de implementación no consta en la fuente.",
+          "overall_coherence": "El conjunto es coherente y describe lógicamente las medidas y objetivos, aunque algunas imprecisiones y omisiones restan solidez global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2253,
+        "completion_tokens": 500,
+        "total_tokens": 2753
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/11/gente/1562866782_776897.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Todos los datos clave (operación de clavícula, accidente con una rueda en prueba del concurso, fechas aproximadas, llegada el 3 de julio, clínica Ruber Internacional, procedencia de Honduras, condición de expareja de Paulina Rubio y hermano de Samantha) coinciden con la fuente.",
+          "completeness": "Incluye los elementos esenciales de las 5W1H sobre el accidente, la operación, el lugar, el marco temporal y los actores. Omite algunos matices relevantes de la fuente (primer concursante confirmado, detalles de ingreso el lunes y publicación en Instagram, chequeos previos en Honduras, que llegó solo, y la imposibilidad de Samantha de acompañarlo).",
+          "relevance_and_conciseness": "En general, cada sección responde su W/H correspondiente. El “Cómo” añade información adicional (liderazgo, pesca, apoyo en redes) parcialmente relevante pero no estrictamente necesaria para explicar el proceso causal de la operación, lo que introduce leve dispersión.",
+          "clarity_and_readability": "Redacción clara, gramaticalmente correcta y fácil de entender; estructura 5W1H bien organizada.",
+          "source_faithfulness": "No hay inferencias no soportadas ni contradicciones con la fuente; se mantiene fiel a los hechos presentados.",
+          "overall_coherence": "Las partes forman un relato coherente: participación en el reality, accidente, retorno, evaluación médica y operación, con lugar y fecha claros."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3093,
+        "completion_tokens": 364,
+        "total_tokens": 3457
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/11/gente/1562866782_776897.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos clave (operación de clavícula, accidente con rueda en prueba, regreso el 3 de julio, expulsión previa, chequeos iniciales y posterior decisión de operar, clínica Ruber Internacional) coinciden con la fuente. Pequeñas imprecisiones: “esta semana fue operado” es vago respecto al lunes/martes; se atribuye apoyo de la hermana acompañándolo, cuando la fuente dice que no pudo acompañarlo (aunque sí lo apoyó en redes).",
+          "completeness": "Cubre el qué, quién, cuándo, dónde, por qué y cómo. Incluye tanto el lugar del accidente (Honduras) como el de la operación (Ruber Internacional, Madrid). Falta el detalle de que llegó solo con cabestrillo y que la frase de Instagram y algunos matices de cronología específica (ingreso lunes, publicación martes).",
+          "relevance_and_conciseness": "En general cada apartado se mantiene enfocado. El párrafo adicional agrega información biográfica (divorcio, custodia, faceta de conquistador) que, aunque procede de la fuente, es parcialmente superflua para 5W1H del evento médico.",
+          "clarity_and_readability": "Texto claro, bien estructurado por secciones 5W1H y gramaticalmente correcto.",
+          "source_faithfulness": "Mayormente fiel, pero la mención a que su hermana lo apoyó puede implicar acompañamiento; la fuente aclara que no pudo acompañarlo. Además, se añade información contextual extensa que no es estrictamente necesaria.",
+          "overall_coherence": "Las seis piezas forman un relato coherente del accidente y la operación; no hay contradicciones internas y la narrativa temporal y causal es consistente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3125,
+        "completion_tokens": 426,
+        "total_tokens": 3551
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/11/gente/1562866782_776897.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los datos coinciden con la fuente: accidente en una prueba con una rueda que cae y fractura de clavícula; expulsión el 3 de julio; operación posterior; lugar del accidente (Honduras) y operación en Ruber Internacional. Pequeñas desviaciones: \"semana siguiente\" para la operación no consta explícitamente (solo \"esta semana\"); se añade que recibió apoyo de familia y amigos como parte del 'Cómo', que aunque verdadero en el texto, no es parte del proceso médico; y se omite que llegó solo al hospital y que el post de Instagram fue el martes.",
+          "completeness": "Cubre los 6 apartados con la información esencial principal. Falta algún matiz temporal preciso (\"esta semana\", el martes del post), y algunos detalles relevantes como que fue el público quien lo expulsó y que la decisión de operar fue para acabar con molestias y dolores derivados de la fractura (aunque lo sugiere). En \"Quién\" no menciona que es empresario, pero sí expareja de Paulina Rubio.",
+          "relevance_and_conciseness": "En general, cada apartado se mantiene en su foco. El \"Cómo\" introduce apoyo de familia y amigos, que pertenece más al contexto general que al proceso causal/mecánico de la intervención; leve mezcla de información superflua.",
+          "clarity_and_readability": "Texto claro, bien redactado y fácil de entender, sin ambigüedades ni errores gramaticales notables.",
+          "source_faithfulness": "Mayormente fiel. Hay una inferencia temporal específica (\"la semana siguiente\") no textual y una ligera interpretación en el \"Cómo\" al incluir el apoyo social como parte del mecanismo. No hay contradicciones fuertes.",
+          "overall_coherence": "El conjunto construye un relato consistente: accidente en prueba, fractura, expulsión, regreso y operación, con lugares y tiempos coherentes."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3080,
+        "completion_tokens": 462,
+        "total_tokens": 3542
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/11/gente/1562866782_776897.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los datos coinciden con la fuente: accidente en prueba con rueda pesada, fractura de clavícula, llegada a España el 3 de julio, decisión de operar tras nuevos exámenes, operación en Ruber Internacional, escenario en Honduras. Sin embargo, hay un matiz: la extracción afirma que “fue operado una semana después” de llegar, mientras que la fuente dice que “esta semana” fue operado y que ingresó el lunes y lo publicó el martes, sin concretar exactamente “una semana después”; esta precisión temporal podría ser inexacta. También califica a Paulina Rubio como “cantante”, lo cual es correcto y no conflictivo.",
+          "completeness": "Cubre los seis elementos 5W1H con los puntos esenciales: qué (operación por fractura de clavícula tras accidente), quién (Colate, primer confirmado; referencia a su relación con Paulina Rubio), cuándo (llegada 3 de julio, operación esa semana), dónde (Honduras para el accidente; Ruber Internacional en Madrid para la operación), por qué (accidente por caída de rueda en prueba), cómo (chequeos en Honduras permitieron seguir; nuevos exámenes en España llevaron a operar). Falta algún detalle menor como el ingreso el lunes y la publicación en Instagram, pero no son esenciales para 5W1H.",
+          "relevance_and_conciseness": "En general cada apartado se ciñe a su pregunta y evita digresiones. El “Quién” incluye que fue el primer concursante confirmado, relevante, y su condición de exmarido de Paulina Rubio, que aunque contextual es conciso. El “Cómo” es algo extenso pero enfocado al proceso de decisión médica.",
+          "clarity_and_readability": "Texto claro, bien redactado y comprensible. No hay ambigüedades ni errores gramaticales notables.",
+          "source_faithfulness": "Se mantiene fiel a la fuente salvo la posible inferencia de “una semana después” que no está literalmente respaldada. El resto no añade interpretaciones más allá de lo contenido.",
+          "overall_coherence": "Las partes encajan y narran coherentemente el evento desde el accidente hasta la operación, con tiempos y lugares acordes salvo el matiz temporal menor."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3073,
+        "completion_tokens": 538,
+        "total_tokens": 3611
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/11/gente/1562866782_776897.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Todos los datos clave (identidad de Colate, accidente en Honduras durante Supervivientes, fecha de llegada a España el 3 de julio, operación de clavícula esta semana, causa del accidente por una prueba con una rueda que lo aplastó, ingreso y operación en Ruber Internacional, detalles del ingreso con cabestrillo y maleta) coinciden con la fuente.",
+          "completeness": "Cubre adecuadamente las 6 dimensiones 5W1H. Sin embargo, el Qué podría incluir que fue expulsado por el público y que la decisión de operar se tomó tras nuevos exámenes en España para ser plenamente exhaustivo; el Cuándo mezcla dos hitos sin especificar el día exacto del ingreso (lunes) y del post (martes).",
+          "relevance_and_conciseness": "Generalmente conciso y enfocado. Hay ligera redundancia en Quién repitiendo su condición de empresario y expareja (ya mencionada en Qué) y en Dónde combinando lugar del accidente y de la operación, aunque sigue siendo pertinente.",
+          "clarity_and_readability": "Redacción clara, correcta y fácil de entender; oraciones bien formadas en español.",
+          "source_faithfulness": "No introduce inferencias ni detalles no presentes en la fuente; mantiene citas y hechos verificados.",
+          "overall_coherence": "Las partes forman un relato consistente y alineado con la cronología: accidente en Honduras, regreso a España, evaluación y operación en Madrid."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 3088,
+        "completion_tokens": 370,
+        "total_tokens": 3458
+      }
+    }
+  ]
+}

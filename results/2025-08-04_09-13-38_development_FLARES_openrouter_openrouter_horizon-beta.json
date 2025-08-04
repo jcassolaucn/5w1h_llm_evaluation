@@ -1,0 +1,113 @@
+{
+  "total_tokens": 6969,
+  "results": [
+    {
+      "document_idx": 732,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Todos los elementos coinciden con la fuente: cantidad (87 millones), quién (Sánchez), cuándo (entre abril y septiembre), dónde (rueda de prensa en la Moncloa).",
+          "completeness": "Falta información en Por qué y Cómo, que en la fuente no se explicitan; sin embargo, podrían marcarse como \"No mencionado\". El resto de campos presentes están completos. Por eso no es 5.",
+          "relevance_and_conciseness": "Cada campo es atómico y pertinente; no incluye información superflua ni mezcla elementos.",
+          "clarity_and_readability": "La redacción es clara, correcta y fácilmente entendible.",
+          "source_faithfulness": "No añade interpretaciones ni inferencias; marca como no especificado lo que la fuente no provee.",
+          "overall_coherence": "Los campos forman un relato consistente: declaración de Sánchez en La Moncloa sobre la llegada de 87 millones de vacunas entre abril y septiembre."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1327,
+        "completion_tokens": 266,
+        "total_tokens": 1593
+      }
+    },
+    {
+      "document_idx": 1229,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "El 'Qué' y el 'Quién' coinciden con la fuente (hospitales privados realizan >30% de intervenciones), y el 'Dónde' también aparece en el texto ('de todo el territorio nacional'). Sin embargo, el 'Cuándo' introduce una condición que no corresponde al dato del 30% (lo de igualdad de género es otro punto del texto), lo que reduce la exactitud.",
+          "completeness": "Faltan elementos clave: 'Por qué' y 'Cómo' no se extraen. Además, el 'Cuándo' no se cubre correctamente según la fuente y no se captura la parte sobre altas y urgencias que contextualiza el 'Qué'.",
+          "relevance_and_conciseness": "La mayoría de campos son concisos, pero el 'Cuándo' mezcla un tema distinto (ODS 5) que no corresponde al dato extraído, afectando la atomicidad.",
+          "clarity_and_readability": "Hay problemas menores de redacción y puntuación: 'Dónde' incluye 'Esta' pegado a la frase, y la estructura con saltos de línea y espacios es irregular. Aun así, se entiende en general.",
+          "source_faithfulness": "No hay inventos numéricos ni afirmaciones fuera de la fuente, pero el 'Cuándo' asocia erróneamente el dato del 30% con 'cuando se habla de igualdad de género', lo cual no está respaldado por la fuente.",
+          "overall_coherence": "Los elementos no forman un relato coherente: el 'Qué' (intervenciones) se asocia con un 'Cuándo' que pertenece al tema de igualdad de género, y faltan 'Por qué' y 'Cómo', rompiendo la coherencia."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1527,
+        "completion_tokens": 426,
+        "total_tokens": 1953
+      }
+    },
+    {
+      "document_idx": 840,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Acierta en el 'Quién' (CHMP) y menciona el 8 de marzo, pero falla en el 'Dónde' (debería ser aceptación simultánea en todos los países europeos bajo condiciones, no simplemente ubicación) y el 'Qué' está incompleto; además, marca 'Por qué' y 'Cómo' como no especificado cuando la fuente sí aporta condiciones y propósito.",
+          "completeness": "Faltan detalles esenciales: 'Qué' debería incluir la conclusión del análisis del paquete de datos y la expectativa de luz verde; 'Cuándo' debe mencionar 'a mediados de marzo' y la especificidad del 8 de marzo; 'Por qué' y 'Cómo' tienen información en la fuente (condición de información completa y sólida y aceptación simultánea).",
+          "relevance_and_conciseness": "Las entradas son mayormente atómicas y sin información superflua, aunque 'Dónde: en todos los países europeos' es una simplificación que mezcla condición de uso con ubicación.",
+          "clarity_and_readability": "El texto es claro y legible; formato consistente 5W1H. Pequeños problemas de precisión no afectan la legibilidad.",
+          "source_faithfulness": "Generalmente se basa en la fuente, pero omite matices clave (condicionalidad) y declara 'No especificado' donde sí hay especificación; 'Dónde' está mal interpretado.",
+          "overall_coherence": "La estructura 5W1H es coherente, pero la omisión de 'Por qué' y 'Cómo' y la simplificación de 'Dónde' rompen la coherencia con el evento descrito en la fuente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1345,
+        "completion_tokens": 407,
+        "total_tokens": 1752
+      }
+    },
+    {
+      "document_idx": 397,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 5,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Quién, Cuándo y Dónde coinciden con la fuente. El 'Qué' como 'las palabras' es vago pero no incorrecto; falta el contenido clave de esas palabras. 'Por qué' y 'Cómo' marcados como no especificado, lo que es conforme a la fuente al no explicitar motivos o métodos adicionales.",
+          "completeness": "Faltan elementos esenciales: el 'Qué' debería incluir el contenido principal de las declaraciones ('se frena la curva... pero la letalidad sigue siendo insoportable'). 'Por qué' y 'Cómo' podrían quedar no aplicables, pero el 'Qué' es incompleto. No se captura toda la información disponible.",
+          "relevance_and_conciseness": "Los campos no incluyen información superflua y se mantienen enfocados, pero el 'Qué' es excesivamente genérico y no aporta el dato clave disponible.",
+          "clarity_and_readability": "Formato entendible y coherente; sin errores graves, aunque el 'Qué' es demasiado vago, lo que reduce claridad informativa.",
+          "source_faithfulness": "No hay adiciones ni inferencias fuera del texto. Se mantiene fiel a lo dicho en la fuente.",
+          "overall_coherence": "Las piezas conectan lógicamente (quién, cuándo, dónde), pero la falta de contenido en el 'Qué' rompe la coherencia del conjunto al no describir el mensaje central."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1314,
+        "completion_tokens": 357,
+        "total_tokens": 1671
+      }
+    }
+  ]
+}
