@@ -88,7 +88,7 @@ def _select_best_combination(list_of_objects):
     each required 5W1H type.
     """
     best_combinations_list = []
-    REQUIRED_LABELS = {'WHO', 'WHAT', 'WHEN', 'WHERE'}
+    REQUIRED_LABELS = {'WHO', 'WHAT', 'WHEN', 'WHERE'} # 'WHY' and 'HOW' do not appear in most of the FLARES data
 
     for obj in list_of_objects:
         grouped_tags = defaultdict(list)
