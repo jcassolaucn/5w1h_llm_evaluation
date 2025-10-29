@@ -1,0 +1,13 @@
+### Tarea Original:
+La tarea del modelo era leer el documento fuente y generar un resumen estructurado y preciso siguiendo el formato 5W1H
+(Qué, Quién, Cuándo, Dónde, Por qué, Cómo).
+
+### Extracción a Evaluar:
+{extraction_to_evaluate}
+
+### Fuente de Verdad (Respuesta de Referencia con Puntuación 5):
+El siguiente texto original contiene toda la información correcta y completa. Una extracción perfecta extraería los datos
+5W1H de manera fiel y exhaustiva de este documento.
+---
+{original_document}
+---
