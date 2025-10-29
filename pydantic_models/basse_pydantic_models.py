@@ -80,6 +80,22 @@ class Justifications(BaseModel):
         description="Brief justification for the Overall Coherence score."
     )
 
+class ConfidenceLevel(BaseModel):
+    """
+    Contains the confidence level for the source text.
+    """
+    score: int = Field(
+        ...,
+        description="Score (1-5) for: The suitability of the source for a a 5W1H extraction.",
+        ge=1,
+        le=5
+    )
+
+    justification: str = Field(
+        ...,
+        description="Brief justification for the Confidence Level score (e.g 'The text is an editorial, not a news story')."
+    )
+
 
 class DetailedEvaluation(BaseModel):
     """
@@ -88,3 +104,4 @@ class DetailedEvaluation(BaseModel):
     """
     scores: Scores = Field(..., description="The set of all numerical scores for the evaluation.")
     justifications: Justifications = Field(..., description="The set of all textual justifications supporting the scores.")
+    confidence_level: ConfidenceLevel = Field(..., description="The confidence level for the source text.")
