@@ -4,7 +4,7 @@
 │   ├── flares/
 ├── notebooks/
 │   ├── datasets_preprocessing.ipynb
-│   ├── evaluator.ipynb
+│   ├── openai_evaluator.ipynb
 ├── preparation/
 │   ├── basse_preparation.py
 │   ├── flares_preparation.py 
@@ -16,6 +16,10 @@
 ├── pydantic_models/
 │   ├── main_pydantic_model.py
 ├── results/
+├── validaton/
+│   ├── excel_files_ready_for_validation
+│   ├── create_expert_review_task.py
+│   ├── json_to_excel.py
 ├── requirements.txt         
 ├── README.md                
 └── .gitignore              
