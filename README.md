@@ -20,4 +20,7 @@
 ├── README.md                
 └── .gitignore              
 └── LICENSE                 
-└── .env
+└── .env-example            
+
+# How to run json to excel script
+python json_to_excel.py results/results_file.json result_file_for_review.xlsx
