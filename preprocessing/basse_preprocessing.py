@@ -66,7 +66,7 @@ def process_basse_summaries(jsonl_file_path_summaries):
 
     # Now 'list_of_summary_objects' is a list of dictionaries.
     if list_of_summary_objects:
-        print("First object from the list of summaries:")
+        print("First object from the list of extractions:")
         print(json.dumps(list_of_summary_objects[0], indent=2, ensure_ascii=False))
 
     return list_of_summary_objects
