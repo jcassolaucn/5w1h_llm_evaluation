@@ -1,0 +1,672 @@
+[
+  {
+    "review_id": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html_claude",
+    "document_info": {
+      "doc_id": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "full_source_text": "El jet lag ante Argentina , que quedó maquillado por el arrebato febril de Ricky ( 15 puntos en los últimos cuatro minutos ) , se consolidó 24 horas después ante Rusia . A tres días del comienzo del Mundial , de nuevo sin Marc Gasol en la rotación , el conjunto de Scariolo firmó su segunda derrota de la preparación y , por números y sensaciones , abrazó las dudas justo antes del estreno oficial . En el marcador , un contundente 55-74 ; en la estadística , unos pobres porcentajes de tiro ( 15 de 37 de dos , 3 de 18 en triples y 16 de 19 en tiros libres ) , 18 pérdidas , 12 robos del rival… Los 26 puntos y 11 rebotes de Willy Hernangómez fueron lo único lustroso de una prueba para olvidar , o para tentarse la ropa . “ Esperemos que esta no sea la referencia . Nos faltan muchos jugadores y la cabeza estará también en una dimensión diferente el sábado . La competición es otra cosa . Hemos jugado mal hay que olvidarlo pronto ” , analizó el seleccionador . Con las bajas de Rudy y Marc ( ambas por precaución ) , Scariolo reclutó a Llull en el quinteto inicial junto a Ricky , probó a Rabaseda apretando las tuercas en el puesto de tres y juntó a Claver con Willy Hernangómez en la pintura . Intentó ajustar automatismos la selección española , se aplicó de inicio en la faceta defensiva y se entregó en ataque a la pujanza de Willy y a la iluminación de Ricky . Pero todo duró un santiamén . Líder plenipotenciario sobre la pista durante todos los amistosos de la preparación mundialista , Ricky se ha convertido a un tiempo en metrónomo y artificiero del equipo y , en su partido 140 como internacional , tenía los minutos limitados por Scariolo : no más de 15 anunció el seleccionador en la previa . Así las cosas , y sin participación de su jugador franquicia en la segunda mitad , España navegó de la inconstancia al borrón , sin más penalización que las tribulaciones , de momento . Se fue imponiendo Rusia gracias a su dominio en el rebote y a la intendencia de Fridzon , Zubkov , Ivlev y Antonov . Y , como sucediera en el duelo ante Argentina , con el paso de los minutos , la espesura se adueñó del partido . Entre la prudencia y las probaturas , el ritmo anotador se fue resintiendo , sobre todo el español . En los ocho primeros minutos del segundo cuarto , los de Scariolo solo fueron capaces de sumar cuatro puntos desde el tiro libre . Aprovechó Rusia para armar un modesto estirón consolidado por una antideportiva a Ricky que permitió a los de Bazarevich alcanzar su máxima ventaja ( 25-32 , m. 18 ) . Justo ahí llegó el susto de la jornada , Ricky se lanzó a por un rebote y se lastimó , aparentemente sin consecuencias , el codo derecho . Una canasta de Willy , con fallo en el adicional , fue el único acierto en tiros de campo para España en su desastroso parcial ( 6-12 ) . Se mantuvo la inercia en la reanudación y Rusia alcanzó pronto el +10 en el marcador ( 27-37 , m. 22 ) . Ante el gesto serio y fiscalizador de Scariolo , Willy apretó los dientes y se multiplicó en defensa y en ataque para reenganchar a la selección española a la pelea . Nueve puntos del pívot de los Hornets en los cinco primeros minutos del cuarto capearon momentáneamente el temporal , pero fue tan solo un espejismo . Un robo de Motovilov a Llull estiró aún más la diferencia ( 36-47 , m. 27 ) . Fue el comienzo de la tormenta . El acierto de Rusia desde el perímetro y la falta de firmeza , acierto y concentración de España ( 16 pérdidas , 12 robos del rival , y un 1 de 13 en triples ) descosieron definitivamente el encuentro ( 40-59 , m. 30 ) . Con todo resuelto , Colom , Rabaseda , Beirán , Juancho y Oriola fue el quinteto asimétrico encargado de gestionar los minutos de la honrilla . Dos triples de Juancho rebajaron la proporción de la tunda ( 48-61 ) y Beirán tuvo el lanzamiento del rearme moral , pero se estrelló en el aro ruso . A golpe de orgullo , la diferencia bajó hasta los 8 ( 53-61 , m. 37 ) . Pero Bazarevich repasó la cartilla a los suyos para sacarles del embelesamiento , restablecer la distancia y barnizar de incertidumbre el último ensayo de España antes del estreno mundialista . Puedes seguir Deportes de EL PAÍS en Facebook , Twitter o suscribirte aquí a la Newsletter."
+    },
+    "extraction_info": {
+      "model_evaluated": "claude",
+      "summary_to_evaluate": "Aquí tienes un resumen del texto utilizando el método de las 5W1H:\nQué: La selección española de baloncesto sufrió una derrota contundente (55-74) contra Rusia en un partido de preparación para el Mundial.\nQuién: El equipo español dirigido por Sergio Scariolo, con actuaciones destacadas de Willy Hernangómez (26 puntos y 11 rebotes) y Ricky Rubio (limitado a 15 minutos de juego).\nCuándo: A tres días del comienzo del Mundial de baloncesto.\nDónde: No se especifica el lugar exacto del partido en el texto.\nPor qué: El equipo español mostró un rendimiento deficiente, con bajos porcentajes de tiro, muchas pérdidas de balón y falta de concentración. Además, hubo ausencias importantes como las de Marc Gasol y Rudy Fernández.\nCómo: España comenzó bien defensivamente, pero pronto perdió el control del juego. Rusia dominó en el rebote y aprovechó el mal juego español para aumentar su ventaja progresivamente. A pesar de un intento de remontada en el último cuarto, Rusia mantuvo su ventaja y se llevó la victoria.\n¿Te gustaría que elaborara algún punto en particular de este resumen?"
+    },
+    "judgments_to_review": {
+      "factual_accuracy": {
+        "ai_score": 5,
+        "ai_justification": "La extracción contiene datos correctos verificables en la fuente (marcador 55-74, 26+11 de Willy, minutos limitados de Ricky, bajas de Marc y Rudy, problemas de tiro y pérdidas).",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "completeness": {
+        "ai_score": 4,
+        "ai_justification": "Captura las ideas principales 5W1H pero omite cifras concretas detalladas (porcentajes de tiro exactos, 18 pérdidas, 12 robos) y algunos ajustes tácticos mencionados en el texto.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "relevance_and_conciseness": {
+        "ai_score": 4,
+        "ai_justification": "Cada apartado responde a su pregunta sin información irrelevante, aunque el 'Quién' mezcla la idea de 'actuaciones destacadas' para Ricky pese a que su papel fue más limitado, lo que introduce ligera confusión.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "clarity_and_readability": {
+        "ai_score": 5,
+        "ai_justification": "El texto es gramaticalmente correcto y comprensible por sí mismo; las frases son claras y siguen una estructura lógica.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "source_faithfulness": {
+        "ai_score": 5,
+        "ai_justification": "La extracción se basa en la información del artículo y no añade hechos no presentes ni inferencias no justificadas por la fuente.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "overall_coherence": {
+        "ai_score": 5,
+        "ai_justification": "Los seis elementos conforman un relato consistente y lógico del partido y su contexto preparatorio para el Mundial.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      }
+    }
+  },
+  {
+    "review_id": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html_commandr",
+    "document_info": {
+      "doc_id": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "full_source_text": "El jet lag ante Argentina , que quedó maquillado por el arrebato febril de Ricky ( 15 puntos en los últimos cuatro minutos ) , se consolidó 24 horas después ante Rusia . A tres días del comienzo del Mundial , de nuevo sin Marc Gasol en la rotación , el conjunto de Scariolo firmó su segunda derrota de la preparación y , por números y sensaciones , abrazó las dudas justo antes del estreno oficial . En el marcador , un contundente 55-74 ; en la estadística , unos pobres porcentajes de tiro ( 15 de 37 de dos , 3 de 18 en triples y 16 de 19 en tiros libres ) , 18 pérdidas , 12 robos del rival… Los 26 puntos y 11 rebotes de Willy Hernangómez fueron lo único lustroso de una prueba para olvidar , o para tentarse la ropa . “ Esperemos que esta no sea la referencia . Nos faltan muchos jugadores y la cabeza estará también en una dimensión diferente el sábado . La competición es otra cosa . Hemos jugado mal hay que olvidarlo pronto ” , analizó el seleccionador . Con las bajas de Rudy y Marc ( ambas por precaución ) , Scariolo reclutó a Llull en el quinteto inicial junto a Ricky , probó a Rabaseda apretando las tuercas en el puesto de tres y juntó a Claver con Willy Hernangómez en la pintura . Intentó ajustar automatismos la selección española , se aplicó de inicio en la faceta defensiva y se entregó en ataque a la pujanza de Willy y a la iluminación de Ricky . Pero todo duró un santiamén . Líder plenipotenciario sobre la pista durante todos los amistosos de la preparación mundialista , Ricky se ha convertido a un tiempo en metrónomo y artificiero del equipo y , en su partido 140 como internacional , tenía los minutos limitados por Scariolo : no más de 15 anunció el seleccionador en la previa . Así las cosas , y sin participación de su jugador franquicia en la segunda mitad , España navegó de la inconstancia al borrón , sin más penalización que las tribulaciones , de momento . Se fue imponiendo Rusia gracias a su dominio en el rebote y a la intendencia de Fridzon , Zubkov , Ivlev y Antonov . Y , como sucediera en el duelo ante Argentina , con el paso de los minutos , la espesura se adueñó del partido . Entre la prudencia y las probaturas , el ritmo anotador se fue resintiendo , sobre todo el español . En los ocho primeros minutos del segundo cuarto , los de Scariolo solo fueron capaces de sumar cuatro puntos desde el tiro libre . Aprovechó Rusia para armar un modesto estirón consolidado por una antideportiva a Ricky que permitió a los de Bazarevich alcanzar su máxima ventaja ( 25-32 , m. 18 ) . Justo ahí llegó el susto de la jornada , Ricky se lanzó a por un rebote y se lastimó , aparentemente sin consecuencias , el codo derecho . Una canasta de Willy , con fallo en el adicional , fue el único acierto en tiros de campo para España en su desastroso parcial ( 6-12 ) . Se mantuvo la inercia en la reanudación y Rusia alcanzó pronto el +10 en el marcador ( 27-37 , m. 22 ) . Ante el gesto serio y fiscalizador de Scariolo , Willy apretó los dientes y se multiplicó en defensa y en ataque para reenganchar a la selección española a la pelea . Nueve puntos del pívot de los Hornets en los cinco primeros minutos del cuarto capearon momentáneamente el temporal , pero fue tan solo un espejismo . Un robo de Motovilov a Llull estiró aún más la diferencia ( 36-47 , m. 27 ) . Fue el comienzo de la tormenta . El acierto de Rusia desde el perímetro y la falta de firmeza , acierto y concentración de España ( 16 pérdidas , 12 robos del rival , y un 1 de 13 en triples ) descosieron definitivamente el encuentro ( 40-59 , m. 30 ) . Con todo resuelto , Colom , Rabaseda , Beirán , Juancho y Oriola fue el quinteto asimétrico encargado de gestionar los minutos de la honrilla . Dos triples de Juancho rebajaron la proporción de la tunda ( 48-61 ) y Beirán tuvo el lanzamiento del rearme moral , pero se estrelló en el aro ruso . A golpe de orgullo , la diferencia bajó hasta los 8 ( 53-61 , m. 37 ) . Pero Bazarevich repasó la cartilla a los suyos para sacarles del embelesamiento , restablecer la distancia y barnizar de incertidumbre el último ensayo de España antes del estreno mundialista . Puedes seguir Deportes de EL PAÍS en Facebook , Twitter o suscribirte aquí a la Newsletter."
+    },
+    "extraction_info": {
+      "model_evaluated": "commandr",
+      "summary_to_evaluate": "Aquí está el resumen del texto utilizando el método 5W1H:\n\n\nQué: Derrota de la selección española de baloncesto ante Rusia en un partido de preparación para el Mundial.\n\n\nQuién: La selección española de baloncesto, liderada por Ricky y Willy Hernangómez.\n\n\nCuándo: Tres días antes del comienzo del Mundial.\n\n\nDónde: No se especifica el lugar, pero se entiende que fue en un partido amistoso de preparación para el Mundial.\n\n\nPor qué: La selección española buscaba ajustar sus automatismos y prepararse para el Mundial, pero terminó sufriendo su segunda derrota en la preparación.\n\n\nCómo: España tuvo problemas con el rebote, pérdidas de balón y bajos porcentajes de tiro, mientras que Rusia dominó el rebote y tuvo contribuciones de varios jugadores. El partido se fue complicando para España a medida que avanzaba, y a pesar de los esfuerzos de Willy Hernangómez, la diferencia en el marcador fue aumentando hasta llegar a una contundente derrota.\n\n\n¿Qué? Derrota de España ante Rusia en un partido de preparación para el Mundial."
+    },
+    "judgments_to_review": {
+      "factual_accuracy": {
+        "ai_score": 4,
+        "ai_justification": "La extracción refleja correctamente el hecho central (derrota ante Rusia, problemas en rebote, pérdidas y bajos porcentajes) pero omite cifras clave (55-74, porcentajes exactos, 18 pérdidas) y presenta una leve interpretación al decir 'liderada por Ricky y Willy'.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "completeness": {
+        "ai_score": 3,
+        "ai_justification": "Faltan datos numéricos y detalles relevantes del original (marcador, porcentajes exactos, 26 pts y 11 rbts de Willy, ausencia de Marc/Rudy, minutos limitados de Ricky), por lo que no captura toda la información esencial.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "relevance_and_conciseness": {
+        "ai_score": 4,
+        "ai_justification": "Cada apartado se centra en su pregunta, sin información irrelevante, aunque hay repetición del 'Qué' y cierta mezcla ligera en 'Quién' al atribuir liderazgo.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "clarity_and_readability": {
+        "ai_score": 5,
+        "ai_justification": "Texto gramaticalmente correcto y fácil de entender; redacción clara y coherente.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "source_faithfulness": {
+        "ai_score": 4,
+        "ai_justification": "Mayoritariamente fiel al texto fuente; no obstante añade una interpretación ligera ('liderada') y asume la ubicación en vez de reproducir la ausencia de dato exacto.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "overall_coherence": {
+        "ai_score": 4,
+        "ai_justification": "Las secciones conforman un relato lógico y coherente del partido, pero omisiones y repeticiones reducen algo la cohesión global.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      }
+    }
+  },
+  {
+    "review_id": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html_gpt4o",
+    "document_info": {
+      "doc_id": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "full_source_text": "El jet lag ante Argentina , que quedó maquillado por el arrebato febril de Ricky ( 15 puntos en los últimos cuatro minutos ) , se consolidó 24 horas después ante Rusia . A tres días del comienzo del Mundial , de nuevo sin Marc Gasol en la rotación , el conjunto de Scariolo firmó su segunda derrota de la preparación y , por números y sensaciones , abrazó las dudas justo antes del estreno oficial . En el marcador , un contundente 55-74 ; en la estadística , unos pobres porcentajes de tiro ( 15 de 37 de dos , 3 de 18 en triples y 16 de 19 en tiros libres ) , 18 pérdidas , 12 robos del rival… Los 26 puntos y 11 rebotes de Willy Hernangómez fueron lo único lustroso de una prueba para olvidar , o para tentarse la ropa . “ Esperemos que esta no sea la referencia . Nos faltan muchos jugadores y la cabeza estará también en una dimensión diferente el sábado . La competición es otra cosa . Hemos jugado mal hay que olvidarlo pronto ” , analizó el seleccionador . Con las bajas de Rudy y Marc ( ambas por precaución ) , Scariolo reclutó a Llull en el quinteto inicial junto a Ricky , probó a Rabaseda apretando las tuercas en el puesto de tres y juntó a Claver con Willy Hernangómez en la pintura . Intentó ajustar automatismos la selección española , se aplicó de inicio en la faceta defensiva y se entregó en ataque a la pujanza de Willy y a la iluminación de Ricky . Pero todo duró un santiamén . Líder plenipotenciario sobre la pista durante todos los amistosos de la preparación mundialista , Ricky se ha convertido a un tiempo en metrónomo y artificiero del equipo y , en su partido 140 como internacional , tenía los minutos limitados por Scariolo : no más de 15 anunció el seleccionador en la previa . Así las cosas , y sin participación de su jugador franquicia en la segunda mitad , España navegó de la inconstancia al borrón , sin más penalización que las tribulaciones , de momento . Se fue imponiendo Rusia gracias a su dominio en el rebote y a la intendencia de Fridzon , Zubkov , Ivlev y Antonov . Y , como sucediera en el duelo ante Argentina , con el paso de los minutos , la espesura se adueñó del partido . Entre la prudencia y las probaturas , el ritmo anotador se fue resintiendo , sobre todo el español . En los ocho primeros minutos del segundo cuarto , los de Scariolo solo fueron capaces de sumar cuatro puntos desde el tiro libre . Aprovechó Rusia para armar un modesto estirón consolidado por una antideportiva a Ricky que permitió a los de Bazarevich alcanzar su máxima ventaja ( 25-32 , m. 18 ) . Justo ahí llegó el susto de la jornada , Ricky se lanzó a por un rebote y se lastimó , aparentemente sin consecuencias , el codo derecho . Una canasta de Willy , con fallo en el adicional , fue el único acierto en tiros de campo para España en su desastroso parcial ( 6-12 ) . Se mantuvo la inercia en la reanudación y Rusia alcanzó pronto el +10 en el marcador ( 27-37 , m. 22 ) . Ante el gesto serio y fiscalizador de Scariolo , Willy apretó los dientes y se multiplicó en defensa y en ataque para reenganchar a la selección española a la pelea . Nueve puntos del pívot de los Hornets en los cinco primeros minutos del cuarto capearon momentáneamente el temporal , pero fue tan solo un espejismo . Un robo de Motovilov a Llull estiró aún más la diferencia ( 36-47 , m. 27 ) . Fue el comienzo de la tormenta . El acierto de Rusia desde el perímetro y la falta de firmeza , acierto y concentración de España ( 16 pérdidas , 12 robos del rival , y un 1 de 13 en triples ) descosieron definitivamente el encuentro ( 40-59 , m. 30 ) . Con todo resuelto , Colom , Rabaseda , Beirán , Juancho y Oriola fue el quinteto asimétrico encargado de gestionar los minutos de la honrilla . Dos triples de Juancho rebajaron la proporción de la tunda ( 48-61 ) y Beirán tuvo el lanzamiento del rearme moral , pero se estrelló en el aro ruso . A golpe de orgullo , la diferencia bajó hasta los 8 ( 53-61 , m. 37 ) . Pero Bazarevich repasó la cartilla a los suyos para sacarles del embelesamiento , restablecer la distancia y barnizar de incertidumbre el último ensayo de España antes del estreno mundialista . Puedes seguir Deportes de EL PAÍS en Facebook , Twitter o suscribirte aquí a la Newsletter."
+    },
+    "extraction_info": {
+      "model_evaluated": "gpt4o",
+      "summary_to_evaluate": "Qué: La selección española de baloncesto sufrió su segunda derrota consecutiva en la preparación para el Mundial, esta vez contra Rusia, mostrando un rendimiento pobre en tiros y con muchas pérdidas de balón.\n\nQuién: El equipo dirigido por Sergio Scariolo, con actuaciones destacadas de Ricky Rubio y Willy Hernangómez.\n\nCuándo: A tres días del comienzo del Mundial, después de haber perdido previamente contra Argentina.\n\nDónde: El partido se disputó como parte de los amistosos de preparación para el Mundial.\n\nPor qué: España jugó sin algunos de sus jugadores clave como Marc Gasol y Rudy Fernández, lo que afectó su desempeño. Además, se vieron limitados por la ausencia de su jugador estrella, Ricky Rubio, en la segunda mitad.\n\nCómo: Rusia dominó el partido gracias a su control en el rebote y el juego colectivo. La selección española mostró debilidades defensivas y ofensivas, acumulando errores y bajos porcentajes de tiro."
+    },
+    "judgments_to_review": {
+      "factual_accuracy": {
+        "ai_score": 4,
+        "ai_justification": "La extracción refleja correctamente los hechos principales (derrota, ausencias, dominio ruso), pero presenta a Ricky como 'actuación destacada' sin matizar que su protagonismo en este partido fue limitado; por eso se resta un punto.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "completeness": {
+        "ai_score": 4,
+        "ai_justification": "Cubre las 5W1H esenciales, pero omite datos numéricos relevantes presentes en la fuente (resultado 55-74, porcentajes de tiro y cifras exactas de pérdidas/robos).",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "relevance_and_conciseness": {
+        "ai_score": 5,
+        "ai_justification": "Cada elemento se centra en su pregunta 5W1H sin mezclar temas ni añadir información superflua.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "clarity_and_readability": {
+        "ai_score": 5,
+        "ai_justification": "Texto gramaticalmente correcto y comprensible por sí mismo; formulaciones claras y breves.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "source_faithfulness": {
+        "ai_score": 5,
+        "ai_justification": "La extracción se basa en la información de la fuente y no introduce inferencias no sostenidas; las causas y ausencias mencionadas están en el texto original.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "overall_coherence": {
+        "ai_score": 5,
+        "ai_justification": "Las piezas 5W1H forman un relato lógico y consistente del partido y su contexto de preparación para el Mundial.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      }
+    }
+  },
+  {
+    "review_id": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html_reka",
+    "document_info": {
+      "doc_id": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "full_source_text": "El jet lag ante Argentina , que quedó maquillado por el arrebato febril de Ricky ( 15 puntos en los últimos cuatro minutos ) , se consolidó 24 horas después ante Rusia . A tres días del comienzo del Mundial , de nuevo sin Marc Gasol en la rotación , el conjunto de Scariolo firmó su segunda derrota de la preparación y , por números y sensaciones , abrazó las dudas justo antes del estreno oficial . En el marcador , un contundente 55-74 ; en la estadística , unos pobres porcentajes de tiro ( 15 de 37 de dos , 3 de 18 en triples y 16 de 19 en tiros libres ) , 18 pérdidas , 12 robos del rival… Los 26 puntos y 11 rebotes de Willy Hernangómez fueron lo único lustroso de una prueba para olvidar , o para tentarse la ropa . “ Esperemos que esta no sea la referencia . Nos faltan muchos jugadores y la cabeza estará también en una dimensión diferente el sábado . La competición es otra cosa . Hemos jugado mal hay que olvidarlo pronto ” , analizó el seleccionador . Con las bajas de Rudy y Marc ( ambas por precaución ) , Scariolo reclutó a Llull en el quinteto inicial junto a Ricky , probó a Rabaseda apretando las tuercas en el puesto de tres y juntó a Claver con Willy Hernangómez en la pintura . Intentó ajustar automatismos la selección española , se aplicó de inicio en la faceta defensiva y se entregó en ataque a la pujanza de Willy y a la iluminación de Ricky . Pero todo duró un santiamén . Líder plenipotenciario sobre la pista durante todos los amistosos de la preparación mundialista , Ricky se ha convertido a un tiempo en metrónomo y artificiero del equipo y , en su partido 140 como internacional , tenía los minutos limitados por Scariolo : no más de 15 anunció el seleccionador en la previa . Así las cosas , y sin participación de su jugador franquicia en la segunda mitad , España navegó de la inconstancia al borrón , sin más penalización que las tribulaciones , de momento . Se fue imponiendo Rusia gracias a su dominio en el rebote y a la intendencia de Fridzon , Zubkov , Ivlev y Antonov . Y , como sucediera en el duelo ante Argentina , con el paso de los minutos , la espesura se adueñó del partido . Entre la prudencia y las probaturas , el ritmo anotador se fue resintiendo , sobre todo el español . En los ocho primeros minutos del segundo cuarto , los de Scariolo solo fueron capaces de sumar cuatro puntos desde el tiro libre . Aprovechó Rusia para armar un modesto estirón consolidado por una antideportiva a Ricky que permitió a los de Bazarevich alcanzar su máxima ventaja ( 25-32 , m. 18 ) . Justo ahí llegó el susto de la jornada , Ricky se lanzó a por un rebote y se lastimó , aparentemente sin consecuencias , el codo derecho . Una canasta de Willy , con fallo en el adicional , fue el único acierto en tiros de campo para España en su desastroso parcial ( 6-12 ) . Se mantuvo la inercia en la reanudación y Rusia alcanzó pronto el +10 en el marcador ( 27-37 , m. 22 ) . Ante el gesto serio y fiscalizador de Scariolo , Willy apretó los dientes y se multiplicó en defensa y en ataque para reenganchar a la selección española a la pelea . Nueve puntos del pívot de los Hornets en los cinco primeros minutos del cuarto capearon momentáneamente el temporal , pero fue tan solo un espejismo . Un robo de Motovilov a Llull estiró aún más la diferencia ( 36-47 , m. 27 ) . Fue el comienzo de la tormenta . El acierto de Rusia desde el perímetro y la falta de firmeza , acierto y concentración de España ( 16 pérdidas , 12 robos del rival , y un 1 de 13 en triples ) descosieron definitivamente el encuentro ( 40-59 , m. 30 ) . Con todo resuelto , Colom , Rabaseda , Beirán , Juancho y Oriola fue el quinteto asimétrico encargado de gestionar los minutos de la honrilla . Dos triples de Juancho rebajaron la proporción de la tunda ( 48-61 ) y Beirán tuvo el lanzamiento del rearme moral , pero se estrelló en el aro ruso . A golpe de orgullo , la diferencia bajó hasta los 8 ( 53-61 , m. 37 ) . Pero Bazarevich repasó la cartilla a los suyos para sacarles del embelesamiento , restablecer la distancia y barnizar de incertidumbre el último ensayo de España antes del estreno mundialista . Puedes seguir Deportes de EL PAÍS en Facebook , Twitter o suscribirte aquí a la Newsletter."
+    },
+    "extraction_info": {
+      "model_evaluated": "reka",
+      "summary_to_evaluate": "Qué: España perdió su segundo partido de preparación para el Mundial de Baloncesto contra Rusia con un marcador de 55-74.\n\nQuién: El equipo español, dirigido por Sergio Scariolo, jugó sin Marc Gasol y sufrió las bajas de Rudy Fernández por precaución. Ricky Rubio lideró al equipo con 15 puntos en los últimos cuatro minutos del último encuentro previo al Mundial.\n\nCuándo: La derrota ocurrió 24 horas después del partido contra Argentina y tres días antes del inicio del Mundial.\n\nDónde: El partido se llevó a cabo en España, aunque no se especifica la ciudad exacta.\n\nPor qué: España mostró un bajo rendimiento en porcentajes de tiro (15 de 37 de dos, 3 de 18 en triples y 16 de 19 en tiros libres), cometió 18 pérdidas y permitió 12 robos a Rusia. La falta de varios jugadores clave también afectó el desempeño del equipo.\n\nCómo: Rusia se impuso gracias a su dominio en el rebote y la efectividad de jugadores como Fridzon, Zubkov, Ivlev y Antonov. A pesar de un esfuerzo de Willy Hernangómez con 26 puntos y 11 rebotes, España no logró remontar la diferencia."
+    },
+    "judgments_to_review": {
+      "factual_accuracy": {
+        "ai_score": 4,
+        "ai_justification": "La mayoría de los datos clave (marcador, porcentajes, pérdidas, robos, actuaciones de Willy y Ricky, temporización respecto a Argentina y al Mundial) coinciden con la fuente; sin embargo hay una inferencia sobre el lugar (se afirma que se jugó en España) y una ambigüedad en la atribución de las bajas por precaución entre Rudy y Marc.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "completeness": {
+        "ai_score": 4,
+        "ai_justification": "Incluye las respuestas 5W1H principales (qué, quién, cuándo, dónde, por qué, cómo) y las estadísticas relevantes, pero omite detalles secundarios presentes en la fuente como cambios en el quinteto (Llull, Rabaseda), la limitación de minutos a Ricky y citas textuales del seleccionador.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "relevance_and_conciseness": {
+        "ai_score": 4,
+        "ai_justification": "Cada componente responde a su pregunta sin información excesiva; no obstante el apartado 'Quién' mezcla rol del entrenador, ausencias y rendimiento individual que podrían haberse separado para mayor atomicidad.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "clarity_and_readability": {
+        "ai_score": 5,
+        "ai_justification": "El texto es gramaticalmente correcto, claro y entendible por sí mismo, con frases concisas que comunican los hechos principales.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "source_faithfulness": {
+        "ai_score": 3,
+        "ai_justification": "En su mayor parte fiel a la fuente, pero añade una afirmación no explícita en el texto original (ubicación en España) y no refleja con precisión que ambas bajas —Rudy y Marc— se mencionan por precaución en la fuente.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "overall_coherence": {
+        "ai_score": 5,
+        "ai_justification": "Las partes forman un relato coherente y consistente del partido y sus causas, permitiendo entender qué pasó, por qué y cómo afectó al equipo antes del Mundial.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      }
+    }
+  },
+  {
+    "review_id": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html_llama3",
+    "document_info": {
+      "doc_id": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "full_source_text": "El jet lag ante Argentina , que quedó maquillado por el arrebato febril de Ricky ( 15 puntos en los últimos cuatro minutos ) , se consolidó 24 horas después ante Rusia . A tres días del comienzo del Mundial , de nuevo sin Marc Gasol en la rotación , el conjunto de Scariolo firmó su segunda derrota de la preparación y , por números y sensaciones , abrazó las dudas justo antes del estreno oficial . En el marcador , un contundente 55-74 ; en la estadística , unos pobres porcentajes de tiro ( 15 de 37 de dos , 3 de 18 en triples y 16 de 19 en tiros libres ) , 18 pérdidas , 12 robos del rival… Los 26 puntos y 11 rebotes de Willy Hernangómez fueron lo único lustroso de una prueba para olvidar , o para tentarse la ropa . “ Esperemos que esta no sea la referencia . Nos faltan muchos jugadores y la cabeza estará también en una dimensión diferente el sábado . La competición es otra cosa . Hemos jugado mal hay que olvidarlo pronto ” , analizó el seleccionador . Con las bajas de Rudy y Marc ( ambas por precaución ) , Scariolo reclutó a Llull en el quinteto inicial junto a Ricky , probó a Rabaseda apretando las tuercas en el puesto de tres y juntó a Claver con Willy Hernangómez en la pintura . Intentó ajustar automatismos la selección española , se aplicó de inicio en la faceta defensiva y se entregó en ataque a la pujanza de Willy y a la iluminación de Ricky . Pero todo duró un santiamén . Líder plenipotenciario sobre la pista durante todos los amistosos de la preparación mundialista , Ricky se ha convertido a un tiempo en metrónomo y artificiero del equipo y , en su partido 140 como internacional , tenía los minutos limitados por Scariolo : no más de 15 anunció el seleccionador en la previa . Así las cosas , y sin participación de su jugador franquicia en la segunda mitad , España navegó de la inconstancia al borrón , sin más penalización que las tribulaciones , de momento . Se fue imponiendo Rusia gracias a su dominio en el rebote y a la intendencia de Fridzon , Zubkov , Ivlev y Antonov . Y , como sucediera en el duelo ante Argentina , con el paso de los minutos , la espesura se adueñó del partido . Entre la prudencia y las probaturas , el ritmo anotador se fue resintiendo , sobre todo el español . En los ocho primeros minutos del segundo cuarto , los de Scariolo solo fueron capaces de sumar cuatro puntos desde el tiro libre . Aprovechó Rusia para armar un modesto estirón consolidado por una antideportiva a Ricky que permitió a los de Bazarevich alcanzar su máxima ventaja ( 25-32 , m. 18 ) . Justo ahí llegó el susto de la jornada , Ricky se lanzó a por un rebote y se lastimó , aparentemente sin consecuencias , el codo derecho . Una canasta de Willy , con fallo en el adicional , fue el único acierto en tiros de campo para España en su desastroso parcial ( 6-12 ) . Se mantuvo la inercia en la reanudación y Rusia alcanzó pronto el +10 en el marcador ( 27-37 , m. 22 ) . Ante el gesto serio y fiscalizador de Scariolo , Willy apretó los dientes y se multiplicó en defensa y en ataque para reenganchar a la selección española a la pelea . Nueve puntos del pívot de los Hornets en los cinco primeros minutos del cuarto capearon momentáneamente el temporal , pero fue tan solo un espejismo . Un robo de Motovilov a Llull estiró aún más la diferencia ( 36-47 , m. 27 ) . Fue el comienzo de la tormenta . El acierto de Rusia desde el perímetro y la falta de firmeza , acierto y concentración de España ( 16 pérdidas , 12 robos del rival , y un 1 de 13 en triples ) descosieron definitivamente el encuentro ( 40-59 , m. 30 ) . Con todo resuelto , Colom , Rabaseda , Beirán , Juancho y Oriola fue el quinteto asimétrico encargado de gestionar los minutos de la honrilla . Dos triples de Juancho rebajaron la proporción de la tunda ( 48-61 ) y Beirán tuvo el lanzamiento del rearme moral , pero se estrelló en el aro ruso . A golpe de orgullo , la diferencia bajó hasta los 8 ( 53-61 , m. 37 ) . Pero Bazarevich repasó la cartilla a los suyos para sacarles del embelesamiento , restablecer la distancia y barnizar de incertidumbre el último ensayo de España antes del estreno mundialista . Puedes seguir Deportes de EL PAÍS en Facebook , Twitter o suscribirte aquí a la Newsletter."
+    },
+    "extraction_info": {
+      "model_evaluated": "llama3",
+      "summary_to_evaluate": "Aquí te presento el resumen del texto utilizando el método de las 5W1H (qué, quién, cuándo, dónde, por qué, cómo):\n\nQué: La selección española de baloncesto perdió ante Rusia en un partido de preparación para el Mundial, con un marcador de 55-74.\n\nQuién: La selección española, liderada por el entrenador Sergio Scariolo, y la selección rusa, liderada por el entrenador Sergei Bazarevich.\n\nCuándo: El partido se jugó tres días antes del comienzo del Mundial.\n\nDónde: No se especifica el lugar exacto del partido, pero se menciona que es un partido de preparación para el Mundial.\n\nPor qué: La selección española jugó mal y cometió muchos errores, lo que permitió a Rusia dominar el partido.\n\nCómo: La selección española jugó con una rotación reducida debido a las bajas de Rudy y Marc Gasol, y no pudo encontrar su ritmo anotador. Rusia, por su parte, dominó el rebote y contó con la intendencia de jugadores como Fridzon, Zubkov, Ivlev y Antonov. La selección española intentó reengancharse al partido gracias a los esfuerzos de Willy Hernangómez, pero no pudo evitar la derrota."
+    },
+    "judgments_to_review": {
+      "factual_accuracy": {
+        "ai_score": 5,
+        "ai_justification": "La extracción refleja correctamente los hechos clave del texto original (resultado 55-74, entrenadores, fecha relativa, bajas de Rudy y Marc, dominio de Rusia y esfuerzo de Willy).",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "completeness": {
+        "ai_score": 4,
+        "ai_justification": "Cubre las 5W1H principales pero omite detalles estadísticos relevantes del texto (porcentajes de tiro, número exacto de pérdidas/robos y los 26+11 de Willy), que serían información esencial.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "relevance_and_conciseness": {
+        "ai_score": 5,
+        "ai_justification": "Cada elemento responde a su pregunta 5W1H sin mezclar temas ni añadir información ajena; es conciso y enfocado.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "clarity_and_readability": {
+        "ai_score": 5,
+        "ai_justification": "El texto es gramaticalmente correcto y comprensible por sí mismo, con formulaciones claras y coherentes.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "source_faithfulness": {
+        "ai_score": 5,
+        "ai_justification": "Las afirmaciones se basan en el texto fuente sin introducir inferencias o datos no presentes en la referencia.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "overall_coherence": {
+        "ai_score": 5,
+        "ai_justification": "Las seis partes forman un relato lógico y consistente del partido y su contexto preparatorio antes del Mundial.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      }
+    }
+  },
+  {
+    "review_id": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html_claude",
+    "document_info": {
+      "doc_id": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "full_source_text": "Para poderos contar nuestra pequeña historia tenemos que remontarnos a marzo de 2018 , en una de las salas de un colegio mayor adscrito a la Complutense ( Madrid ) , en el que vivimos desde hace algunos años , donde nos presentaban una casi nueva ONG llamada Acción Geoda que trabaja en una de las zonas más olvidadas de Marruecos , por no decir del mundo , el Valle del Tessaout . Se trata de un conjunto de unas 80 aldeas a las que el Gobierno ha restado importancia , y ha dejado prácticamente incomunicadas . El agua potable llegó hace apenas diez años a alguna de ellas de la mano de esta ONG con la que colaboramos . La luz , hace cinco . No obstante , aún hoy , lamentablemente , existe un número considerable de familias que no tienen acceso a estos dos servicios primarios . Esta es la realidad : la pobreza se manifiesta omnipresente a cada paso y las necesidades básicas de los habitantes de la zona están muy lejos de estar cubiertas , tanto a nivel sanitario , como social y educativo . Es aquí donde aparecemos cinco universitarias de entre 18 y 22 años , compañeras de colegio mayor , que inician el que será el proyecto más grande en el que nos hemos embarcado : la construcción y el mantenimiento de una escuela infantil y el empoderamiento de la mujer como objetivo en una de estas pequeñas aldeas , Tasslent . Y nos consideramos unas privilegiadas por la visita que pudimos hacer en marzo de este año . Lo primero que necesitábamos para poder contribuir de cierta manera y estructurar el proyecto era financiación , por lo que , usando nuestra creatividad y la ayuda de todos los miembros del colegio mayor , en especial de unos 20 compañeros , llevamos a cabo la que sería la Primera Jornada Solidaria del Valle de Tessaout , en la que organizamos y dirigimos diferentes actividades tanto deportivas como lúdicas . La recaudación fue todo un éxito gracias a la cooperación y la participación de jóvenes universitarios que en muchos casos no habían adquirido un compromiso de esta índole hasta el momento . No olvidaremos algunos momentos cómplices que vivimos las dos , como cuando nos encontrábamos en el único mercado de la zona y mediante el lenguaje que todos los niños entienden , el del juego , bailamos y cantamos juntos De la misma manera , y contando con que en un principio éramos solo cinco chicas , quisimos plasmar uno de los conflictos culturales más relevantes del siglo XXI , la discriminación de la mujer . Para ello creamos la Primera Semana de la Mujer de nuestro colegio mayor en la cual se vendieron diferentes artículos diseñados por colegiales reivindicando la igualdad de género . Así , fue como a lo largo de este año , fuimos generando entre nuestros compañeros el mismo entusiasmo y ganas que nosotras tenemos por fomentar la educación en esta zona de Marruecos , por lo que el resto de las actividades tuvieron una gran acogida y conseguimos alcanzar los objetivos económicos que nos habíamos planteado en septiembre de 2018 . Quisimos ver con nuestros propios ojos la realidad de la que tanto hablábamos a los demás , pero que no era más que aquella que nos habían transmitido a nosotras meses antes , dándole fuerza y consistencia a todo el propósito , y atrayendo a jóvenes para que se unieran y participasen junto a nosotras en nuestra aventura a Marruecos . Así el 9 de marzo de este mismo año iniciamos el viaje . No pudo ser muy largo , solo cinco días , pero los suficientes para palpar de primera mano las necesidades del valle , conocer su cultura y a sus gentes . Tuvimos la oportunidad única de compartir sus preocupaciones , que esperamos menguar de cierta manera o al menos ofrecerles nuestra pequeña ayuda para que sean capaces de llevar a cabo en la medida de lo posible todo aquello que nos describían . No olvidaremos algunos momentos cómplices que vivimos las dos , como cuando nos encontrábamos en el único mercado de la zona ( donde cabe destacar que las mujeres y las niñas tienen prohibido el acceso ) y mediante el lenguaje que todos los niños entienden , el del juego , creamos una atmósfera en la que bailamos y cantamos juntos . Lo curioso de esta anécdota es que una niña que pasaba caminando de la mano de su padre , al vernos a nosotras , se soltó de su mano y se unió , un reflejo crudo de realidad . Cuatro meses después seguimos con las mismas ganas , ahora ya no somos cinco chicas , se ha convertido en un proyecto en el que participa casi la totalidad del colegio mayor y , sobre todo , que cuenta con el apoyo incondicional de los 20 que fuimos a Tessaout . Al llegar a Marruecos nos advirtieron del que llaman el virus del valle , ahora sabemos que estamos contagiados , preparando las actividades para recaudar todo lo que podamos y aportar nuestro granito de arena para mejorar o , sería más exacto decir , iniciar la educación infantil y la alfabetización de la mujer en esa pequeña aldea olvidada del Norte de África . El final de esta aventura , esperamos , está aún muy lejano . Confiamos en pasarles el testigo a los nuevos cursos que van entrando en el colegio cada año , para mantenerla e incrementarla . La clave del éxito es el compromiso , y comprender , que toda ayuda es bien recibida , que día a día y con mucho esfuerzo se pueden alcanzar objetivos muy grandes . Por eso , animamos a todo el que nos lea a interesarse por esta zona del mundo , tan cercana y lejana de nosotros a la vez . Puedes seguir a PLANETA FUTURO en Twitter y Facebook e Instagram , y suscribirte aquí a nuestra newsletter."
+    },
+    "extraction_info": {
+      "model_evaluated": "claude",
+      "summary_to_evaluate": "Aquí está el resumen del texto utilizando el método 5W1H:\nQué: Un proyecto de ayuda humanitaria para construir y mantener una escuela infantil y empoderar a las mujeres en Tasslent, una aldea en el Valle del Tessaout, Marruecos.\nQuién: Cinco universitarias españolas de entre 18 y 22 años, que luego expandieron el proyecto para incluir a más estudiantes de su colegio mayor.\nCuándo: El proyecto comenzó en marzo de 2018 y continúa en desarrollo.\nDónde: En el Valle del Tessaout, Marruecos, específicamente en la aldea de Tasslent.\nPor qué: Para mejorar las condiciones de vida en una de las zonas más olvidadas de Marruecos, donde las necesidades básicas como agua potable, electricidad, educación y sanidad no están cubiertas.\nCómo: A través de actividades de recaudación de fondos en su colegio mayor, como jornadas solidarias y una semana dedicada a la mujer. También realizaron un viaje a la zona para conocer de primera mano la realidad local y establecer conexiones con la comunidad."
+    },
+    "judgments_to_review": {
+      "factual_accuracy": {
+        "ai_score": 5,
+        "ai_justification": "La extracción refleja correctamente los hechos clave (proyecto, lugar, objetivo, acciones y participantes) tal como aparecen en la fuente.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "completeness": {
+        "ai_score": 4,
+        "ai_justification": "Cubre las respuestas 5W1H principales pero omite detalles secundarios presentes en la fuente (fecha exacta del viaje, mención de los 20 compañeros, años de llegada del agua/luz y otros matices).",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "relevance_and_conciseness": {
+        "ai_score": 5,
+        "ai_justification": "Cada elemento responde a su pregunta específica sin mezclar información ni añadir contenido innecesario.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "clarity_and_readability": {
+        "ai_score": 5,
+        "ai_justification": "El texto es gramaticalmente correcto, claro y fácil de entender por sí mismo.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "source_faithfulness": {
+        "ai_score": 4,
+        "ai_justification": "Mayormente fiel a la fuente, aunque incorpora una leve inferencia (p. ej. referirse explícitamente a las estudiantes como 'españolas') que no se afirma textualmente.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "overall_coherence": {
+        "ai_score": 5,
+        "ai_justification": "Los seis elementos forman un relato consistente y lógico del proyecto y su evolución.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      }
+    }
+  },
+  {
+    "review_id": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html_commandr",
+    "document_info": {
+      "doc_id": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "full_source_text": "Para poderos contar nuestra pequeña historia tenemos que remontarnos a marzo de 2018 , en una de las salas de un colegio mayor adscrito a la Complutense ( Madrid ) , en el que vivimos desde hace algunos años , donde nos presentaban una casi nueva ONG llamada Acción Geoda que trabaja en una de las zonas más olvidadas de Marruecos , por no decir del mundo , el Valle del Tessaout . Se trata de un conjunto de unas 80 aldeas a las que el Gobierno ha restado importancia , y ha dejado prácticamente incomunicadas . El agua potable llegó hace apenas diez años a alguna de ellas de la mano de esta ONG con la que colaboramos . La luz , hace cinco . No obstante , aún hoy , lamentablemente , existe un número considerable de familias que no tienen acceso a estos dos servicios primarios . Esta es la realidad : la pobreza se manifiesta omnipresente a cada paso y las necesidades básicas de los habitantes de la zona están muy lejos de estar cubiertas , tanto a nivel sanitario , como social y educativo . Es aquí donde aparecemos cinco universitarias de entre 18 y 22 años , compañeras de colegio mayor , que inician el que será el proyecto más grande en el que nos hemos embarcado : la construcción y el mantenimiento de una escuela infantil y el empoderamiento de la mujer como objetivo en una de estas pequeñas aldeas , Tasslent . Y nos consideramos unas privilegiadas por la visita que pudimos hacer en marzo de este año . Lo primero que necesitábamos para poder contribuir de cierta manera y estructurar el proyecto era financiación , por lo que , usando nuestra creatividad y la ayuda de todos los miembros del colegio mayor , en especial de unos 20 compañeros , llevamos a cabo la que sería la Primera Jornada Solidaria del Valle de Tessaout , en la que organizamos y dirigimos diferentes actividades tanto deportivas como lúdicas . La recaudación fue todo un éxito gracias a la cooperación y la participación de jóvenes universitarios que en muchos casos no habían adquirido un compromiso de esta índole hasta el momento . No olvidaremos algunos momentos cómplices que vivimos las dos , como cuando nos encontrábamos en el único mercado de la zona y mediante el lenguaje que todos los niños entienden , el del juego , bailamos y cantamos juntos De la misma manera , y contando con que en un principio éramos solo cinco chicas , quisimos plasmar uno de los conflictos culturales más relevantes del siglo XXI , la discriminación de la mujer . Para ello creamos la Primera Semana de la Mujer de nuestro colegio mayor en la cual se vendieron diferentes artículos diseñados por colegiales reivindicando la igualdad de género . Así , fue como a lo largo de este año , fuimos generando entre nuestros compañeros el mismo entusiasmo y ganas que nosotras tenemos por fomentar la educación en esta zona de Marruecos , por lo que el resto de las actividades tuvieron una gran acogida y conseguimos alcanzar los objetivos económicos que nos habíamos planteado en septiembre de 2018 . Quisimos ver con nuestros propios ojos la realidad de la que tanto hablábamos a los demás , pero que no era más que aquella que nos habían transmitido a nosotras meses antes , dándole fuerza y consistencia a todo el propósito , y atrayendo a jóvenes para que se unieran y participasen junto a nosotras en nuestra aventura a Marruecos . Así el 9 de marzo de este mismo año iniciamos el viaje . No pudo ser muy largo , solo cinco días , pero los suficientes para palpar de primera mano las necesidades del valle , conocer su cultura y a sus gentes . Tuvimos la oportunidad única de compartir sus preocupaciones , que esperamos menguar de cierta manera o al menos ofrecerles nuestra pequeña ayuda para que sean capaces de llevar a cabo en la medida de lo posible todo aquello que nos describían . No olvidaremos algunos momentos cómplices que vivimos las dos , como cuando nos encontrábamos en el único mercado de la zona ( donde cabe destacar que las mujeres y las niñas tienen prohibido el acceso ) y mediante el lenguaje que todos los niños entienden , el del juego , creamos una atmósfera en la que bailamos y cantamos juntos . Lo curioso de esta anécdota es que una niña que pasaba caminando de la mano de su padre , al vernos a nosotras , se soltó de su mano y se unió , un reflejo crudo de realidad . Cuatro meses después seguimos con las mismas ganas , ahora ya no somos cinco chicas , se ha convertido en un proyecto en el que participa casi la totalidad del colegio mayor y , sobre todo , que cuenta con el apoyo incondicional de los 20 que fuimos a Tessaout . Al llegar a Marruecos nos advirtieron del que llaman el virus del valle , ahora sabemos que estamos contagiados , preparando las actividades para recaudar todo lo que podamos y aportar nuestro granito de arena para mejorar o , sería más exacto decir , iniciar la educación infantil y la alfabetización de la mujer en esa pequeña aldea olvidada del Norte de África . El final de esta aventura , esperamos , está aún muy lejano . Confiamos en pasarles el testigo a los nuevos cursos que van entrando en el colegio cada año , para mantenerla e incrementarla . La clave del éxito es el compromiso , y comprender , que toda ayuda es bien recibida , que día a día y con mucho esfuerzo se pueden alcanzar objetivos muy grandes . Por eso , animamos a todo el que nos lea a interesarse por esta zona del mundo , tan cercana y lejana de nosotros a la vez . Puedes seguir a PLANETA FUTURO en Twitter y Facebook e Instagram , y suscribirte aquí a nuestra newsletter."
+    },
+    "extraction_info": {
+      "model_evaluated": "commandr",
+      "summary_to_evaluate": "Aquí está el resumen del texto utilizando el método de las 5W1H:\n\n\nQué: Cinco universitarias inician un proyecto para construir y mantener una escuela infantil y empoderar a las mujeres en una aldea olvidada de Marruecos, Tasslent, en el Valle del Tessaout.\n\n\nQuién: Cinco universitarias de entre 18 y 22 años, compañeras de colegio mayor en Madrid, España.\n\n\nCuándo: La historia comienza en marzo de 2018, con la presentación de la ONG Acción Geoda, y continúa hasta el presente, con las actividades de recaudación de fondos y el viaje a Marruecos en marzo del mismo año.\n\n\nDónde: La historia tiene lugar en Madrid, España, y en la aldea de Tasslent en el Valle del Tessaout, Marruecos.\n\n\nPor qué: Las universitarias se sienten motivadas a contribuir a la educación y el empoderamiento de las mujeres en una zona olvidada de Marruecos, donde la pobreza y la falta de acceso a servicios básicos son prevalentes.\n\n\nCómo: A través de la creatividad y la colaboración, las jóvenes organizan actividades deportivas y lúdicas, así como una semana dedicada a la mujer, para recaudar fondos. También viajan a Marruecos para conocer de primera mano las necesidades de la comunidad y ofrecer su ayuda.\n\n\nEl resumen destaca los aspectos más importantes de la historia, incluyendo el papel de las universitarias, sus motivaciones, las actividades de recaudación de fondos, el viaje a Marruecos y su compromiso continuo con el proyecto."
+    },
+    "judgments_to_review": {
+      "factual_accuracy": {
+        "ai_score": 5,
+        "ai_justification": "La extracción refleja correctamente los hechos claves (quién, qué, dónde, cuándo, cómo) tal como aparecen en la fuente; no contiene errores verificables.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "completeness": {
+        "ai_score": 3,
+        "ai_justification": "Faltan datos relevantes presentes en la fuente: número de colaboradores (~20), detalles de la Jornada Solidaria, consecución de objetivos económicos en septiembre de 2018, duración del viaje (5 días) y contexto sobre agua/luz en la zona.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "relevance_and_conciseness": {
+        "ai_score": 4,
+        "ai_justification": "Cada elemento responde a su pregunta 5W1H sin mezclar información mayormente, aunque la frase final del resumen añade un comentario meta y hay leves omisiones que podrían haberse incluido concisamente.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "clarity_and_readability": {
+        "ai_score": 5,
+        "ai_justification": "Texto bien redactado y gramaticalmente correcto; cada sección es comprensible y autónoma.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "source_faithfulness": {
+        "ai_score": 5,
+        "ai_justification": "La extracción se basa en la fuente sin introducir inferencias o alucinaciones; mantiene fidelidad al contenido original.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "overall_coherence": {
+        "ai_score": 4,
+        "ai_justification": "Las partes juntas conforman un relato cronológico y coherente del proyecto, pero la omisión de ciertos detalles reduce la exhaustividad del conjunto.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      }
+    }
+  },
+  {
+    "review_id": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html_gpt4o",
+    "document_info": {
+      "doc_id": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "full_source_text": "Para poderos contar nuestra pequeña historia tenemos que remontarnos a marzo de 2018 , en una de las salas de un colegio mayor adscrito a la Complutense ( Madrid ) , en el que vivimos desde hace algunos años , donde nos presentaban una casi nueva ONG llamada Acción Geoda que trabaja en una de las zonas más olvidadas de Marruecos , por no decir del mundo , el Valle del Tessaout . Se trata de un conjunto de unas 80 aldeas a las que el Gobierno ha restado importancia , y ha dejado prácticamente incomunicadas . El agua potable llegó hace apenas diez años a alguna de ellas de la mano de esta ONG con la que colaboramos . La luz , hace cinco . No obstante , aún hoy , lamentablemente , existe un número considerable de familias que no tienen acceso a estos dos servicios primarios . Esta es la realidad : la pobreza se manifiesta omnipresente a cada paso y las necesidades básicas de los habitantes de la zona están muy lejos de estar cubiertas , tanto a nivel sanitario , como social y educativo . Es aquí donde aparecemos cinco universitarias de entre 18 y 22 años , compañeras de colegio mayor , que inician el que será el proyecto más grande en el que nos hemos embarcado : la construcción y el mantenimiento de una escuela infantil y el empoderamiento de la mujer como objetivo en una de estas pequeñas aldeas , Tasslent . Y nos consideramos unas privilegiadas por la visita que pudimos hacer en marzo de este año . Lo primero que necesitábamos para poder contribuir de cierta manera y estructurar el proyecto era financiación , por lo que , usando nuestra creatividad y la ayuda de todos los miembros del colegio mayor , en especial de unos 20 compañeros , llevamos a cabo la que sería la Primera Jornada Solidaria del Valle de Tessaout , en la que organizamos y dirigimos diferentes actividades tanto deportivas como lúdicas . La recaudación fue todo un éxito gracias a la cooperación y la participación de jóvenes universitarios que en muchos casos no habían adquirido un compromiso de esta índole hasta el momento . No olvidaremos algunos momentos cómplices que vivimos las dos , como cuando nos encontrábamos en el único mercado de la zona y mediante el lenguaje que todos los niños entienden , el del juego , bailamos y cantamos juntos De la misma manera , y contando con que en un principio éramos solo cinco chicas , quisimos plasmar uno de los conflictos culturales más relevantes del siglo XXI , la discriminación de la mujer . Para ello creamos la Primera Semana de la Mujer de nuestro colegio mayor en la cual se vendieron diferentes artículos diseñados por colegiales reivindicando la igualdad de género . Así , fue como a lo largo de este año , fuimos generando entre nuestros compañeros el mismo entusiasmo y ganas que nosotras tenemos por fomentar la educación en esta zona de Marruecos , por lo que el resto de las actividades tuvieron una gran acogida y conseguimos alcanzar los objetivos económicos que nos habíamos planteado en septiembre de 2018 . Quisimos ver con nuestros propios ojos la realidad de la que tanto hablábamos a los demás , pero que no era más que aquella que nos habían transmitido a nosotras meses antes , dándole fuerza y consistencia a todo el propósito , y atrayendo a jóvenes para que se unieran y participasen junto a nosotras en nuestra aventura a Marruecos . Así el 9 de marzo de este mismo año iniciamos el viaje . No pudo ser muy largo , solo cinco días , pero los suficientes para palpar de primera mano las necesidades del valle , conocer su cultura y a sus gentes . Tuvimos la oportunidad única de compartir sus preocupaciones , que esperamos menguar de cierta manera o al menos ofrecerles nuestra pequeña ayuda para que sean capaces de llevar a cabo en la medida de lo posible todo aquello que nos describían . No olvidaremos algunos momentos cómplices que vivimos las dos , como cuando nos encontrábamos en el único mercado de la zona ( donde cabe destacar que las mujeres y las niñas tienen prohibido el acceso ) y mediante el lenguaje que todos los niños entienden , el del juego , creamos una atmósfera en la que bailamos y cantamos juntos . Lo curioso de esta anécdota es que una niña que pasaba caminando de la mano de su padre , al vernos a nosotras , se soltó de su mano y se unió , un reflejo crudo de realidad . Cuatro meses después seguimos con las mismas ganas , ahora ya no somos cinco chicas , se ha convertido en un proyecto en el que participa casi la totalidad del colegio mayor y , sobre todo , que cuenta con el apoyo incondicional de los 20 que fuimos a Tessaout . Al llegar a Marruecos nos advirtieron del que llaman el virus del valle , ahora sabemos que estamos contagiados , preparando las actividades para recaudar todo lo que podamos y aportar nuestro granito de arena para mejorar o , sería más exacto decir , iniciar la educación infantil y la alfabetización de la mujer en esa pequeña aldea olvidada del Norte de África . El final de esta aventura , esperamos , está aún muy lejano . Confiamos en pasarles el testigo a los nuevos cursos que van entrando en el colegio cada año , para mantenerla e incrementarla . La clave del éxito es el compromiso , y comprender , que toda ayuda es bien recibida , que día a día y con mucho esfuerzo se pueden alcanzar objetivos muy grandes . Por eso , animamos a todo el que nos lea a interesarse por esta zona del mundo , tan cercana y lejana de nosotros a la vez . Puedes seguir a PLANETA FUTURO en Twitter y Facebook e Instagram , y suscribirte aquí a nuestra newsletter."
+    },
+    "extraction_info": {
+      "model_evaluated": "gpt4o",
+      "summary_to_evaluate": "Qué:\nProyecto para la construcción y mantenimiento de una escuela infantil y el empoderamiento de la mujer en el Valle del Tessaout, Marruecos.\n\nQuién:\nCinco universitarias de entre 18 y 22 años, compañeras de colegio mayor adscrito a la Complutense (Madrid).\n\nCuándo:\nEl proyecto comenzó en marzo de 2018, y el primer viaje al valle fue el 9 de marzo del mismo año.\n\nDónde:\nValle del Tessaout, Marruecos, específicamente en la aldea de Tasslent.\n\nPor qué:\nPara ayudar a cubrir las necesidades básicas de los habitantes del valle, mejorar la educación infantil y promover la igualdad de género.\n\nCómo:\nOrganizando la Primera Jornada Solidaria del Valle de Tessaout para recaudar fondos, involucrando a otros colegiales en actividades deportivas y lúdicas, y creando la Primera Semana de la Mujer para sensibilizar sobre la igualdad de género. Visitaron el valle para conocer la situación y fomentar la participación de otros jóvenes en el proyecto.\n\nContexto adicional:\nLas estudiantes se consideran privilegiadas por la oportunidad de ayudar y buscan continuar el proyecto a largo plazo, con la esperanza de pasarlo a futuras generaciones de estudiantes del colegio mayor."
+    },
+    "judgments_to_review": {
+      "factual_accuracy": {
+        "ai_score": 5,
+        "ai_justification": "La extracción refleja correctamente los hechos clave (objetivo, participantes, fechas, lugar y acciones) tal como aparecen en la fuente.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "completeness": {
+        "ai_score": 4,
+        "ai_justification": "Cubre los elementos 5W1H principales pero omite detalles presentes en la fuente (mención de la ONG Acción Geoda, la duración del viaje de cinco días, el conjunto de ~80 aldeas, y la expansión/éxito económico alcanzado en sept. 2018).",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "relevance_and_conciseness": {
+        "ai_score": 5,
+        "ai_justification": "Cada componente responde a su pregunta 5W1H sin mezclar temas ni añadir información superflua; es concisa y enfocada.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "clarity_and_readability": {
+        "ai_score": 5,
+        "ai_justification": "El texto es gramaticalmente correcto y se entiende por sí mismo sin ambigüedades.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "source_faithfulness": {
+        "ai_score": 5,
+        "ai_justification": "La extracción se basa en la información del documento y no introduce interpretaciones ni alucinaciones evidentes.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "overall_coherence": {
+        "ai_score": 5,
+        "ai_justification": "Las partes 5W1H forman un relato lógico y conectado del proyecto (origen, acciones, objetivos y continuidad), pese a la ausencia de algunos detalles menores.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      }
+    }
+  },
+  {
+    "review_id": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html_reka",
+    "document_info": {
+      "doc_id": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "full_source_text": "Para poderos contar nuestra pequeña historia tenemos que remontarnos a marzo de 2018 , en una de las salas de un colegio mayor adscrito a la Complutense ( Madrid ) , en el que vivimos desde hace algunos años , donde nos presentaban una casi nueva ONG llamada Acción Geoda que trabaja en una de las zonas más olvidadas de Marruecos , por no decir del mundo , el Valle del Tessaout . Se trata de un conjunto de unas 80 aldeas a las que el Gobierno ha restado importancia , y ha dejado prácticamente incomunicadas . El agua potable llegó hace apenas diez años a alguna de ellas de la mano de esta ONG con la que colaboramos . La luz , hace cinco . No obstante , aún hoy , lamentablemente , existe un número considerable de familias que no tienen acceso a estos dos servicios primarios . Esta es la realidad : la pobreza se manifiesta omnipresente a cada paso y las necesidades básicas de los habitantes de la zona están muy lejos de estar cubiertas , tanto a nivel sanitario , como social y educativo . Es aquí donde aparecemos cinco universitarias de entre 18 y 22 años , compañeras de colegio mayor , que inician el que será el proyecto más grande en el que nos hemos embarcado : la construcción y el mantenimiento de una escuela infantil y el empoderamiento de la mujer como objetivo en una de estas pequeñas aldeas , Tasslent . Y nos consideramos unas privilegiadas por la visita que pudimos hacer en marzo de este año . Lo primero que necesitábamos para poder contribuir de cierta manera y estructurar el proyecto era financiación , por lo que , usando nuestra creatividad y la ayuda de todos los miembros del colegio mayor , en especial de unos 20 compañeros , llevamos a cabo la que sería la Primera Jornada Solidaria del Valle de Tessaout , en la que organizamos y dirigimos diferentes actividades tanto deportivas como lúdicas . La recaudación fue todo un éxito gracias a la cooperación y la participación de jóvenes universitarios que en muchos casos no habían adquirido un compromiso de esta índole hasta el momento . No olvidaremos algunos momentos cómplices que vivimos las dos , como cuando nos encontrábamos en el único mercado de la zona y mediante el lenguaje que todos los niños entienden , el del juego , bailamos y cantamos juntos De la misma manera , y contando con que en un principio éramos solo cinco chicas , quisimos plasmar uno de los conflictos culturales más relevantes del siglo XXI , la discriminación de la mujer . Para ello creamos la Primera Semana de la Mujer de nuestro colegio mayor en la cual se vendieron diferentes artículos diseñados por colegiales reivindicando la igualdad de género . Así , fue como a lo largo de este año , fuimos generando entre nuestros compañeros el mismo entusiasmo y ganas que nosotras tenemos por fomentar la educación en esta zona de Marruecos , por lo que el resto de las actividades tuvieron una gran acogida y conseguimos alcanzar los objetivos económicos que nos habíamos planteado en septiembre de 2018 . Quisimos ver con nuestros propios ojos la realidad de la que tanto hablábamos a los demás , pero que no era más que aquella que nos habían transmitido a nosotras meses antes , dándole fuerza y consistencia a todo el propósito , y atrayendo a jóvenes para que se unieran y participasen junto a nosotras en nuestra aventura a Marruecos . Así el 9 de marzo de este mismo año iniciamos el viaje . No pudo ser muy largo , solo cinco días , pero los suficientes para palpar de primera mano las necesidades del valle , conocer su cultura y a sus gentes . Tuvimos la oportunidad única de compartir sus preocupaciones , que esperamos menguar de cierta manera o al menos ofrecerles nuestra pequeña ayuda para que sean capaces de llevar a cabo en la medida de lo posible todo aquello que nos describían . No olvidaremos algunos momentos cómplices que vivimos las dos , como cuando nos encontrábamos en el único mercado de la zona ( donde cabe destacar que las mujeres y las niñas tienen prohibido el acceso ) y mediante el lenguaje que todos los niños entienden , el del juego , creamos una atmósfera en la que bailamos y cantamos juntos . Lo curioso de esta anécdota es que una niña que pasaba caminando de la mano de su padre , al vernos a nosotras , se soltó de su mano y se unió , un reflejo crudo de realidad . Cuatro meses después seguimos con las mismas ganas , ahora ya no somos cinco chicas , se ha convertido en un proyecto en el que participa casi la totalidad del colegio mayor y , sobre todo , que cuenta con el apoyo incondicional de los 20 que fuimos a Tessaout . Al llegar a Marruecos nos advirtieron del que llaman el virus del valle , ahora sabemos que estamos contagiados , preparando las actividades para recaudar todo lo que podamos y aportar nuestro granito de arena para mejorar o , sería más exacto decir , iniciar la educación infantil y la alfabetización de la mujer en esa pequeña aldea olvidada del Norte de África . El final de esta aventura , esperamos , está aún muy lejano . Confiamos en pasarles el testigo a los nuevos cursos que van entrando en el colegio cada año , para mantenerla e incrementarla . La clave del éxito es el compromiso , y comprender , que toda ayuda es bien recibida , que día a día y con mucho esfuerzo se pueden alcanzar objetivos muy grandes . Por eso , animamos a todo el que nos lea a interesarse por esta zona del mundo , tan cercana y lejana de nosotros a la vez . Puedes seguir a PLANETA FUTURO en Twitter y Facebook e Instagram , y suscribirte aquí a nuestra newsletter."
+    },
+    "extraction_info": {
+      "model_evaluated": "reka",
+      "summary_to_evaluate": "¿Qué? La historia de cinco universitarias que fundaron una ONG llamada Acción Geoda para construir y mantener una escuela infantil y empoderar a las mujeres en una aldea olvidada en Marruecos, Tasslent.\n\n¿Quién? Cinco universitarias compañeras de colegio mayor en Madrid.\n\n¿Cuándo? El proyecto comenzó en marzo de 2018 y el viaje a Marruecos tuvo lugar en marzo de este año.\n\n¿Dónde? En el Valle del Tessaout, Marruecos, una zona con unas 80 aldeas que han sido olvidadas por el gobierno y carecen de servicios básicos como agua potable y electricidad.\n\n¿Por qué? Para mejorar la educación infantil y la alfabetización de las mujeres en la zona, ya que las necesidades básicas de los habitantes no están cubiertas.\n\n¿Cómo? Las universitarias organizaron la Primera Jornada Solidaria del Valle de Tessaout y la Primera Semana de la Mujer en su colegio mayor para recaudar fondos. También visitaron la zona para conocer la realidad y establecer contactos con las comunidades locales. El proyecto ha crecido y ahora involucra a casi la totalidad del colegio mayor y cuenta con el apoyo incondicional de los 20 que fueron a Tessaout."
+    },
+    "judgments_to_review": {
+      "factual_accuracy": {
+        "ai_score": 3,
+        "ai_justification": "Recoge lugar, participantes, objetivos y acciones correctamente, pero afirma erróneamente que las cinco universitarias 'fundaron' Acción Geoda; además omite la fecha exacta (9 de marzo) y duración del viaje.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "completeness": {
+        "ai_score": 4,
+        "ai_justification": "Incluye los 5W1H principales y las actividades de recaudación y sensibilización, pero carece de algunos detalles secundarios (fecha exacta del viaje, duración, edades) y del matiz de que la ONG ya existía.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "relevance_and_conciseness": {
+        "ai_score": 3,
+        "ai_justification": "Cada elemento responde a su pregunta con concisión en la mayoría de los casos; sin embargo 'Qué' mezcla rol (fundación de la ONG) no respaldado por la fuente.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "clarity_and_readability": {
+        "ai_score": 5,
+        "ai_justification": "Redacción en español correcta y fácil de entender; las frases son coherentes y autocontenidas.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "source_faithfulness": {
+        "ai_score": 3,
+        "ai_justification": "Mayormente fiel a la fuente en hechos y objetivos, pero introduce una inferencia incorrecta sobre la fundación de la ONG y simplifica algunos matices del texto original.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "overall_coherence": {
+        "ai_score": 4,
+        "ai_justification": "Las partes forman un relato lógico y conectado sobre el proyecto (inicio, motivos, acciones, crecimiento), a pesar de la inexactitud puntual sobre la ONG.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      }
+    }
+  },
+  {
+    "review_id": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html_llama3",
+    "document_info": {
+      "doc_id": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "full_source_text": "Para poderos contar nuestra pequeña historia tenemos que remontarnos a marzo de 2018 , en una de las salas de un colegio mayor adscrito a la Complutense ( Madrid ) , en el que vivimos desde hace algunos años , donde nos presentaban una casi nueva ONG llamada Acción Geoda que trabaja en una de las zonas más olvidadas de Marruecos , por no decir del mundo , el Valle del Tessaout . Se trata de un conjunto de unas 80 aldeas a las que el Gobierno ha restado importancia , y ha dejado prácticamente incomunicadas . El agua potable llegó hace apenas diez años a alguna de ellas de la mano de esta ONG con la que colaboramos . La luz , hace cinco . No obstante , aún hoy , lamentablemente , existe un número considerable de familias que no tienen acceso a estos dos servicios primarios . Esta es la realidad : la pobreza se manifiesta omnipresente a cada paso y las necesidades básicas de los habitantes de la zona están muy lejos de estar cubiertas , tanto a nivel sanitario , como social y educativo . Es aquí donde aparecemos cinco universitarias de entre 18 y 22 años , compañeras de colegio mayor , que inician el que será el proyecto más grande en el que nos hemos embarcado : la construcción y el mantenimiento de una escuela infantil y el empoderamiento de la mujer como objetivo en una de estas pequeñas aldeas , Tasslent . Y nos consideramos unas privilegiadas por la visita que pudimos hacer en marzo de este año . Lo primero que necesitábamos para poder contribuir de cierta manera y estructurar el proyecto era financiación , por lo que , usando nuestra creatividad y la ayuda de todos los miembros del colegio mayor , en especial de unos 20 compañeros , llevamos a cabo la que sería la Primera Jornada Solidaria del Valle de Tessaout , en la que organizamos y dirigimos diferentes actividades tanto deportivas como lúdicas . La recaudación fue todo un éxito gracias a la cooperación y la participación de jóvenes universitarios que en muchos casos no habían adquirido un compromiso de esta índole hasta el momento . No olvidaremos algunos momentos cómplices que vivimos las dos , como cuando nos encontrábamos en el único mercado de la zona y mediante el lenguaje que todos los niños entienden , el del juego , bailamos y cantamos juntos De la misma manera , y contando con que en un principio éramos solo cinco chicas , quisimos plasmar uno de los conflictos culturales más relevantes del siglo XXI , la discriminación de la mujer . Para ello creamos la Primera Semana de la Mujer de nuestro colegio mayor en la cual se vendieron diferentes artículos diseñados por colegiales reivindicando la igualdad de género . Así , fue como a lo largo de este año , fuimos generando entre nuestros compañeros el mismo entusiasmo y ganas que nosotras tenemos por fomentar la educación en esta zona de Marruecos , por lo que el resto de las actividades tuvieron una gran acogida y conseguimos alcanzar los objetivos económicos que nos habíamos planteado en septiembre de 2018 . Quisimos ver con nuestros propios ojos la realidad de la que tanto hablábamos a los demás , pero que no era más que aquella que nos habían transmitido a nosotras meses antes , dándole fuerza y consistencia a todo el propósito , y atrayendo a jóvenes para que se unieran y participasen junto a nosotras en nuestra aventura a Marruecos . Así el 9 de marzo de este mismo año iniciamos el viaje . No pudo ser muy largo , solo cinco días , pero los suficientes para palpar de primera mano las necesidades del valle , conocer su cultura y a sus gentes . Tuvimos la oportunidad única de compartir sus preocupaciones , que esperamos menguar de cierta manera o al menos ofrecerles nuestra pequeña ayuda para que sean capaces de llevar a cabo en la medida de lo posible todo aquello que nos describían . No olvidaremos algunos momentos cómplices que vivimos las dos , como cuando nos encontrábamos en el único mercado de la zona ( donde cabe destacar que las mujeres y las niñas tienen prohibido el acceso ) y mediante el lenguaje que todos los niños entienden , el del juego , creamos una atmósfera en la que bailamos y cantamos juntos . Lo curioso de esta anécdota es que una niña que pasaba caminando de la mano de su padre , al vernos a nosotras , se soltó de su mano y se unió , un reflejo crudo de realidad . Cuatro meses después seguimos con las mismas ganas , ahora ya no somos cinco chicas , se ha convertido en un proyecto en el que participa casi la totalidad del colegio mayor y , sobre todo , que cuenta con el apoyo incondicional de los 20 que fuimos a Tessaout . Al llegar a Marruecos nos advirtieron del que llaman el virus del valle , ahora sabemos que estamos contagiados , preparando las actividades para recaudar todo lo que podamos y aportar nuestro granito de arena para mejorar o , sería más exacto decir , iniciar la educación infantil y la alfabetización de la mujer en esa pequeña aldea olvidada del Norte de África . El final de esta aventura , esperamos , está aún muy lejano . Confiamos en pasarles el testigo a los nuevos cursos que van entrando en el colegio cada año , para mantenerla e incrementarla . La clave del éxito es el compromiso , y comprender , que toda ayuda es bien recibida , que día a día y con mucho esfuerzo se pueden alcanzar objetivos muy grandes . Por eso , animamos a todo el que nos lea a interesarse por esta zona del mundo , tan cercana y lejana de nosotros a la vez . Puedes seguir a PLANETA FUTURO en Twitter y Facebook e Instagram , y suscribirte aquí a nuestra newsletter."
+    },
+    "extraction_info": {
+      "model_evaluated": "llama3",
+      "summary_to_evaluate": "A continuación, te presento un resumen del texto utilizando el método de las 5W1H:\n\nQué: Un grupo de cinco universitarias de un colegio mayor en Madrid se embarcaron en un proyecto para construir y mantener una escuela infantil y empoderar a la mujer en una aldea olvidada en el Valle del Tessaout, Marruecos.\n\nQuién: Cinco universitarias de entre 18 y 22 años, compañeras de colegio mayor, que se convirtieron en un grupo más grande con el apoyo de otros estudiantes y miembros del colegio mayor.\n\nCuándo: El proyecto comenzó en marzo de 2018 y ha seguido adelante durante varios meses, con un viaje a Marruecos en marzo del mismo año.\n\nDónde: El Valle del Tessaout, Marruecos, específicamente en la aldea de Tasslent.\n\nPor qué: Debido a la pobreza y la falta de acceso a servicios básicos como agua potable y electricidad en la zona, y la discriminación de la mujer.\n\nCómo: A través de la organización de actividades solidarias, como la Primera Jornada Solidaria del Valle de Tessaout y la Primera Semana de la Mujer, y la recaudación de fondos para financiar el proyecto. También se ha contagiado el \"virus del valle\" a otros estudiantes, que se han unido al proyecto."
+    },
+    "judgments_to_review": {
+      "factual_accuracy": {
+        "ai_score": 5,
+        "ai_justification": "La extracción refleja correctamente los hechos clave del texto: cinco universitarias, colegio mayor en Madrid, Valle del Tessaout/Tasslent, proyecto de escuela infantil y empoderamiento, actividades (Jornada Solidaria, Semana de la Mujer), recaudación y difusión del \"virus del valle\".",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "completeness": {
+        "ai_score": 4,
+        "ai_justification": "Captura la mayoría de los elementos 5W1H pero omite detalles presentes en la fuente como la fecha exacta del viaje (9 de marzo), la duración del viaje (cinco días), el apoyo explícito de ~20 compañeros y algunos resultados/fechas (objetivos alcanzados en septiembre de 2018) y anécdotas específicas.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "relevance_and_conciseness": {
+        "ai_score": 5,
+        "ai_justification": "Cada sección se mantiene enfocada en su pregunta específica sin mezclar información irrelevante; la extracción es directa y concisa.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "clarity_and_readability": {
+        "ai_score": 5,
+        "ai_justification": "Texto gramaticalmente correcto y fácilmente entendible por sí mismo; la redacción es clara y coherente.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "source_faithfulness": {
+        "ai_score": 5,
+        "ai_justification": "La extracción se limita a parafrasear la información del original sin introducir interpretaciones, inferencias o datos no presentes.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      },
+      "overall_coherence": {
+        "ai_score": 5,
+        "ai_justification": "Las partes 5W1H forman un relato lógico y consistente que conecta origen, acciones, motivos y resultados del proyecto.",
+        "expert_feedback": {
+          "score_validity_1_to_5": null,
+          "explanation_quality": null,
+          "optional_notes": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,2543 @@
+{
+  "total_tokens": 287370,
+  "results": [
+    {
+      "document_idx": 732,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos principales del texto: 87 millones de vacunas, autor (Sánchez), plazo (entre abril y septiembre) y lugar (rueda de prensa en la Moncloa).",
+          "completeness": "Captura las respuestas clave, pero omite la mención temporal 'Dos días' relativa a cuándo compareció Sánchez y no recupera la frase crítica del autor que podría explicar el contexto ('para darnos cuenta de que las mentiras...').",
+          "relevance_and_conciseness": "Cada campo se centra en su respuesta sin añadir información superflua; no obstante, el 'Cuándo' escoge la ventana de llegada de vacunas y deja fuera la otra referencia temporal del texto, lo que introduce una ligera ambigüedad.",
+          "clarity_and_readability": "Las entradas son gramaticalmente correctas y comprensibles por sí mismas; el formato es directo y fácil de leer.",
+          "source_faithfulness": "La extracción se basa en afirmaciones textuales y no añade interpretaciones ni datos no presentes en la fuente; marcar 'No especificado' para Por qué y Cómo es coherente con la fuente.",
+          "overall_coherence": "Las partes forman en general un relato consistente (Sánchez afirmó en la Moncloa que llegarían 87 millones entre abril y septiembre), aunque la ausencia de la referencia a 'dos días' crea una leve falta de conexión temporal completa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1582,
+        "completion_tokens": 1556,
+        "total_tokens": 3138
+      }
+    },
+    {
+      "document_idx": 1229,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Los datos extraídos (p. ej. >30% de intervenciones quirúrgicas, hospitales privados, ODS 5, ámbito nacional) coinciden con el texto fuente.",
+          "completeness": "Faltan detalles presentes en la fuente (p. ej. ~25% de altas y urgencias, >70% mujeres en plantilla, compromiso con ODS 9 y el 'Manifiesto'), y Por qué/Cómo no se desarrollan aunque la fuente aporta contexto adicional.",
+          "relevance_and_conciseness": "Cada respuesta se centra en la pregunta correspondiente sin mezclar información, aunque hay texto sobrante mínimo ('Esta') y falta de algunos detalles relevantes.",
+          "clarity_and_readability": "La extracción es comprensible pero contiene errores menores de puntuación y un fragmento sobrante ('Esta') que reduce la legibilidad.",
+          "source_faithfulness": "La extracción refleja estrictamente la información del texto sin añadir inferencias o datos no presentes en la fuente.",
+          "overall_coherence": "Las partes forman un relato coherente y consistente del evento/statísticas, pero la omisión de información relevante y errores menores afectan ligeramente la integridad global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1782,
+        "completion_tokens": 1311,
+        "total_tokens": 3093
+      }
+    },
+    {
+      "document_idx": 840,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los elementos son correctos (qué, quién, cuándo, dónde), pero falla al indicar que el 'por qué' sí está presente en la fuente (condición sobre información completa y sólida).",
+          "completeness": "Omite información esencial: la razón/condición para aceptar el uso (la solidez/completitud de los datos) y matices del 'dónde' (‘al mismo tiempo y en las mismas condiciones’).",
+          "relevance_and_conciseness": "Cada ítem es breve y enfocado a su pregunta 5W1H sin añadir información irrelevante; no mezcla respuestas entre categorías.",
+          "clarity_and_readability": "Texto entendible y gramaticalmente aceptable, aunque hay entradas 'No especificado' que podrían clarificarse añadiendo la condición existente en la fuente.",
+          "source_faithfulness": "La extracción se basa en la fuente pero omite la condición clave expresada en el texto original, lo que reduce la fidelidad completa.",
+          "overall_coherence": "Las partes forman un relato mayormente coherente, pero la ausencia del motivo/condición rompe la explicación completa del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1600,
+        "completion_tokens": 1056,
+        "total_tokens": 2656
+      }
+    },
+    {
+      "document_idx": 397,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 5,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos presentes (quién, cuándo, dónde) coinciden con la fuente; el 'Qué' es vago pero no incorrecto.",
+          "completeness": "Falta la información esencial del 'Qué' (el contenido concreto de las palabras) y no se extraen 'Por qué' ni 'Cómo'; solo 3 de 6 elementos están completos.",
+          "relevance_and_conciseness": "Cada campo evita información irrelevante y no mezcla roles, pero 'Qué' es demasiado genérico en lugar de aportar la frase citada.",
+          "clarity_and_readability": "La redacción es gramaticalmente correcta y legible, aunque la respuesta 'las palabras' resulta poco informativa por sí sola.",
+          "source_faithfulness": "La extracción se limita a lo que aparece en la fuente sin añadir interpretaciones ni datos externos; marcar 'No especificado' es fiel al texto.",
+          "overall_coherence": "Los elementos recogidos son consistentes entre sí, pero al faltar el contenido principal y causas/modo no forman un relato completo del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1569,
+        "completion_tokens": 1356,
+        "total_tokens": 2925
+      }
+    },
+    {
+      "document_idx": 1523,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja exactamente los datos y la afirmación del texto fuente: 322.092 personas han superado la enfermedad.",
+          "completeness": "Se extraen todas las 5W1H presentes en la fuente; 'Por qué' y 'Cómo' no aparecen en el texto y se marcan como 'No especificado'.",
+          "relevance_and_conciseness": "Cada campo contiene únicamente la información pertinente a su pregunta sin información superflua ni mezcla de elementos.",
+          "clarity_and_readability": "Las respuestas son breves, gramaticalmente correctas y comprensibles por sí solas.",
+          "source_faithfulness": "No se añaden interpretaciones ni inferencias; la extracción se mantiene fiel al contenido literal del enunciado.",
+          "overall_coherence": "Los elementos juntos forman un relato consistente y lógico: quién, qué, cuándo y dónde encajan sin contradicción."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1534,
+        "completion_tokens": 1003,
+        "total_tokens": 2537
+      }
+    },
+    {
+      "document_idx": 938,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Varios campos son correctos (Qué, Cuándo, Dónde), pero 'Quién' está mal identificado (se indica el Ayuntamiento en lugar de la mujer/denunciada) y faltan datos presentes en la fuente (identificada, sanción).",
+          "completeness": "La extracción omite información clave que aparece en la fuente: quién es la persona localizada (la mujer/denunciada), el motivo (Semana Santa) y el cómo (tras un aviso de un vecino).",
+          "relevance_and_conciseness": "Las respuestas son concisas y no añaden información irrelevante, pero hay una asignación incorrecta en 'Quién' que mezcla la entidad informante con el sujeto del hecho.",
+          "clarity_and_readability": "El texto es comprensible y gramaticalmente aceptable, aunque la presentación es breve y con formato irregular.",
+          "source_faithfulness": "La extracción no sigue estrictamente la fuente: introduce una interpretación errónea sobre el 'Quién' y omite hechos explícitos (motivo y aviso del vecino).",
+          "overall_coherence": "En conjunto las partes forman un relato parcial y en su mayoría consistente, pero la confusión sobre el sujeto ('Quién') y las omisiones reducen la coherencia global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1589,
+        "completion_tokens": 1142,
+        "total_tokens": 2731
+      }
+    },
+    {
+      "document_idx": 507,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Captura datos correctos (tope 55→65, Gobierno del Estado, 'una semana después', Cataluña), pero omite la acción clave de la responsable en Cataluña (reclamar eliminar límites) y no especifica que el tope fue retrasado.",
+          "completeness": "Falta la extracción de la demanda de la responsable de vacunación en Cataluña y la relación clara entre los dos hechos; varios elementos esenciales del 5W1H no están presentes.",
+          "relevance_and_conciseness": "Las respuestas son en su mayoría enfocadas y sin material superfluo, pero mezclan actores y lugares sin distinguir los dos eventos distintos (cambio del tope vs. demanda en Cataluña).",
+          "clarity_and_readability": "Texto breve y comprensible en su mayoría; algunas entradas son fragmentarias pero legibles ('el tope de los 55 a los 65 años').",
+          "source_faithfulness": "No hay añadidos ni inferencias inventadas, solo omisiones. La información incluida está basada en la fuente.",
+          "overall_coherence": "Las piezas no se integran bien en un relato único: no queda claro que hay dos eventos conectados (retraso del tope por el Gobierno y, una semana después, la demanda en Cataluña), lo que reduce la coherencia general."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1550,
+        "completion_tokens": 2048,
+        "total_tokens": 3598
+      }
+    },
+    {
+      "document_idx": 2,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción asigna erróneamente como 'Quién' al líder de la oposición cuando el texto indica que es Rusia quien retoma la campaña; también sitúa la campaña 'en prisión', dato no afirmado en la fuente.",
+          "completeness": "Falta capturar correctamente el agente principal (Rusia) y la relación completa temporal/causal ('tras encerrar en prisión al líder'), además no se aclara ubicación real del evento.",
+          "relevance_and_conciseness": "Algunos campos mezclan roles (poner al líder como actor) y añaden ubicación inapropiada ('en prisión'), mostrando falta de enfoque en cada 5W1H.",
+          "clarity_and_readability": "La extracción es breve y comprensible por sí misma, con frases cortas y sin errores gramaticales significativos.",
+          "source_faithfulness": "Se introducen inferencias incorrectas (actor y ubicación) que no se apoyan en el texto fuente; otros campos sí reflejan la omisión de detalles.",
+          "overall_coherence": "Los elementos no forman un relato totalmente consistente: el 'Quién' y el 'Dónde' contradicen la estructura lógica del enunciado original."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1530,
+        "completion_tokens": 1061,
+        "total_tokens": 2591
+      }
+    },
+    {
+      "document_idx": 1525,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos del texto: qué (justificante), quién (Ana Barceló), cuándo ('a partir de ahora') y dónde (página web de Sanidad). No contiene información incorrecta.",
+          "completeness": "Captura la mayoría de los elementos presentes (qué, quién, cuándo, dónde) pero omite el destinatario explícito ('los valencianos y las valencianas') que aparece en la fuente.",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta sin mezclar elementos ni añadir datos superfluos.",
+          "clarity_and_readability": "Las respuestas son breves, gramaticalmente correctas y comprensibles de forma independiente.",
+          "source_faithfulness": "Se mantiene fiel al texto original y marca correctamente como 'No especificado' los elementos ausentes; no añade inferencias.",
+          "overall_coherence": "En conjunto la extracción forma un relato coherente, aunque la omisión del público destinatario reduce ligeramente la completitud narrativa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1572,
+        "completion_tokens": 1854,
+        "total_tokens": 3426
+      }
+    },
+    {
+      "document_idx": 924,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Parte de la extracción es correcta (qué, cuándo, dónde) pero asigna incorrectamente 'Quién' (debe indicar el agente que se viralizó o al menos 'se viralizaron en redes sociales') y omite datos presentes en la fuente (el fin de controlar y el método relacionado con vacunas), por lo que hay errores verificables.",
+          "completeness": "Faltan respuestas esenciales: 'Por qué' (la fuente dice 'con el fin de controlarlos') y 'Cómo' (se describe insertar chips 5G en vacunas e inocularlos); además 'Quién' está mal extraído.",
+          "relevance_and_conciseness": "Las respuestas son breves y en su mayoría enfocadas, pero 'Quién' mezcla rol objetivo ('a las personas') en lugar del actor/medio; hay cierta confusión entre campos.",
+          "clarity_and_readability": "El texto es corto y comprensible en sí mismo, con gramática adecuada; aunque algunos campos son vagos, la redacción es clara.",
+          "source_faithfulness": "La extracción no refleja completamente la información de la fuente (omite el propósito y el método explícito y malinterpreta 'Quién'), por lo que no es estrictamente fiel.",
+          "overall_coherence": "Como conjunto, las piezas no forman un relato totalmente consistente: faltan elementos clave y hay una atribución incorrecta en 'Quién', lo que rompe la coherencia global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1565,
+        "completion_tokens": 1558,
+        "total_tokens": 3123
+      }
+    },
+    {
+      "document_idx": 479,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos incluidos (qué, quién, cuándo, dónde) son correctos según la fuente, pero faltan detalles clave como la intervención (dejar de usar mascarillas), la duración (6 meses) y el resultado (sin aumento de infecciones).",
+          "completeness": "Omite información esencial presente en la fuente: intervención, duración y resultado; por ello no captura todos los 5W1H.",
+          "relevance_and_conciseness": "Cada campo se enfoca en su pregunta correspondiente y no incluye información irrelevante; sin embargo varios campos aparecen como 'No especificado' pese a que la fuente sí proporciona esa información.",
+          "clarity_and_readability": "La extracción es gramaticalmente clara y comprensible, aunque muy breve y con campos no desarrollados.",
+          "source_faithfulness": "Los elementos extraídos son fieles a la fuente y no contienen invenciones, pero la extracción omite datos que sí están explícitos en el texto original.",
+          "overall_coherence": "Las partes son consistentes entre sí, pero la ausencia de la intervención, duración y resultado impide formar un relato completo y conectado del estudio."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1559,
+        "completion_tokens": 1820,
+        "total_tokens": 3379
+      }
+    },
+    {
+      "document_idx": 1384,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los elementos son correctos (quién, cuándo, dónde). Sin embargo el 'Qué' omite que la prohibición es sobre reuniones de no convivientes, una precisión factual relevante.",
+          "completeness": "Falta la especificidad sobre 'no convivientes' en el 'Qué' y la excepción ('salvo que se trate de cuidados a terceras personas') que aparece en la fuente, por lo que no captura toda la información esencial.",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta sin mezclar información ni añadir contenido no presente en la fuente; indicar 'No especificado' para Por qué y Cómo es apropiado.",
+          "clarity_and_readability": "Las respuestas son breves y gramaticalmente claras y comprensibles por sí solas.",
+          "source_faithfulness": "La extracción se basa en la fuente y no introduce inferencias, pero omite detalles presentes en el texto (p. ej. 'no convivientes' y la excepción).",
+          "overall_coherence": "Los elementos forman un conjunto lógico y coherente, aunque la omisión de la condición 'no convivientes' y de la excepción reduce la fidelidad del relato completo."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1555,
+        "completion_tokens": 873,
+        "total_tokens": 2428
+      }
+    },
+    {
+      "document_idx": 1396,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "Cada elemento extraído coincide exactamente con la información presente en la fuente: 360 millones de dosis, la Unión Europea, segundo trimestre, y 'al continente'. Las ausencias (por qué, cómo) reflejan que la fuente no las menciona.",
+          "completeness": "La extracción recoge todas las respuestas 5W1H que la fuente proporciona y marca explícitamente las que no están especificadas (por qué, cómo), por lo que es completa respecto al documento.",
+          "relevance_and_conciseness": "Cada campo contiene únicamente la información pertinente a su pregunta (sin mezclas ni datos adicionales); las entradas son breves y al punto.",
+          "clarity_and_readability": "Los textos son gramaticalmente comprensibles y se entienden por sí mismos (p. ej. 'al continente' reproduce fielmente la redacción fuente).",
+          "source_faithfulness": "No hay adiciones ni inferencias fuera de lo expresado en la fuente; las omisiones están correctamente indicadas como 'No especificado'.",
+          "overall_coherence": "Los elementos forman un relato consistente (quién anuncia qué, cuándo y dónde) y las partes no contradicen ni generan confusión entre sí."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1526,
+        "completion_tokens": 808,
+        "total_tokens": 2334
+      }
+    },
+    {
+      "document_idx": 1471,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Parcialmente correcta: identifica vacuna, Austria, 'ahora' y España, pero no especifica que es la vacuna de AstraZeneca y omite que Dinamarca también se suma.",
+          "completeness": "Insuficiente: falta especificar que se trata de la vacuna de AstraZeneca, no se menciona Dinamarca y no refleja claramente que en España no se han registrado efectos secundarios graves.",
+          "relevance_and_conciseness": "Concisa pero demasiado vaga ('de la vacuna') y omite información relevante; no mezcla temas, pero carece de precisión necesaria.",
+          "clarity_and_readability": "Frases muy breves y fragmentarias; comprensibles en general pero gramaticalmente imprecisas y poco informativas.",
+          "source_faithfulness": "Fiel en el sentido de no añadir información inexistente; sin embargo omite datos presentes en la fuente en vez de inferirlos.",
+          "overall_coherence": "Los elementos aislados mantienen una relación básica (decisión/tiempo/lugar) pero las omisiones y vaguedades impiden un relato completo y conectado."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1531,
+        "completion_tokens": 1765,
+        "total_tokens": 3296
+      }
+    },
+    {
+      "document_idx": 1464,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos extraídos (Qué: 'esta alternativa', Quién: 'algunos consellers', Cuándo: 5 de enero, Dónde: Comunidad Valenciana) coinciden exactamente con el texto fuente y son verificables.",
+          "completeness": "Se omite información relevante presente en la fuente: la frase 'finalmente no se consideró que fuera algo que en este momento se tuviera que hacer' y la mención de la portavoz Mónica Oltra; además no se aprovecha la explicación implícita para 'por qué'.",
+          "relevance_and_conciseness": "Cada campo se mantiene enfocado y sin información irrelevante, pero la extracción es excesivamente escueta y deja fuera detalles relevantes del texto original.",
+          "clarity_and_readability": "Los ítems son gramaticalmente correctos y comprensibles por sí solos, aunque expresiones como 'esta alternativa' carecen de contexto que limitaría la claridad completa.",
+          "source_faithfulness": "No introduce información adicional ni inferencias: lo extraído se basa en el texto original sin alucinaciones.",
+          "overall_coherence": "Los elementos básicos (qué, quién, cuándo, dónde) encajan lógicamente, pero la ausencia de la explicación y de la fuente citada en el texto reduce la coherencia narrativa del conjunto."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1558,
+        "completion_tokens": 1665,
+        "total_tokens": 3223
+      }
+    },
+    {
+      "document_idx": 1044,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción identifica correctamente al autor (Consejo de Europa), la fecha y la resolución, pero reduce el 'Qué' solo a 'la discriminación' omitiendo que la resolución prohibió la vacunación obligatoria y la discriminación de los no vacunados.",
+          "completeness": "Faltan elementos esenciales: no se menciona la prohibición de la vacunación obligatoria ni el alcance específico ('de los no vacunados'), y tampoco se rellenan 'Por qué' y 'Cómo' cuando la fuente no da más detalles pero sí contiene la acción principal.",
+          "relevance_and_conciseness": "Las respuestas son concisas y en su mayoría relevantes para cada campo, pero el 'Qué' está demasiado escueto y no responde completamente a la acción expresada en la fuente.",
+          "clarity_and_readability": "El texto es grammaticalmente claro y fácilmente comprensible; la estructura presentada es legible aunque breve.",
+          "source_faithfulness": "La extracción se basa en la fuente y no introduce información inventada, pero omite aspectos clave del enunciado original (la prohibición explícita y su objeto).",
+          "overall_coherence": "Las partes presentadas son consistentes entre sí (mismo actor, fecha y documento), aunque la omisión del verbo principal ('prohibió') y detalles reduce la narrativa completa del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1596,
+        "completion_tokens": 1094,
+        "total_tokens": 2690
+      }
+    },
+    {
+      "document_idx": 522,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Correcto en Qué (cuatro fiestas), Cuándo (durante la noche) y Dónde (en viviendas), pero 'Quién' es inexacto/misleading y faltan acciones importantes (se disolvieron y denunciaron).",
+          "completeness": "Omite información relevante de la fuente: no menciona que las fiestas fueron disueltas y denunciadas, el establecimiento denunciado ni el contexto de las cuatro personas fumando.",
+          "relevance_and_conciseness": "Las respuestas son generalmente concisas; sin embargo 'Quién: cuatro personas' mezcla un actor de otro incidente sin aclarar relación, perdiendo atomicidad.",
+          "clarity_and_readability": "Texto breve y gramaticalmente correcto; fácil de entender aunque muy escueto y con entradas 'No especificado' que podrían especificarse desde la fuente.",
+          "source_faithfulness": "Basada en la fuente sin inventos, pero omite y no refleja acciones clave ('disolvieron y denunciaron'), por lo que no es totalmente fiel.",
+          "overall_coherence": "Partes aisladas son coherentes, pero el conjunto no reconstruye todas las relaciones y acciones del evento (falta quién hizo qué y las acciones tomadas)."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1544,
+        "completion_tokens": 2237,
+        "total_tokens": 3781
+      }
+    },
+    {
+      "document_idx": 1250,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Contiene datos correctos (1.581 positivos; 'últimas 24 horas'; 'ucis'), pero identifica erróneamente el 'Qué' — la fuente indica que se sumaron 1.581 positivos y que el riesgo de rebrote se reduce; presentarlo solo como 'el riesgo de rebrote' no refleja el evento principal.",
+          "completeness": "No captura el evento central (la suma de 1.581 positivos como 'Qué') ni menciona la reducción de positividad e incidencia ni la velocidad de contagio (0,92). 'Por qué' y 'Cómo' no están en la fuente, por lo que marcar 'No especificado' es aceptable.",
+          "relevance_and_conciseness": "Las respuestas son concisas pero mal asignadas: 'Qué' mezcla conceptos y no responde directamente al evento; las otras entradas son relevantes y breves.",
+          "clarity_and_readability": "Texto breve y comprensible; cada ítem es legible y gramaticalmente correcto.",
+          "source_faithfulness": "Mayormente basado en la fuente sin añadir información inventada, pero interpretó mal cuál era el evento principal y omitió datos presentes en la fuente.",
+          "overall_coherence": "Los elementos no forman un relato consistente: el 'Qué' no concuerda con el 'Quién' y el 'Cuándo', por lo que la extracción global resulta desarticulada."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1580,
+        "completion_tokens": 2004,
+        "total_tokens": 3584
+      }
+    },
+    {
+      "document_idx": 36,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 5,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Correcta en los elementos clave (umbral 25, Ministerio). Omite el símbolo '%' y no menciona la ocupación actual (34%), además el vínculo temporal queda algo ambiguo.",
+          "completeness": "Falta la ocupación actual del 34%, información esencial para mostrar que se supera el umbral; 'Por qué' y 'Cómo' no están en la fuente y se indican como no especificados correctamente.",
+          "relevance_and_conciseness": "Cada respuesta es breve y sin añadir datos inventados, pero 'Cuándo' está aplicado a la ocupación y debería asociarse explícitamente; falta la cifra del 34% que sería relevante.",
+          "clarity_and_readability": "El texto es comprensible y gramaticalmente aceptable, aunque muy telegráfico y con formato irregular; falta el '%' en '25' lo que reduce claridad.",
+          "source_faithfulness": "Fiel a la fuente en cuanto a no introducir interpretaciones o información inventada; la extracción se limita a lo presente en el texto.",
+          "overall_coherence": "Los elementos individuales son consistentes en su mayoría, pero la ausencia del 34% impide que formen un relato completamente conectado sobre que el umbral (25%) está superado."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1535,
+        "completion_tokens": 2116,
+        "total_tokens": 3651
+      }
+    },
+    {
+      "document_idx": 1564,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción es mayormente correcta: identifica a Barceló, el lugar y momento, y la suspensión de la inoculación por debajo de esa edad; sin embargo omite detalles importantes como la mención de AstraZeneca y que esta semana no había citas para <60.",
+          "completeness": "Faltan elementos esenciales del texto fuente: tipo de vacuna (AstraZeneca), que no había citas esa semana para menores de 60 y que tampoco se llamará a grupos esenciales pendientes; 'por qué' y 'cómo' están sin especificar pese a estar implícitos en la fuente.",
+          "relevance_and_conciseness": "Cada campo se mantiene enfocado y sin información superflua; no mezcla respuestas, aunque el campo 'Qué' es vago y podría ser más preciso.",
+          "clarity_and_readability": "Las respuestas son breves y comprensibles por sí solas, aunque están en forma de fragmentos y omiten detalles que dificultan una lectura completamente informativa.",
+          "source_faithfulness": "No introduce información inventada y respeta lo afirmado por la fuente, pero omite datos presentes en el texto, por lo que la fidelidad es alta pero no perfecta.",
+          "overall_coherence": "Las partes son consistentes entre sí pero no forman un relato totalmente completo ni conectado debido a omisiones claves (vacuna, ausencia de citas, alcance de la suspensión)."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1599,
+        "completion_tokens": 1488,
+        "total_tokens": 3087
+      }
+    },
+    {
+      "document_idx": 292,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción omite la negación clave del texto (‘no habrá celebraciones’) y también omite la fecha concreta (20 de enero), por lo que transmite una información parcialmente incorrecta.",
+          "completeness": "Faltan detalles esenciales: la ausencia de celebraciones y la fecha exacta; además no se indica si hay motivo o modo, que en la fuente tampoco se especifica pero la fecha sí está presente.",
+          "relevance_and_conciseness": "Cada campo es conciso y enfocado, pero el campo 'Qué' es inexacto al no reflejar la negación; por lo demás no hay mezcla de elementos.",
+          "clarity_and_readability": "El texto es breve y comprensible por sí mismo, aunque escaso en detalle y con formato irregular en la presentación.",
+          "source_faithfulness": "No sigue estrictamente la fuente: introduce implícitamente la existencia de celebraciones en lugar de la negación explícita y omite la fecha, por tanto hay inferencia/omisión.",
+          "overall_coherence": "Los elementos forman un conjunto entendible y mayormente consistente (lugar, quién, cuándo genérico), pero la omisión de la negación y la fecha crean una narrativa parcialmente incorrecta."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1525,
+        "completion_tokens": 1582,
+        "total_tokens": 3107
+      }
+    },
+    {
+      "document_idx": 993,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción omite información factual clave (12 pacientes asintomáticos y 4 profesionales contagados) y atribuye erróneamente el 'Dónde' como origen del informe.",
+          "completeness": "Faltan elementos esenciales del 'Quién' (12 pacientes y 4 profesionales) que aparecen en la fuente; otras categorías se marcan como no especificadas correctamente.",
+          "relevance_and_conciseness": "Algunas respuestas son concisas pero la entrada de 'Quién' es parcial y el 'Dónde' mezcla la fuente del informe con la localización, indicando falta de atomicidad.",
+          "clarity_and_readability": "El texto es comprensible y gramaticalmente correcto, aunque con formato desigual; las respuestas son breves y legibles.",
+          "source_faithfulness": "La extracción no se basa estrictamente en la fuente: omite hechos presentes en el texto y interpreta 'desde el Consorci...' como lugar en vez de fuente del dato.",
+          "overall_coherence": "Las piezas no forman un relato completo por la omisión del detalle principal sobre quiénes resultaron contagiados, lo que reduce la coherencia general."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1584,
+        "completion_tokens": 1262,
+        "total_tokens": 2846
+      }
+    },
+    {
+      "document_idx": 279,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Parcialmente correcta: acierta 'La revista Hola', 'ejemplares' y 'todas las semanas', pero asigna erróneamente 'para el teatro' como lugar y omite otros agentes y detalles presentes en la fuente.",
+          "completeness": "Incompleta: omite las donaciones del Colegio Pío Baroja y de la Consejería de Cultura y no registra que las cajas contenían entradas para el teatro.",
+          "relevance_and_conciseness": "Moderadamente concisa pero no atómica: responde de forma breve, aunque mezcla propósito con ubicación ('Dónde: para el teatro') y no separa los distintos eventos/actores.",
+          "clarity_and_readability": "Escueta pero entendible; hay formato irregular (espacios y alineación) pero el texto es gramaticalmente comprensible por sí mismo.",
+          "source_faithfulness": "En gran medida fiel (no añade hechos nuevos), pero reinterpreta y omite información clave de la fuente en lugar de extraerla fielmente.",
+          "overall_coherence": "Las partes individuales son breves pero, por omisiones y la reasignación incorrecta de 'Dónde', no forman un relato completamente coherente del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1542,
+        "completion_tokens": 1516,
+        "total_tokens": 3058
+      }
+    },
+    {
+      "document_idx": 335,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción contiene elementos correctos (quién, dónde) pero omite o separa información clave del texto fuente (por ejemplo, el 'qué' completo incluye 'caminar por el agua' y ejercicios con silla).",
+          "completeness": "Faltan respuestas esenciales: el 'por qué' (mejorar fuerza y equilibrio) y el 'cómo' (instrucciones con silla) no fueron extraídos; el 'qué' queda incompleto.",
+          "relevance_and_conciseness": "Algunos campos mezclan categorías (p. ej. 'por el agua' puesto en 'Dónde' cuando es parte del tipo de ejercicio) y falta precisión en cada elemento, añadiendo fragmentación.",
+          "clarity_and_readability": "El texto es gramaticalmente claro y fácil de entender individualmente, aunque breve y parcial en varios campos.",
+          "source_faithfulness": "No hay invenciones ni información añadida; la extracción es conservadora respecto a la fuente, pero omite datos relevantes que sí aparecen en el original.",
+          "overall_coherence": "Las partes coinciden entre sí y no son contradictorias, pero el conjunto queda incompleto y no reconstruye totalmente la recomendación del texto fuente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1600,
+        "completion_tokens": 1324,
+        "total_tokens": 2924
+      }
+    },
+    {
+      "document_idx": 89,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 3,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Las respuestas (qué, quién, cuándo, dónde) coinciden exactamente con el texto fuente y no contienen errores factuales.",
+          "completeness": "Faltan detalles presentes en la fuente sobre el 'cómo' (se tomará cuando el consejo vuelva a reunirse) y la decisión concreta que evaluarán (si la suspensión concluye o se prorroga), por lo que no está totalmente completa.",
+          "relevance_and_conciseness": "Cada elemento responde a su pregunta 5W1H sin información irrelevante o mezclada; la extracción es concisa y enfocada.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y fácil de entender por sí mismo.",
+          "source_faithfulness": "La extracción se limita a la información del texto fuente y no introduce inferencias adicionales ni datos no presentes.",
+          "overall_coherence": "Las partes conforman un relato coherente (decisión, actores, lugar y fecha), pero la omisión del 'cómo' y del detalle sobre la naturaleza de la decisión reduce la coherencia narrativa completa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1600,
+        "completion_tokens": 1293,
+        "total_tokens": 2893
+      }
+    },
+    {
+      "document_idx": 922,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Algunos campos reflejan correctamente la fuente (Qué, Dónde), pero hay errores e imprecisiones importantes: la fecha omite el año (2020) y 'Quién: de Salud' es una asignación incorrecta del texto.",
+          "completeness": "Falta información esencial presente en la fuente (año en la fecha) y la extracción no agrupa correctamente el título completo de la ley; además no explica quién es el agente con claridad.",
+          "relevance_and_conciseness": "Las respuestas son concisas y no incluyen información irrelevante, pero parte de la información está mal asignada entre campos (p. ej. 'Quién').",
+          "clarity_and_readability": "Los fragmentos son breves y en general comprensibles, aunque algunas entradas ('de Salud') son gramaticalmente incompletas y confusas fuera de contexto.",
+          "source_faithfulness": "La extracción se basa en la fuente y no añade fabricaciones, pero distorsiona la estructura original al omitir el año y segmentar incorrectamente el nombre de la ley.",
+          "overall_coherence": "En conjunto transmite la idea general (reproducción de la Ley 3/2020 en Aragón el 3 de diciembre) pero no forma un relato completamente consistente ni preciso debido a omisiones y asignaciones incorrectas."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1529,
+        "completion_tokens": 1601,
+        "total_tokens": 3130
+      }
+    },
+    {
+      "document_idx": 692,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Varias respuestas son correctas (qué, cuándo, dónde) pero el 'Quién' está incorrecto: la fuente indica ~100.000 personas de 60–65 años, no el departamento de Salud.",
+          "completeness": "Faltan datos esenciales de la fuente: el número aproximado (100.000) y el rango de edad (60–65 años); además 'Quién' está mal identificado.",
+          "relevance_and_conciseness": "Las entradas son mayormente concisas y enfocadas, pero 'Quién' mezcla rol de fuente con actor del evento, lo que reduce la precisión.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y fácil de entender, aunque escueto.",
+          "source_faithfulness": "La extracción no se basa estrictamente en la fuente: omite información clave y atribuye equivocadamente el agente ('Quién') al departamento en lugar de a las personas.",
+          "overall_coherence": "Las partes encajan parcialmente (vacuna, tiempo y lugar), pero la identificación errónea del actor y la omisión de número/edad impiden un relato totalmente coherente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1557,
+        "completion_tokens": 1371,
+        "total_tokens": 2928
+      }
+    },
+    {
+      "document_idx": 568,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Algunos elementos son correctos (quién, cuándo, dónde) pero ‘Qué’ está incompleto/ambiguo y omite los resultados del cribado que aparecen en la fuente.",
+          "completeness": "Faltan datos esenciales: a quiénes se cribó (pacientes y profesionales), resultados numéricos del cribado y detalle de la planta afectada.",
+          "relevance_and_conciseness": "Las respuestas se enfocan en cada pregunta sin información claramente irrelevante; no mezclan elementos aunque omiten detalles.",
+          "clarity_and_readability": "Texto en general comprensible pero ‘Qué: a cribar’ es gramaticalmente incorrecto/ambiguo y reduce la legibilidad.",
+          "source_faithfulness": "No introduce información falsa pero omite hechos explícitos de la fuente (causa/método/resultados), por lo que no es totalmente fiel.",
+          "overall_coherence": "Las piezas parciales forman una narrativa básica (cribado por positivo en X lugar y tiempo) pero la ausencia de causa/método y resultados impide una coherencia completa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1590,
+        "completion_tokens": 1828,
+        "total_tokens": 3418
+      }
+    },
+    {
+      "document_idx": 1462,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción afirma 'a una pandemia', lo cual contradice el texto que dice explícitamente 'para nada se acerca a una pandemia'; además omite los casos de ébola y cifras mencionadas.",
+          "completeness": "Faltan elementos esenciales: los casos de ébola y las cifras (*NUMBER*) y la aclaración de que no constituye una pandemia; varios campos quedan como 'No especificado' pese a que la fuente aporta contexto.",
+          "relevance_and_conciseness": "Cada campo es breve y enfocado, pero 'Quién' omite a los casos de ébola y 'Qué' está mal enfocado; no hay mezcla extensa entre preguntas pero falta información clave.",
+          "clarity_and_readability": "La extracción es legible y comprensible en su mayor parte; algunos fragmentos ('a una pandemia') son imprecisos pero la estructura es clara.",
+          "source_faithfulness": "No se basa estrictamente en la fuente: introduce una afirmación contraria (pandemia) y omite datos explícitos de la fuente como los casos de ébola y las cifras.",
+          "overall_coherence": "Los elementos no forman un relato coherente porque el 'Qué' contradice la declaración sobre ébola y la ausencia de alarma, generando inconsistencia global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1587,
+        "completion_tokens": 1288,
+        "total_tokens": 2875
+      }
+    },
+    {
+      "document_idx": 1022,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 1,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Algunos campos son correctos (Quién: Cataluña; Cuándo: a mediados de mayo; Dónde: Camp Nou aparece) pero datos claves están incorrectos o ausentes (Qué no identifica los 500 puntos de vacunación; Por qué y Cómo omitidos pese a estar en la fuente).",
+          "completeness": "Falta la información esencial: el 'Qué' omitió la habilitación de 500 puntos de vacunación y el propósito ('acelerar la administración masiva de dosis') y el 'Cómo' tampoco se recogieron; además se omitió Fira de Barcelona en 'Dónde'.",
+          "relevance_and_conciseness": "Las respuestas son breves y mayormente enfocadas en cada campo, pero el 'Qué' es demasiado vago ('este proceso') y 'Dónde' es parcial (solo Camp Nou), lo que limita su precisión.",
+          "clarity_and_readability": "El texto es gramaticalmente entendible y breve, pero términos como 'este proceso' son ambiguos y requieren contexto externo para interpretarlos correctamente.",
+          "source_faithfulness": "La extracción toma elementos presentes en la fuente pero omite y no traslada de forma fiel detalles explícitos (500 puntos, motivo, Fira de Barcelona), por lo que no es estrictamente fiel.",
+          "overall_coherence": "Los elementos presentes no construyen un relato completo y consistente del evento por las omisiones clave; lo poco extraído sí concuerda entre sí, pero es insuficiente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1544,
+        "completion_tokens": 1122,
+        "total_tokens": 2666
+      }
+    },
+    {
+      "document_idx": 592,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Acierta el total (2.806) y Quién/Cuándo, pero asigna incorrectamente la ubicación al total: 2.806 es el total de la Comunidad Valenciana; Castellón tiene 285 (con 50 UCI).",
+          "completeness": "Omite el desglose por provincias y los números de UCI presentes en la fuente, información esencial para una extracción completa.",
+          "relevance_and_conciseness": "La extracción es breve y mayormente enfocada, pero contiene una asignación errónea de Dónde que mezcla información de forma inapropiada.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y fácil de entender por sí mismo.",
+          "source_faithfulness": "No añade datos nuevos, pero altera la relación de los números con la provincia, por lo que no refleja fielmente la fuente.",
+          "overall_coherence": "Las partes juntas son contradictorias (‘hospitales valencianos’ vs ‘en la provincia de Castellón’) y no forman un relato totalmente consistente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1576,
+        "completion_tokens": 1433,
+        "total_tokens": 3009
+      }
+    },
+    {
+      "document_idx": 1552,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos extraídos (BOCM, publicación este sábado, 17 ZBS) son correctos, pero omite hechos importantes del texto fuente (5 localidades, inicio de medidas a partir del lunes y prórroga de toque de queda y prohibición de reuniones).",
+          "completeness": "Faltan varias informaciones esenciales presentes en la fuente: las 5 localidades adicionales, la fecha de inicio de las medidas (este lunes) y las medidas adicionales (toque de queda y prohibición de reuniones).",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta sin información superflua; sin embargo el campo 'Qué' es demasiado vago en lugar de enumerar las medidas concretas y ámbitos afectados.",
+          "clarity_and_readability": "El texto es breve y entendible por sí mismo; el uso de 'No especificado' es claro para campos ausentes en la extracción.",
+          "source_faithfulness": "La extracción no introduce información incorrecta ni inferencias no justificadas, pero omite detalles presentes en la fuente, por lo que es mayormente fiel pero incompleta.",
+          "overall_coherence": "Las piezas forman un relato lógico básico (publicación de restricciones), pero la omisión de detalles clave impide una narrativa completamente coherente y exhaustiva."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1602,
+        "completion_tokens": 1274,
+        "total_tokens": 2876
+      }
+    },
+    {
+      "document_idx": 717,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Los datos incluidos (10,0 millones en 2019, en el mundo) son correctos, pero la extracción omite información relevante presente en la fuente (muertes, porcentajes de coinfección, impacto por coexistencia con COVID-19), y marca 'No especificado' donde la fuente sí aporta contexto.",
+          "completeness": "Faltan elementos clave disponibles en la fuente: cifras de mortalidad, distribución por sexo/edad, porcentaje con VIH y la mención del impacto de la COVID-19 en la atención y la investigación; por tanto no captura toda la información esencial.",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta sin mezclar información; la extracción es directa y sin datos superfluos, aunque algunos campos ('Qué') son demasiado escuetos.",
+          "clarity_and_readability": "El texto es entendible pero muy fragmentado y con formulaciones poco naturales (por ejemplo 'Qué: de tuberculosis'); requiere redacción mínima para ser autónomo.",
+          "source_faithfulness": "No introduce hechos inventados y los valores extraídos coinciden con la fuente, pero omite hechos explícitos del texto (causas/impacto y cifras adicionales), por lo que es fiel pero parcial.",
+          "overall_coherence": "Los elementos presentados forman un conjunto coherente a nivel básico (qué, quién, cuándo, dónde), pero la omisión de causas, cómo y datos complementarios impide una narrativa completa y conectada."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1729,
+        "completion_tokens": 1120,
+        "total_tokens": 2849
+      }
+    },
+    {
+      "document_idx": 50,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Los hechos listados (nombre, condición de convicto, año, lugares de inserción) son correctos y verificables en la fuente.",
+          "completeness": "Falta la información clave sobre cómo ocurrió la ejecución fallida (dos horas y 18 intentos de inserción) y no menciona la muerte de 2021; por tanto la extracción es incompleta.",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta sin añadir información irrelevante; las entradas 'No especificado' son concisas aunque omiten datos disponibles.",
+          "clarity_and_readability": "El texto es comprensible y gramaticalmente correcto, aunque muy escueto y con formato irregular.",
+          "source_faithfulness": "No hay invenciones ni hechos añadidos, pero la omisión del detalle sobre los 18 intentos reduce la fidelidad total a la fuente.",
+          "overall_coherence": "Los elementos son consistentes entre sí, pero la ausencia del 'cómo' clave impide una narrativa completamente coherente del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1569,
+        "completion_tokens": 1607,
+        "total_tokens": 3176
+      }
+    },
+    {
+      "document_idx": 710,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Los campos Quién, Cuándo y Dónde coinciden exactamente con la fuente; el 'Qué' identifica correctamente el tema pero está muy resumido y omite detalles concretos (p. ej. 'permitida a inicios de Semana Santa') y la mención del aumento de contagios no se refleja.",
+          "completeness": "Faltan elementos esenciales presentes en la fuente: contexto temporal más específico ('a inicios de Semana Santa') y la explicación causal (aumento de contactos y contagios). 'Por qué' y 'Cómo' deberían contener esa información.",
+          "relevance_and_conciseness": "Cada campo se centra en su pregunta sin mezclar información; sin embargo varias respuestas son excesivamente breves (especialmente 'Qué'), lo que reduce su utilidad.",
+          "clarity_and_readability": "El texto es comprensible pero fragmentario y con estilo poco pulido ('que el incremento de la movilidad' no es una oración completa), lo que afecta la legibilidad autónoma.",
+          "source_faithfulness": "No hay añadidos ni invenciones, pero la extracción omite información que sí aparece en la fuente, por lo que no es totalmente fiel ni exhaustiva.",
+          "overall_coherence": "Las partes forman un relato básico y consistente, pero las omisiones clave (por qué y cómo) dejan el conjunto incompleto y menos informativo."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1592,
+        "completion_tokens": 1416,
+        "total_tokens": 3008
+      }
+    },
+    {
+      "document_idx": 1460,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 3,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente la afirmación principal: España recibiría tres veces más vacunas que las que han aterrizado.",
+          "completeness": "Faltan detalles importantes del texto original: el periodo comparador 'enero a marzo' y la cifra absoluta (9,6 millones de dosis).",
+          "relevance_and_conciseness": "Cada campo responde a su 5W1H correspondiente sin mezclar información ni añadir elementos irrelevantes.",
+          "clarity_and_readability": "Las entradas son cortas y comprensibles; aunque son fragmentos, son gramaticalmente claros.",
+          "source_faithfulness": "No introduce información ajena ni interpretaciones; los enunciados son consistentes con la fuente, aunque omiten detalles.",
+          "overall_coherence": "Los elementos juntos forman un relato lógico y consistente del hecho (quién, cuándo, qué y dónde encajan), pese a la omisión de datos numéricos."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1541,
+        "completion_tokens": 1522,
+        "total_tokens": 3063
+      }
+    },
+    {
+      "document_idx": 355,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos explícitos del texto: persona, edad, propósito (vacunarse), día y lugar.",
+          "completeness": "Falta el detalle temporal 'minutos antes de las diez de la mañana' y el campo 'Por qué' se dejó como 'No especificado' aunque el motivo (vacunarse) sí aparece en 'Qué'.",
+          "relevance_and_conciseness": "Cada entrada se centra en su elemento 5W1H sin añadir información irrelevante ni mezclar campos.",
+          "clarity_and_readability": "Las frases son gramaticalmente correctas y comprensibles por sí solas; el uso de 'No especificado' es claro.",
+          "source_faithfulness": "No hay añadidos ni inferencias fuera del texto fuente; la extracción se mantiene fiel a lo comunicado.",
+          "overall_coherence": "Las partes forman un relato coherente (persona en cola para vacunarse en un lugar y día concretos), pero la omisión del detalle temporal y del campo 'Por qué' reduce ligeramente la integridad del conjunto."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1556,
+        "completion_tokens": 1168,
+        "total_tokens": 2724
+      }
+    },
+    {
+      "document_idx": 1356,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 1,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Parcialmente correcta: identifica al actor (Baleares) y el tema general (contagios), pero distorsiona/omite detalles clave (vacunación 80.000/semana, población 1,2 M, objetivo turístico).",
+          "completeness": "Muy incompleta: faltan o están mal asignados elementos esenciales (por qué y cómo omitidos; cuándo vago; dónde incorrecto).",
+          "relevance_and_conciseness": "Concisa pero poco relevante/atómica: mezcla de roles (’al mundo’ como lugar) y respuestas demasiado genéricas que no responden específicamente a cada 5W1H.",
+          "clarity_and_readability": "Texto entendible y gramaticalmente aceptable, pero algunas respuestas son ambiguas ('a la semana') o mal formuladas ('al mundo').",
+          "source_faithfulness": "No fiel: omite información explícita de la fuente (objetivo de recibir turistas, capacidad de vacunación y plazo) y añade asignaciones imprecisas.",
+          "overall_coherence": "Las piezas no forman un relato coherente: falta el motor (cómo/por qué) que conecta la intención de Baleares con la acción descrita en la fuente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1583,
+        "completion_tokens": 1519,
+        "total_tokens": 3102
+      }
+    },
+    {
+      "document_idx": 1446,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Algunas respuestas son correctas (qué, cuándo, dónde) pero 'Quién' está mal etiquetado: el texto indica el colectivo como receptor, mientras que falta identificar al agente implicado y la relación 'con su asistencia'.",
+          "completeness": "Faltan elementos relevantes presentes en la fuente: 'cómo' (con su asistencia) y el motivo implícito ('se pusieron sobre la mesa los problemas agravados por la pandemia') no se capturan.",
+          "relevance_and_conciseness": "Respuestas muy breves pero con asignaciones incorrectas (p. ej. 'Quién' es el receptor). No hay información superflua, pero sí mezcla de roles.",
+          "clarity_and_readability": "La extracción es comprensible en general, pero tiene errores de formato ('la La') y estilo que reducen la legibilidad.",
+          "source_faithfulness": "Parcialmente fiel: utiliza hechos del texto pero omite y reasigna elementos importantes, introduciendo una interpretación errónea del rol de 'quién'.",
+          "overall_coherence": "El conjunto es sólo parcialmente coherente: fecha y lugar concuerdan con la fuente, pero la identificación del actor y la omisión de cómo/por qué rompen la narrativa completa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1579,
+        "completion_tokens": 1461,
+        "total_tokens": 3040
+      }
+    },
+    {
+      "document_idx": 727,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Algunos elementos son correctos (Quién, Cuándo y en parte Dónde), pero el 'Qué' está mal identificado: el texto habla de que el Gobierno se mantuvo impávido y que el estado de alarma restringió la movilidad, no que 'la movilidad' sea el evento central.",
+          "completeness": "Faltan informaciónes esenciales: no se extrae la acción principal ('se mantuvo impávido') ni el rol del estado de alarma que restringió la movilidad e impuso el confinamiento.",
+          "relevance_and_conciseness": "Las respuestas son breves pero mal asignadas (p. ej. 'Qué: la movilidad' mezcla el efecto con el suceso principal), mostrando falta de atomicidad y enfoque por pregunta.",
+          "clarity_and_readability": "El texto es legible y gramaticalmente correcto; las etiquetas son comprensibles aunque muy escuetas.",
+          "source_faithfulness": "Se usan términos presentes en la fuente pero se reorganizan de forma que distorsionan el significado principal, introduciendo una interpretación incorrecta del 'Qué'.",
+          "overall_coherence": "Como conjunto, las 5W1H no forman un relato coherente del evento: falta la acción central y la relación causal con la declaración del estado de alarma."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1567,
+        "completion_tokens": 1422,
+        "total_tokens": 2989
+      }
+    },
+    {
+      "document_idx": 1152,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos extraídos (280.800 dosis, Presidente Iván Duque, 'este sábado', 'al país') coinciden exactamente con la fuente y no contienen errores factuales.",
+          "completeness": "Faltan detalles presentes en la fuente: el fabricante (Pfizer), el medio ('a través de su cuenta de Twitter') y el propósito ('permite seguir avanzando en el Plan Nacional de Vacunación').",
+          "relevance_and_conciseness": "Cada campo responde a su respectiva pregunta 5W1H sin mezclar información ni incluir datos superfluos; la extracción es concisa.",
+          "clarity_and_readability": "El texto es gramaticalmente comprensible y directo; la expresión 'Dónde: al país' es algo telegráfica pero entendible.",
+          "source_faithfulness": "La extracción se basa en la fuente sin introducir inferencias ni alucinaciones; las omisiones son ausencia, no alteración de hechos.",
+          "overall_coherence": "Las piezas forman un relato coherente (llegada de dosis informada por el presidente el sábado al país), aunque la ausencia de fabricante, medio y propósito reduce la completitud del conjunto."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1576,
+        "completion_tokens": 1381,
+        "total_tokens": 2957
+      }
+    },
+    {
+      "document_idx": 150,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Parcialmente correcta: identifica elementos clave (fallecidos, contagiados, Chile, dos días, población) pero omite que las cifras están subiendo alarmantemente y que el gobierno solicitó postergar elecciones.",
+          "completeness": "Insuficiente: no extrae detalles esenciales (aumento alarmante, confinamientos estrictos, gobierno solicitó postergar elecciones seis semanas, motivo del confinamiento).",
+          "relevance_and_conciseness": "Moderada: las respuestas son concisas y en su mayoría enfocadas, pero demasiado escuetas y faltan detalles relevantes que pertenecen a otras 5W1H.",
+          "clarity_and_readability": "Buena: las entradas son claras, gramaticalmente correctas y entendibles por sí solas.",
+          "source_faithfulness": "Bastante fiel: no hay alucinaciones, pero se omiten y simplifican informaciones presentes en la fuente (p. ej. causa del confinamiento y acción del gobierno).",
+          "overall_coherence": "Parcial: los elementos individuales son coherentes en lo básico, pero la omisión de causas y actores clave impide un relato completo y conectado del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1621,
+        "completion_tokens": 1465,
+        "total_tokens": 3086
+      }
+    },
+    {
+      "document_idx": 944,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los hechos extraídos (plasma de convaleciente; autor; institución; 'tres días menos de hospitalización') coinciden con la fuente, aunque 'tres días menos de hospitalización' está mal asignado a 'Cuándo'.",
+          "completeness": "Falta contexto esencial: no menciona explícitamente 'pacientes que recibieron el plasma' ni la comparación con la 'terapia convencional'; además 'Cuándo' no contiene información temporal real.",
+          "relevance_and_conciseness": "Las entradas son en su mayoría pertinentes y concisas, pero hay una mezcla conceptual al poner la reducción de días en la casilla 'Cuándo' y ausencia de la comparación, lo que reduce la atomicidad.",
+          "clarity_and_readability": "El texto es entendible en general pero la organización confusa (uso indebido de 'Cuándo') y la ausencia de frases completas disminuyen la legibilidad autónoma.",
+          "source_faithfulness": "No hay invenciones ni adiciones notables; la extracción se basa en la fuente, aunque reinterpretó la naturaleza de 'tres días menos' como temporal en vez de resultado.",
+          "overall_coherence": "Al juntar las 5W1H no se obtiene un relato completamente coherente: falta la relación paciente/terapia convencional y hay una categoría temporal equivocada."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1574,
+        "completion_tokens": 1287,
+        "total_tokens": 2861
+      }
+    },
+    {
+      "document_idx": 90,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Qué, Quién, Cuándo y Dónde coinciden con el texto; sin embargo no se recoge el destinatario exacto (Consellería de Sanidad de la Xunta de Galicia) ni el detalle sobre la vacunación.",
+          "completeness": "Falta el Por qué explícito (solicitar vacunación inmediata de los Guardias Civiles) y el Cómo; por tanto no captura toda la información 5W1H disponible.",
+          "relevance_and_conciseness": "Cada campo es breve y focalizado sin mezcla de elementos, pero 'Dónde' es genérico y se omiten respuestas que sí están en la fuente.",
+          "clarity_and_readability": "Las respuestas son gramaticalmente correctas, claras y fáciles de entender por sí solas.",
+          "source_faithfulness": "La extracción se basa en el texto original y no introduce información inventada, aunque omite datos presentes en la fuente.",
+          "overall_coherence": "Las partes individuales son consistentes entre sí, pero la ausencia del propósito y del método impide formar un relato completo y conectado."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1537,
+        "completion_tokens": 1487,
+        "total_tokens": 3024
+      }
+    },
+    {
+      "document_idx": 1072,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Parte de las respuestas (Quién, Dónde) son correctas, pero 'Qué' está incompleto (falta que genera una corriente eléctrica) y 'Cuándo' es incorrecto: la interferencia se da en enfermedades neurodegenerativas, no 'en circunstancias normales'.",
+          "completeness": "Faltan detalles clave presentes en la fuente: 'Qué' no incluye la corriente eléctrica; 'Cuándo' debería indicar el contexto de enfermedades neurodegenerativas; 'Por qué' y 'Cómo' están omitidos aunque la fuente ofrece explicación.",
+          "relevance_and_conciseness": "Las respuestas son concisas y no incluyen información irrelevante, pero varias están demasiado escuetas o mal asignadas (p. ej. 'Cuándo'), lo que reduce su utilidad.",
+          "clarity_and_readability": "La extracción es gramaticalmente correcta y fácil de leer; sin embargo la economía de palabras deja ambigüedades sobre el evento descrito.",
+          "source_faithfulness": "No se introducen alucinaciones, pero la extracción omite y reinterpreta partes importantes del texto fuente (especialmente el contexto temporal/condicional).",
+          "overall_coherence": "Los elementos juntos no forman un relato consistente ni completo: falta la conexión causal y temporal (por qué/cómo/cuándo), lo que impide una comprensión integrada del hallazgo."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1608,
+        "completion_tokens": 1950,
+        "total_tokens": 3558
+      }
+    },
+    {
+      "document_idx": 1549,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción reproduce exactamente los datos numéricos y temporales del texto fuente (20 millones, ~50% de 47 millones, cuarta semana de julio, España).",
+          "completeness": "Captura todas las 5W1H presentes en la fuente; las preguntas 'Por qué' y 'Cómo' estaban ausentes en el texto original y la extracción lo refleja.",
+          "relevance_and_conciseness": "Cada campo responde exclusivamente a su pregunta correspondiente sin añadir información irrelevante o mezclar elementos.",
+          "clarity_and_readability": "Las frases son gramaticalmente correctas, breves y comprensibles por sí mismas.",
+          "source_faithfulness": "No añade inferencias ni interpretaciones; todo lo extraído se basa directamente en el enunciado proporcionado.",
+          "overall_coherence": "Los elementos combinados forman un relato consistente: objetivo de vacunar 20 millones (≈50% de 47M) en España para la cuarta semana de julio."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1556,
+        "completion_tokens": 828,
+        "total_tokens": 2384
+      }
+    },
+    {
+      "document_idx": 689,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Mayormente correctas: 'gripe', temporada 2017-2018 y Europa aparecen en la fuente; sin embargo se omite al Instituto de Salud Carlos III y no se reflejan las cifras concretas presentes en el texto.",
+          "completeness": "Faltan datos esenciales incluidos en la fuente: cifras de contagiados, ingresados y fallecidos, y la mención explícita a España como ejemplo; 'Quién' no está completo.",
+          "relevance_and_conciseness": "Cada componente responde directamente a su pregunta 5W1H sin mezclar información ni agregar datos superfluos.",
+          "clarity_and_readability": "La extracción es breve, gramaticalmente correcta y fácil de entender por sí misma.",
+          "source_faithfulness": "No se añaden interpretaciones ni información externa; la extracción omite elementos pero no introduce alucinaciones.",
+          "overall_coherence": "Los elementos presentes son coherentes entre sí (enfermedad, actor, tiempo, lugar), pero la ausencia de datos clave y actores adicionales reduce la narrativa completa y su utilidad."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1596,
+        "completion_tokens": 1873,
+        "total_tokens": 3469
+      }
+    },
+    {
+      "document_idx": 1049,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Las respuestas presentes (mal funcionamiento neuronal, equipo de investigadores, hasta el momento, en el cerebro) son correctas y verificables; sin embargo omite la hipótesis explícita sobre la relación con partículas magnéticas, que sí aparece en la fuente.",
+          "completeness": "Falta extraer el 'por qué' que en la fuente aparece como hipótesis (relación con partículas magnéticas en el cerebro); el 'cómo' no está especificado en la fuente y se marcó correctamente como no especificado.",
+          "relevance_and_conciseness": "Cada elemento responde a su pregunta 5W1H sin añadir información irrelevante o mezclar campos.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y entendible por sí mismo; las respuestas son breves y claras.",
+          "source_faithfulness": "Mayormente fiel a la fuente, pero omitió la hipótesis disponible sobre partículas magnéticas, lo que constituye una ligera desviación.",
+          "overall_coherence": "Las partes forman un relato lógico y consistente, aunque la omisión del porqué hipotético crea una laguna significativa en la narrativa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1586,
+        "completion_tokens": 1691,
+        "total_tokens": 3277
+      }
+    },
+    {
+      "document_idx": 44,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 1,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Quién, Cuándo y Dónde son correctos, pero el campo 'Qué' omite los datos numéricos claves (dosis administradas, notificaciones, tasa).",
+          "completeness": "Falta la información esencial de la fuente (6.125.119 dosis, 11.182 notificaciones, 183 por 100.000), por lo que la extracción es muy incompleta.",
+          "relevance_and_conciseness": "Los ítems se mantienen enfocados y sin mezclar, pero 'Qué' es demasiado vago y faltan detalles importantes.",
+          "clarity_and_readability": "La extracción es gramaticalmente correcta y comprensible, aunque extremadamente concisa.",
+          "source_faithfulness": "No hay añadidos o invenciones; la extracción es fiel pero omite información explícita de la fuente.",
+          "overall_coherence": "Los elementos presentes son consistentes entre sí, pero la omisión de hechos centrales impide una narrativa completa y coherente del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1605,
+        "completion_tokens": 1040,
+        "total_tokens": 2645
+      }
+    },
+    {
+      "document_idx": 1146,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos del texto fuente (quién, qué, cuándo, dónde); el contenido es verificable en la fuente.",
+          "completeness": "Incluye todos los elementos 5W1H presentes en la fuente; ‘Por qué’ y ‘Cómo’ se señalan legítimamente como no especificados.",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta sin introducir información extraña o mezclar elementos entre sí.",
+          "clarity_and_readability": "Comprensible pero con errores gramaticales y falta de puntuación/acentos en el campo 'Qué', lo que reduce claridad.",
+          "source_faithfulness": "Fiel al enunciado original: no añade inferencias ni información adicional fuera de la fuente.",
+          "overall_coherence": "Las partes juntas forman un relato lógico y consistente que coincide con la oración de la fuente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1542,
+        "completion_tokens": 1253,
+        "total_tokens": 2795
+      }
+    },
+    {
+      "document_idx": 951,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Acierta en el actor (Govern de Francina Armengol) y el momento (esta mañana) y la decisión general, pero sobregeneraliza al indicar \"todas las fiestas populares\" sin mencionar que se refería a las de enero y a las islas concretas.",
+          "completeness": "Faltan detalles esenciales de la fuente: el alcance temporal (enero), las islas/localidades afectadas (Menorca, muchas de Mallorca, algunas de Eivissa), la razón (contagios disparados/índice de propagación) y el modo (reunión con alcaldes para comunicar la decisión).",
+          "relevance_and_conciseness": "Cada campo es breve y relevante pero demasiado genérico; no introduce información irrelevante, aunque omite especificaciones que pertenecen a otros campos (p. ej. ubicación detallada).",
+          "clarity_and_readability": "Fragmentos cortos y comprensibles por sí mismos; la expresión \"Dónde: de la Comunitat\" resulta algo ambigua pero entendible en contexto.",
+          "source_faithfulness": "La extracción se basa en la fuente pero añade una inferencia (prohibición de \"todas\" las fiestas sin limitar a enero/islas) y omite la causa y el procedimiento comunicados en el texto.",
+          "overall_coherence": "Los elementos forman un relato parcial y consistente en lo general, pero las omisiones clave rompen la narrativa completa y dejan preguntas sin responder."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1594,
+        "completion_tokens": 1505,
+        "total_tokens": 3099
+      }
+    },
+    {
+      "document_idx": 1410,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 3,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de datos clave (51 millones, tercer trimestre, promesa de Sánchez) son correctos; sin embargo 'Dónde: en rueda de prensa' es engañoso: la rueda de prensa fue la ocasión de un enunciado distinto (48 millones), no el lugar de llegada de dosis.",
+          "completeness": "Omite el matiz importante de que el presidente dijo que llegarían 48 millones este trimestre y no recoge explícitamente el motivo ('para que se cumpla la promesa'), por lo que no captura toda la información esencial disponible.",
+          "relevance_and_conciseness": "La extracción es breve y en su mayoría enfocada, pero mezcla elementos (asigna 'rueda de prensa' como 'Dónde' de la llegada) y no incluye el contraste relevante con los 48 millones mencionados.",
+          "clarity_and_readability": "Las entradas son comprensibles aunque fragmentarias ('Quién: de Sánchez' es poco elegante); en general el texto puede entenderse sin la fuente, pero falta precisión en algunas etiquetas.",
+          "source_faithfulness": "Basada en el texto original pero introduce una interpretación implícita sobre la ubicación y omite información presente (48 millones), por lo que no es totalmente fiel a la fuente.",
+          "overall_coherence": "Las piezas principales (promesa, cantidad, trimestre, autor) crean un relato entendible, pero la asignación de 'Dónde' y la ausencia del contraste con los 48 millones rompen la coherencia lógica completa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1553,
+        "completion_tokens": 2083,
+        "total_tokens": 3636
+      }
+    },
+    {
+      "document_idx": 979,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 3,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción acierta 'Quién', 'Cuándo' y 'Dónde' y el núcleo del 'Qué', pero omite que la oposición se refería a 'menores de 60 años' y no incluye el motivo expresado en la fuente.",
+          "completeness": "Faltan elementos esenciales: la especificación 'en menores de 60 años' para el 'Qué' y la razón explícita ('no está basada en las conclusiones del PRAC'), además de posibles detalles del 'Cómo'.",
+          "relevance_and_conciseness": "Las respuestas son concisas y no contienen información superflua ni mezclada entre campos; sin embargo carecen de detalles necesarios para completar cada 5W1H.",
+          "clarity_and_readability": "Texto claro y gramaticalmente correcto; cada respuesta es legible y comprensible por sí misma.",
+          "source_faithfulness": "No introduce información adicional o inventada, pero omite el argumento clave ofrecido por el Gobierno (referencia al PRAC) y la limitación a menores de 60 años, lo que reduce la fidelidad.",
+          "overall_coherence": "Las partes forman un relato consistente (oposición del Gobierno en el Consejo este miércoles), aunque incompleto por la ausencia del motivo y la especificación sobre el grupo etario."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1625,
+        "completion_tokens": 1854,
+        "total_tokens": 3479
+      }
+    },
+    {
+      "document_idx": 720,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Mayormente correcta: identifica la propagación, la ubicación y el marco temporal, pero omite que la propagación 'vuelve a reactivarse' y el aumento concreto en UCI y los valores del EPG.",
+          "completeness": "Faltan detalles esenciales del texto fuente: el EPG aumentó 4 puntos hasta 212 tras estar estancado en 208 y se menciona el aumento de pacientes en UCI; la extracción no incluye estos datos.",
+          "relevance_and_conciseness": "Las respuestas se mantienen enfocadas y concisas sin añadir información irrelevante; sin embargo 'los pacientes ingresados' es demasiado genérico (se omite 'en las UCI').",
+          "clarity_and_readability": "Redacción comprensible y gramaticalmente correcta en general, aunque alguna etiqueta ('los pacientes ingresados') resulta ambigua por falta de contexto.",
+          "source_faithfulness": "La extracción no inventa hechos y se basa en la fuente, pero omite información clave presente en el texto, por lo que no es totalmente exhaustiva.",
+          "overall_coherence": "Los elementos forman un conjunto coherente básico (propagación en Cataluña tras dos días), pero la ausencia de detalles sobre reactivación, EPG y UCI reduce la coherencia informativa completa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1579,
+        "completion_tokens": 2000,
+        "total_tokens": 3579
+      }
+    },
+    {
+      "document_idx": 354,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos provistos (Departamento de Salud, este lunes, UCI) son correctos, pero la extracción omite cifras concretas clave (1.474 hospitalizados, 403 en UCI, incrementos), por lo que es parcialmente precisa.",
+          "completeness": "Faltan datos esenciales presentes en la fuente: número total de hospitalizados, incrementos respecto al domingo y número de pacientes graves; 'Qué' no especifica los datos epidemiológicos concretos.",
+          "relevance_and_conciseness": "Cada campo se enfoca en su pregunta y evita información irrelevante, pero es excesivamente conciso y omite detalles relevantes.",
+          "clarity_and_readability": "Las respuestas son gramaticalmente correctas y comprensibles por sí solas.",
+          "source_faithfulness": "No añade información no presente en la fuente ni realiza inferencias; se limita a lo mostrado (aunque de forma incompleta).",
+          "overall_coherence": "Los elementos son coherentes entre sí, pero la ausencia de cifras y contexto impide formar un relato completo y conectado del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1568,
+        "completion_tokens": 1360,
+        "total_tokens": 2928
+      }
+    },
+    {
+      "document_idx": 287,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja exactamente la información del texto: abundantes colonias, financiamiento por PharmaMar, ubicación y contexto temporal.",
+          "completeness": "Incluye todos los 5W1H presentes en la fuente; dónde, quién, cuándo y qué están presentes y marca correctamente como 'No especificado' los campos ausentes (por qué, cómo).",
+          "relevance_and_conciseness": "Cada campo responde únicamente a su pregunta sin añadir información irrelevante o mezclar elementos de otros 5W1H.",
+          "clarity_and_readability": "Los fragmentos son breves y comprensibles por sí mismos; la estructura es clara y no presenta ambigüedad significativa.",
+          "source_faithfulness": "No introduce inferencias ni datos fuera del texto original; los campos no provistos se etiquetan correctamente como 'No especificado'.",
+          "overall_coherence": "Las partes juntas forman un relato coherente y consistente que reproduce fielmente la frase original."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1560,
+        "completion_tokens": 1529,
+        "total_tokens": 3089
+      }
+    },
+    {
+      "document_idx": 1089,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos principales coinciden con la fuente (nuevo síntoma, autor, Twitter). 'Cuándo' es algo ambiguo: la frase 'hasta ahora' en la fuente califica que el síntoma fue ignorado hasta ahora, no establece una fecha del aviso.",
+          "completeness": "Falta capturar explícitamente que Tim Spector 'ha alertado' (acción) y que el síntoma 'fue ignorado por los expertos' como parte del contenido esencial.",
+          "relevance_and_conciseness": "Cada campo se enfoca en su pregunta sin añadir información extra, aunque 'Cuándo' toma una frase que describe el estado del síntoma más que un momento temporal claro.",
+          "clarity_and_readability": "Las respuestas son comprensibles pero algunas entradas son fragmentarias ('Qué: de un nuevo síntoma') y podrían formularse más claramente.",
+          "source_faithfulness": "No hay información añadida ni inferencias; los campos vacíos se marcan como 'No especificado' de forma fiel a la fuente.",
+          "overall_coherence": "En conjunto forman un relato consistente y alineado con la fuente, pero la redacción incompleta y la omisión de la acción ('alertó') reducen ligeramente la coherencia narrativa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1544,
+        "completion_tokens": 1522,
+        "total_tokens": 3066
+      }
+    },
+    {
+      "document_idx": 410,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 2,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Algunos elementos son correctos (Cuándo: después de tres meses; Dónde: 165 países), pero hay errores importantes: 'Quién' indica 'la población' cuando la fuente dice que 165 países informaron; falta el dato del 42% y hay un error tipográfico en 'TB.Y'.",
+          "completeness": "Omite información esencial presente en la fuente: el porcentaje (42%) que reportó interrupciones, las causas (reasignación de personal, temor de pacientes, dificultades de acceso) y el método (encuesta enviada).",
+          "relevance_and_conciseness": "La extracción contiene elementos confusos y no atómicos (p. ej. 'Y' pegado a 'TB.Y') y el campo 'Quién' no responde claramente a quién informó o a quién afectó, mezclando conceptos.",
+          "clarity_and_readability": "Texto con errores tipográficos y formulaciones ambiguas ('de la población' sin contexto) que dificultan la lectura autónoma y precisa.",
+          "source_faithfulness": "No se basa estrictamente en la fuente: omite causas y el método y altera quién reportó las interrupciones, introduciendo una interpretación incorrecta.",
+          "overall_coherence": "Las partes no conforman un relato completo y consistente: faltan por qué y cómo, y la inexactitud en 'Quién' rompe la conexión lógica entre los elementos."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1690,
+        "completion_tokens": 1746,
+        "total_tokens": 3436
+      }
+    },
+    {
+      "document_idx": 1405,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los elementos (quién, cuándo, dónde) coinciden con la fuente, pero el 'Qué' omite el detalle crucial 'en mayores de 55 años', lo que reduce la precisión factual.",
+          "completeness": "Falta información esencial en 'Qué' (población objetivo) y la fuente adicional sobre efectividad y tamaño del ensayo no se refleja; varios datos relevantes no están extraídos.",
+          "relevance_and_conciseness": "Las respuestas son concisas y no mezclan elementos, pero el 'Qué' está demasiado abreviado y omite información que pertenece a esa categoría.",
+          "clarity_and_readability": "Cada campo es breve y comprensible, sin errores gramaticales significativos; fácil de entender por sí mismo.",
+          "source_faithfulness": "No hay adiciones o inferencias no presentes en la fuente; los campos 'Por qué' y 'Cómo' indican correctamente que la información no está especificada.",
+          "overall_coherence": "Los elementos forman un conjunto consistente y coherente del evento, aunque incompleto debido a la omisión en 'Qué' y la ausencia de detalles complementarios."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1618,
+        "completion_tokens": 860,
+        "total_tokens": 2478
+      }
+    },
+    {
+      "document_idx": 148,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Parcialmente correcta: identifica campañas, EFSA, 2013 y procesos de fabricación, pero omite a los gobiernos nacionales y la distinción entre campañas dirigidas a la población y la exhortación a empresas.",
+          "completeness": "Incompleta: no refleja las dos acciones distintas (campañas a la población y solicitud a empresas), omite a los gobiernos nacionales y no extrae el propósito ('reducir la exposición') ni el modo ('cómo reducir la exposición').",
+          "relevance_and_conciseness": "Mayormente concisa y enfocada, pero hay mezcla implícita de roles/acciones y falta información que correspondería a otras categorías, reduciendo la atomicidad.",
+          "clarity_and_readability": "Comprensible y gramaticalmente aceptable aunque telegráfica en partes y con 'No especificado' en dos campos que podrían haberse inferido de la fuente.",
+          "source_faithfulness": "Basada en la fuente sin alucinaciones, pero omite información explícita en el texto (gobiernos nacionales, propósito y método), por lo que no es totalmente fiel.",
+          "overall_coherence": "Conjunto parcialmente coherente pero incompleto: las piezas no forman un relato plenamente conectado porque faltan el porqué y el cómo y la relación entre las dos acciones."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1601,
+        "completion_tokens": 1939,
+        "total_tokens": 3540
+      }
+    },
+    {
+      "document_idx": 1568,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción reproduce correctamente quién, qué, cuándo y dónde tal como aparece en la fuente; el contenido del 'qué' coincide exactamente con el texto original.",
+          "completeness": "Omite el 'por qué' presente en la fuente ('tras las últimas cifras notificadas'); 'cómo' no figura en la fuente, pero la falta del motivo supone pérdida de información esencial.",
+          "relevance_and_conciseness": "Cada respuesta se centra en la pregunta correspondiente sin mezclar elementos ni añadir información superflua.",
+          "clarity_and_readability": "Las entradas son gramaticalmente claras y comprensibles por sí mismas.",
+          "source_faithfulness": "No hay añadidos ni interpretaciones inventadas, pero se indicó 'No especificado' para el 'por qué' pese a que la fuente sí lo menciona, lo que evidencia una omisión.",
+          "overall_coherence": "Los elementos extraídos forman en general un relato coherente, pero la omisión del motivo reduce la exhaustividad y la cohesión narrativa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1580,
+        "completion_tokens": 1666,
+        "total_tokens": 3246
+      }
+    },
+    {
+      "document_idx": 398,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Los datos presentes (quién, dónde, año) son correctos y verificables; sin embargo el campo 'Qué' omite que fue diagnosticado erróneamente y falta la fecha exacta del 12 de marzo de 2013.",
+          "completeness": "Faltan detalles relevantes de la fuente: la indicación de diagnóstico erróneo, la fecha precisa (12/03/2013) y que el paciente fue intervenido tras varias pruebas.",
+          "relevance_and_conciseness": "Cada ítem responde a su pregunta 5W1H sin mezclar información ni añadir contenido irrelevante, aunque algunos campos son excesivamente escuetos.",
+          "clarity_and_readability": "El texto es en general entendible, pero algunos labels carecen de verbo o contexto ('Qué: de un tumor benigno'), lo que reduce fluidez.",
+          "source_faithfulness": "La extracción no introduce inferencias ni alucinaciones; se limita a la información de la fuente, aunque omite elementos presentes en ella.",
+          "overall_coherence": "Los elementos son consistentes entre sí y forman un relato lógico básico, pero la ausencia de detalles clave impide una reconstrucción completa del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1576,
+        "completion_tokens": 1769,
+        "total_tokens": 3345
+      }
+    },
+    {
+      "document_idx": 1580,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "El 'Qué' y 'Dónde' reflejan correctamente la fuente; 'Quién' es impreciso; 'Cuándo' está mal asignado (la fuente no da una marca temporal), y 'Por qué' y 'Cómo' que sí aparecen fueron omitidos.",
+          "completeness": "Se omite la razón principal (evitar sobreesfuerzo/efecto negativo, p. ej. en osteoporosis) y el 'cómo' (adaptados a la forma física de cada persona); además 'Cuándo' no responde a una de las 5W1H disponibles en el texto.",
+          "relevance_and_conciseness": "Las respuestas son concisas, pero 'Cuándo' mezcla una acción (agacharse) que no es temporal y 'Quién' queda demasiado genérico, lo que reduce la precisión por componente.",
+          "clarity_and_readability": "Texto entendible y gramaticalmente aceptable, aunque algo fragmentado y con salto de líneas; se comprende sin mayor esfuerzo.",
+          "source_faithfulness": "Parte de la extracción está basada en la fuente, pero hay omisiones e interpretaciones (p. ej. no reconocer que 'adaptados a la forma física' responde a 'Cómo' y que existe una razón explícita).",
+          "overall_coherence": "Al combinarse, los elementos ofrecen solo un relato parcial: hay segmentos correctos (Qué, Dónde) pero faltan elementos clave y existe una asignación incorrecta ('Cuándo'), lo que impide una imagen completamente coherente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1590,
+        "completion_tokens": 1771,
+        "total_tokens": 3361
+      }
+    },
+    {
+      "document_idx": 724,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente que los participantes serán monitorizados durante dos años en el ensayo y menciona protección, pero omite la referencia a \"seguridad a largo plazo\" y marca como \"No especificado\" el método (monitorización) que aparece en la fuente.",
+          "completeness": "Faltan elementos importantes: la fuente menciona tanto protección como seguridad a largo plazo y que los participantes serán \"controlados\" (método), ambos ausentes o incompletos en la extracción.",
+          "relevance_and_conciseness": "Las respuestas están enfocadas en sus preguntas respectivas y no introducen información extra, pero la respuesta a 'Qué' es parcial (solo 'protección') y las marcaciones 'No especificado' para elementos presentes reducen la calidad.",
+          "clarity_and_readability": "Las entradas son claras y gramaticalmente comprensibles por sí solas; el formato es conciso y fácil de leer.",
+          "source_faithfulness": "La extracción se basa en la fuente sin inventar hechos, pero omite información explícita de la misma (seguridad, el hecho de que serán controlados), por lo que no es completamente fiel.",
+          "overall_coherence": "En conjunto las partes forman un relato lógico (participantes en ensayo monitoreados por dos años), pero las omisiones sobre seguridad y método impiden una narrativa totalmente coherente y exhaustiva."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1538,
+        "completion_tokens": 1167,
+        "total_tokens": 2705
+      }
+    },
+    {
+      "document_idx": 1524,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Inexacta: 'Qué' está mal formulado (la fuente describe explosiones de gas que alcanzarán la órbita; la extracción sólo pone 'la órbita de la Tierra'). 'Por qué' (de origen pseudo volcánico) y 'Cómo' (explosiones de gas) están ausentes. 'Quién', 'Cuándo' y 'Dónde' son correctos.",
+          "completeness": "Parcial: faltan información esencial presente en la fuente (causa 'de origen pseudo volcánico' y el modo 'explosiones de gas'), y el 'Qué' no describe el evento completo.",
+          "relevance_and_conciseness": "Mayormente concisa pero con una respuesta fuera de lugar: la mayoría de campos se ajustan a su pregunta, pero el 'Qué' responde de forma irrelevante y se omiten elementos que pertenecen a otros campos.",
+          "clarity_and_readability": "Texto claro y comprensible en su mayoría; formato breve y legible. Algunas respuestas (p.ej. 'Qué') resultan confusas por su inexactitud, no por gramática.",
+          "source_faithfulness": "No totalmente fiel: omite la causa explícita ('origen pseudo volcánico') y la naturaleza del suceso (explosiones de gas), añadiendo implícitamente o alterando el foco al poner 'la órbita' como 'qué').",
+          "overall_coherence": "Baja coherencia: las partes no conforman un relato completo y consistente del evento debido a la omisión del porqué y del cómo y a la formulación incorrecta del 'Qué'."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1548,
+        "completion_tokens": 1426,
+        "total_tokens": 2974
+      }
+    },
+    {
+      "document_idx": 810,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La fecha y el lugar son correctos, pero el 'Qué' es vago (no indica que fue la aprobación) y el 'Cómo' está omitido a pesar de que la fuente dice \"con la mayoría absoluta del PP de Galicia\".",
+          "completeness": "Faltan datos esenciales: debería especificar que se aprobó la Ley (qué) y que fue aprobada con mayoría absoluta (cómo); 'quién' no identifica claramente 'PP de Galicia'.",
+          "relevance_and_conciseness": "Cada campo es breve y centrado en la pregunta correspondiente sin añadir información irrelevante, aunque excesivamente escueto.",
+          "clarity_and_readability": "Las frases son entendibles pero fragmentarias y con construcciones imprecisas ('Qué: de la Ley...','Quién: del PP').",
+          "source_faithfulness": "No introduce hechos nuevos, pero omite y contradice parcialmente la fuente al afirmar que el 'Cómo' no está especificado cuando la fuente sí lo indica.",
+          "overall_coherence": "Los elementos comunican la idea básica (aprobación legislativa en Galicia el 23 de febrero por el PP), pero las omisiones clave impiden un relato totalmente coherente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1551,
+        "completion_tokens": 1534,
+        "total_tokens": 3085
+      }
+    },
+    {
+      "document_idx": 341,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos clave del texto: 19 positivos, cribado \"este viernes\", personas vinculadas y tres establecimientos en Puertollano.",
+          "completeness": "Omite que los 19 casos \"se suman a los 26 detectados previamente\", que es información relevante del mismo enunciado; por lo demás cubre las 5W1H disponibles.",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta específica sin mezclar elementos ni añadir información irrelevante.",
+          "clarity_and_readability": "El texto es comprensible y gramaticalmente aceptable, aunque algo telegráfico; podría beneficiarse de frases más completas.",
+          "source_faithfulness": "No introduce inferencias ni datos ajenos a la fuente; la extracción se basa estrictamente en el texto proporcionado.",
+          "overall_coherence": "Las partes forman un relato lógico (cribado -> población -> lugar -> resultado), pero la omisión de la relación con los 26 casos previos reduce algo la coherencia global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1582,
+        "completion_tokens": 1562,
+        "total_tokens": 3144
+      }
+    },
+    {
+      "document_idx": 1381,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos proporcionados son correctos (vacunación, Consejo, miércoles, España) pero se omiten detalles presentes en la fuente (por ejemplo 'se reanudará' y la referencia a AstraZeneca y mayores de 55 años).",
+          "completeness": "Faltan información esencial de la fuente: que la vacunación 'se reanudará', el contexto de AstraZeneca y la reunión del Consejo el lunes para decidir sobre mayores de 55 años.",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta sin mezclar información ni añadir datos no presentes; es conciso aunque algo escueto.",
+          "clarity_and_readability": "Las respuestas son claras y comprensibles por sí solas; el uso de 'No especificado' es coherente cuando falta dato.",
+          "source_faithfulness": "La extracción no introduce información no presente en la fuente, pero omite elementos relevantes que están en el texto original.",
+          "overall_coherence": "Las piezas forman una narrativa básica coherente (vacunación en España el miércoles, implicando al Consejo), pero faltan conexiones y detalles que mejorarían la cohesión."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1551,
+        "completion_tokens": 1629,
+        "total_tokens": 3180
+      }
+    },
+    {
+      "document_idx": 1309,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción acierta en Qué, Dónde y en parte en Quién/Cuándo, pero falla al indicar 'Cómo' como no especificado cuando la fuente sí describe los pasos (introducir número SIP, fecha de nacimiento y fecha de emisión).",
+          "completeness": "Omite información esencial del 'Cómo' (detalles de los datos a introducir) y no especifica el perfil exacto de 'Quién' ('personas que se quieran descargar'), por lo que no captura toda la información 5W1H.",
+          "relevance_and_conciseness": "Cada elemento está focalizado y sin información superflua; las respuestas son concisas y no mezclan múltiples 5W1H.",
+          "clarity_and_readability": "Textos cortos y gramaticalmente correctos; 'una vez realizado este paso' es algo vago pero en general legible y entendible.",
+          "source_faithfulness": "No respeta completamente la fuente: marca 'Cómo' como no especificado pese a que la fuente indica los campos a introducir, y simplifica 'Quién' quitando el matiz 'que se quieran descargar'.",
+          "overall_coherence": "Los elementos forman un relato mayoritariamente coherente (ir a la web, luego un paso), pero la ausencia del 'Cómo' y la generalidad en 'Quién' dejan una narrativa incompleta."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1578,
+        "completion_tokens": 1868,
+        "total_tokens": 3446
+      }
+    },
+    {
+      "document_idx": 751,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 2,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Parcialmente correcta: la fecha (31/01/2020), que fue el primer caso y el país (España) son correctos, pero 'Quién' está mal identificado (debería ser 'un turista alemán en La Gomera') y falta precisión del lugar.",
+          "completeness": "Faltan datos esenciales: la extracción no identifica correctamente al infectado ni menciona La Gomera; aunque 'por qué'/'cómo' no se especifican en la fuente, otros elementos clave están ausentes.",
+          "relevance_and_conciseness": "Las respuestas son concisas pero contienen una asignación incorrecta ('Quién: a la gente' es irrelevante/errónea para esa pregunta), por lo que no se mantiene enfoque estrictamente por componente.",
+          "clarity_and_readability": "El texto es breve y gramaticalmente claro; cada campo es comprensible por sí mismo.",
+          "source_faithfulness": "No totalmente fiel: la extracción altera quién fue el caso detectado y omite la localización precisa (La Gomera), lo que constituye una desviación de la fuente.",
+          "overall_coherence": "En conjunto ofrece una narrativa mínima (primer caso en España en la fecha indicada) pero la identificación incorrecta del 'Quién' y la falta de detalle del lugar reducen la coherencia global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1573,
+        "completion_tokens": 1346,
+        "total_tokens": 2919
+      }
+    },
+    {
+      "document_idx": 1581,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 1,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Sólo 'Quién' es claramente correcta y 'Dónde' es parcialmente correcta; 'Qué' está impreciso (debería indicar que se vacunará en 10 hospitales y que se unirán a otros centros) y omite otras ubicaciones mencionadas.",
+          "completeness": "Falta información esencial: no se menciona la vacunación en 10 hospitales públicos, ni el Wanda Metropolitano ni el antiguo Palacio de los Deportes; 'Por qué' y 'Cómo' no aparecen en la fuente y fueron correctamente marcados como no especificado.",
+          "relevance_and_conciseness": "Las respuestas son concisas pero 'Qué' es una frase incompleta y 'Dónde' omite múltiples ubicaciones; no hay mezcla de elementos, pero falta enfoque en la respuesta completa esperada.",
+          "clarity_and_readability": "La mayoría de los ítems son gramaticalmente comprensibles ('Quién', 'Dónde'), pero 'Qué: a los centros de vacunación' es fragmentario y carece de verbo, reduciendo claridad.",
+          "source_faithfulness": "La extracción refleja parcialmente la fuente (identifica a la dirigente y una ubicación) pero omite y simplifica hechos explícitos del texto original, introduciendo una representación incompleta.",
+          "overall_coherence": "Las piezas individuales no construyen un relato completo ni coherente del anuncio: faltan actores/ubicaciones clave y la relación temporal/espacial queda fragmentada."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1568,
+        "completion_tokens": 1370,
+        "total_tokens": 2938
+      }
+    },
+    {
+      "document_idx": 1150,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja exactamente la información del texto: 'alarmas', 'Ejército de EEUU', 'tras un brote de COVID-19', 'un buque de guerra'. Los campos 'Por qué' y 'Cómo' se indican como no especificados porque la fuente no los proporciona.",
+          "completeness": "Incluye todos los elementos 5W1H presentes en la fuente (Qué, Quién, Cuándo, Dónde) y marca correctamente como ausentes los elementos no mencionados (Por qué, Cómo).",
+          "relevance_and_conciseness": "Cada campo responde solo a su respectiva pregunta sin mezclar información ni añadir detalles superfluos; las respuestas son concisas.",
+          "clarity_and_readability": "Las entradas son gramaticalmente correctas, breves y comprensibles por sí solas.",
+          "source_faithfulness": "No se introducen inferencias ni información adicional; la extracción se limita a lo que dice el enunciado original.",
+          "overall_coherence": "Los elementos combinados forman un relato lógico y consistente: las alarmas en el Ejército de EEUU tras un brote de COVID-19 en un buque de guerra."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1536,
+        "completion_tokens": 1444,
+        "total_tokens": 2980
+      }
+    },
+    {
+      "document_idx": 70,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los elementos (qué, quién, cuándo, dónde) coinciden exactamente con la fuente; sin embargo se omite 'vía aérea' que aparece en el texto original.",
+          "completeness": "Falta la indicación 'vía aérea' presente en la fuente; 'por qué' efectivamente no está especificado en el texto, pero 'cómo' sí puede inferirse y fue omitido.",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta específica sin mezclar información ni añadir datos irrelevantes.",
+          "clarity_and_readability": "El texto es gramaticalmente claro y fácilmente entendible por sí mismo; la formulación es breve y directa.",
+          "source_faithfulness": "En su mayoría fiel a la fuente, pero omite el detalle 'vía aérea', lo que constituye una pequeña omisión en la extracción literal.",
+          "overall_coherence": "Las piezas forman un relato lógico y consistente del requisito, aunque la omisión del modo de entrada reduce algo la exhaustividad."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1536,
+        "completion_tokens": 1285,
+        "total_tokens": 2821
+      }
+    },
+    {
+      "document_idx": 1284,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los elementos reflejan correctamente el texto fuente (qué, quién, cuándo). Sin embargo, 'dónde' omite las otras dos ubicaciones mencionadas (Sudáfrica y Brasil).",
+          "completeness": "Falta listar todas las localizaciones citadas en la fuente (solo aparece Reino Unido); 'por qué' y 'cómo' correctamente marcados como no especificados porque la fuente no los detalla.",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta sin añadir información superflua o mezclar elementos; la única omisión es la parcialidad en 'dónde'.",
+          "clarity_and_readability": "Las respuestas son breves, gramaticalmente correctas y comprensibles por sí solas.",
+          "source_faithfulness": "La extracción se basa en la fuente sin introducir inferencias; la omisión de Sudáfrica y Brasil reduce fidelidad parcial pero no añade datos falsos.",
+          "overall_coherence": "Los elementos juntos forman un relato coherente y entendible del evento, aunque incompleto respecto a todas las localizaciones mencionadas."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1577,
+        "completion_tokens": 1493,
+        "total_tokens": 3070
+      }
+    },
+    {
+      "document_idx": 153,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los elementos coinciden con la fuente (datos epidemiológicos; turistas alemanes; agosto del año pasado; hoteles de la Platja de Palma). Sin embargo omite la alternativa de ubicación ('zona norte de la isla'), por lo que no está completamente precisa.",
+          "completeness": "Falta parte de la información disponible en la fuente: la mención adicional 'o de la zona norte de la isla' no fue extraída; además no se registra la matización 'muy parecidos' respecto a los datos, lo que reduce la exhaustividad.",
+          "relevance_and_conciseness": "Cada campo se limita a la respuesta pertinente sin añadir información irrelevante o mezclar elementos; las entradas 'No especificado' son apropiadas.",
+          "clarity_and_readability": "Las respuestas son gramaticalmente correctas y comprensibles por sí mismas; formato claro y directo.",
+          "source_faithfulness": "No introduce inferencias ni información nueva; sin embargo la omisión de la ubicación alternativa implica pérdida de parte de la fuente, aunque no hay alucinaciones.",
+          "overall_coherence": "En conjunto las piezas forman un relato coherente y consistente, pero la omisión señalada (zona norte de la isla) reduce ligeramente la fidelidad y completitud del conjunto."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1554,
+        "completion_tokens": 1721,
+        "total_tokens": 3275
+      }
+    },
+    {
+      "document_idx": 875,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Las respuestas proporcionadas (qué, quién, cuándo, dónde) coinciden exactamente con la información del texto fuente.",
+          "completeness": "Se omiten elementos presentes en la fuente: el propósito ('para recoger organismos marinos de las Baleares y estudiarlos') y la localización geográfica 'de las Baleares'; 'cómo' tampoco está respondido.",
+          "relevance_and_conciseness": "Cada elemento es conciso y enfocado en su pregunta específica sin mezclar información, aunque faltan detalles esenciales.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y fácil de entender por sí mismo.",
+          "source_faithfulness": "La extracción no introduce información nueva ni inferencias; se limita al contenido del texto original, aunque llega a omitir partes del mismo.",
+          "overall_coherence": "Los elementos extraídos forman un relato coherente pero incompleto: falta el motivo y el método, lo que reduce la narrativa del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1597,
+        "completion_tokens": 1526,
+        "total_tokens": 3123
+      }
+    },
+    {
+      "document_idx": 765,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente el núcleo de la decisión (relajar medidas sobre número de personas, quién y cuándo), pero omite datos numéricos concretos (de 4 a 6; de 1 a 2) y otros contextos mencionados.",
+          "completeness": "Falta información esencial: los nuevos aforos (4→6, 1→2) y los contextos específicos (mesas de terrazas, práctica deportiva y el cambio en núcleos familiares privados).",
+          "relevance_and_conciseness": "Cada campo se centra en su pregunta sin mezclar detalles ni añadir información irrelevante.",
+          "clarity_and_readability": "Texto claro y gramaticalmente correcto; comprensible por sí mismo.",
+          "source_faithfulness": "No añade inferencias ni alucinaciones; lo extraído está presente en la fuente, aunque incompleto.",
+          "overall_coherence": "Las partes forman un relato consistente (quién/qué/cuándo/dónde), pero la ausencia de cifras y detalles reduce la coherencia completa del conjunto."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1587,
+        "completion_tokens": 1483,
+        "total_tokens": 3070
+      }
+    },
+    {
+      "document_idx": 464,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Quién, Cuándo y Dónde son correctos, pero 'Qué' es demasiado vago y 'Por qué' y 'Cómo' se marcan como no especificados pese a estar explícitos en la fuente (motivo: frenar contagios; mecanismo: recomendar confinamiento estricto y pedir herramientas jurídicas).",
+          "completeness": "Faltan detalles esenciales del informe: la recomendación de confinamiento estricto y la petición de herramientas jurídicas, así como la razón (frenar el nivel de contagios).",
+          "relevance_and_conciseness": "Cada campo está separado y no mezcla información, pero las respuestas son excesivamente escuetas y omiten información relevante presente en la fuente.",
+          "clarity_and_readability": "La extracción es legible y comprensible por sí misma, aunque muy breve y con una pequeña imprecisión formal ('Comité Expertos' sin 'de').",
+          "source_faithfulness": "No hay añadidos ni invenciones, pero la extracción omite hechos explícitos de la fuente, por lo que no es totalmente fiel.",
+          "overall_coherence": "Los elementos presentes (Quién, Cuándo, Dónde) son compatibles entre sí, pero las omisiones de Por qué y Cómo impiden un relato completo y conectado."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1572,
+        "completion_tokens": 1399,
+        "total_tokens": 2971
+      }
+    },
+    {
+      "document_idx": 817,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 3,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos extraídos coinciden con el texto fuente (eliminación de movilidad, grupo de pacientes, momento y lugar) sin errores factuales.",
+          "completeness": "Falta la mención explícita de que esa eliminación 'no le favorece' y no se recoge la relación causal implícita con las lesiones mencionadas; 'por qué' y 'cómo' quedan sin respuesta.",
+          "relevance_and_conciseness": "Cada campo se centra en su pregunta concreta y no introduce información ajena ni mezclar respuestas.",
+          "clarity_and_readability": "La extracción es comprensible pero algo fragmentaria y con formulaciones incompletas que reducen la legibilidad autónoma.",
+          "source_faithfulness": "Mayormente fiel a la fuente y sin adiciones inventadas, aunque omite la negación relevante ('no le favorece') y no aprovecha información contigua que clarificaría el motivo.",
+          "overall_coherence": "Las partes juntas forman un relato lógico y consistente, pero resulta incompleto por la ausencia de 'por qué'/'cómo' y la pérdida de la negación clave."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1616,
+        "completion_tokens": 1685,
+        "total_tokens": 3301
+      }
+    },
+    {
+      "document_idx": 359,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos extraídos que aparecen son correctos y verificables en la fuente (tumor benigno, paciente, 15 meses, Hospital de Mataró) pero omiten matices temporales ('en julio de 2014') y la creencia de estar curado.",
+          "completeness": "Faltan datos esenciales presentes en la fuente: fecha concreta ('julio de 2014'), síntomas y motivo de ingreso (pérdida de peso, diarreas, ictericia, etc.) y la mención de que pensaba estar curado.",
+          "relevance_and_conciseness": "Las respuestas son concisas y centradas en cada campo sin añadir información irrelevante, aunque omiten información disponible en la fuente.",
+          "clarity_and_readability": "El texto es comprensible y gramaticalmente aceptable en su conjunto, pese a pequeñas imprecisiones de estilo (p. ej. 'Dónde: del Hospital de Mataró').",
+          "source_faithfulness": "La extracción se mantiene fiel a la fuente sin introducir inferencias o hechos nuevos, simplemente omite información que sí está en el texto original.",
+          "overall_coherence": "Los campos individuales no contradicen entre sí y forman una idea básica coherente, pero la ausencia de conexiones temporales y de motivo/manifestaciones clínicas impide un relato completamente consistente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1578,
+        "completion_tokens": 1863,
+        "total_tokens": 3441
+      }
+    },
+    {
+      "document_idx": 1062,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Algunas respuestas son correctas (cuándo, dónde), pero la extracción omite el dato numérico clave (1,32%) y atribuye incorrectamente el 'quién' a 'dichos medios' en vez del informe/condados.",
+          "completeness": "Falta la información esencial: la diferencia cuantificada del 1,32% a favor de los condados con mascarillas obligatorias; además no se especifica quién aporta el dato (informe original).",
+          "relevance_and_conciseness": "Las entradas son breves pero imprecisas o mal asignadas (p. ej. 'Quién: dichos medios' es irrelevante/incorrecto); no hay información superflua, pero sí falta precisión.",
+          "clarity_and_readability": "El texto es gramaticalmente comprensible pero demasiado escueto y algo ambiguo en 'dichos medios' y en 'las mascarillas' como 'qué'.",
+          "source_faithfulness": "La extracción se basa parcialmente en la fuente (tema y periodo) pero omite y altera información del texto original, introduciendo una atribución incorrecta.",
+          "overall_coherence": "Las piezas aisladas tienen coherencia limitada; al faltar el resultado numérico y una identificación correcta del sujeto, no forman un relato completo y conectado."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1577,
+        "completion_tokens": 1153,
+        "total_tokens": 2730
+      }
+    },
+    {
+      "document_idx": 417,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos extraídos (qué, quién, cuándo, dónde) coinciden textualmente con el original y son verificables en la fuente.",
+          "completeness": "Falta mencionar explícitamente que las dosis llegaron el jueves al almacén del Ministerio; la extracción recoge la fecha de entrega a las comunidades pero omite ese detalle temporal adicional presente en la fuente.",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta 5W1H sin introducir información irrelevante ni mezclar elementos entre campos.",
+          "clarity_and_readability": "Los enunciados son breves, gramaticalmente correctos y comprensibles de forma independiente.",
+          "source_faithfulness": "No hay interpretaciones ni añadidos: todas las afirmaciones están directamente respaldadas por el texto fuente.",
+          "overall_coherence": "Las partes forman un relato lógico (las comunidades reciben dosis en la fecha indicada desde el almacén del Ministerio), aunque la omisión del detalle de llegada el jueves reduce ligeramente la coherencia temporal."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1574,
+        "completion_tokens": 1363,
+        "total_tokens": 2937
+      }
+    },
+    {
+      "document_idx": 347,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Captura correctamente el qué, quién, cuándo y dónde, pero omite que el código debe introducirse en la web (cómo) y que el objetivo es acceder a información sobre la vacuna (por qué).",
+          "completeness": "Faltan dos elementos esenciales (cómo y por qué) presentes en la fuente; por tanto no está completa.",
+          "relevance_and_conciseness": "Cada campo responde puntualmente a su pregunta sin mezclar información ni añadir elementos irrelevantes.",
+          "clarity_and_readability": "Las respuestas son breves, gramaticalmente claras y se entienden por sí solas.",
+          "source_faithfulness": "La extracción se basa en la fuente para varios ítems, pero marca como 'No especificado' información que sí aparece en el texto, mostrando falta de fidelidad completa.",
+          "overall_coherence": "Las piezas forman en general un relato consistente (recepción de un código en el móvil), pero la ausencia del propósito y del modo rompe la narrativa completa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1540,
+        "completion_tokens": 1151,
+        "total_tokens": 2691
+      }
+    },
+    {
+      "document_idx": 451,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 2,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 4,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos presentes (qué, quién, cuándo, dónde) son correctos en términos generales, pero omite al coautor (Ayuntamiento) y detalles clave (destinatarios y propósito explícito), por lo que no es totalmente exacta.",
+          "completeness": "Faltan información esencial disponible en la fuente: destinatarios (vecinos que acudieron a bares concretos), nombres de los bares y el intervalo de fechas exacto, así como el propósito (pruebas PCR).",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta sin mezclar información ni añadir contenido irrelevante; sin embargo es excesivamente escueta y omite detalles relevantes.",
+          "clarity_and_readability": "Las respuestas son comprensibles y gramaticalmente aceptables como fragmentos, aunque son muy telegráficas y podrían formularse mejor para mayor legibilidad.",
+          "source_faithfulness": "No hay añadidos ni interpretaciones inventadas; la extracción refleja parte de la fuente, pero omite datos presentes en el texto original.",
+          "overall_coherence": "Los elementos extraídos son consistentes entre sí, pero la ausencia del 'por qué' y el 'cómo' (y de destinatarios/detalles temporales) impide presentar un relato completamente coherente del evento."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1608,
+        "completion_tokens": 1726,
+        "total_tokens": 3334
+      }
+    },
+    {
+      "document_idx": 1370,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los elementos principales (quién, dónde, cuándo y qué) pero omite el matiz temporal clave del texto original: que la recuperación se intentó 'en muy poco tiempo'.",
+          "completeness": "Faltan detalles esenciales: la extracción no captura 'intentó recuperar ... en muy poco tiempo' (cómo/tempo) y deja por completo fuera información relacionada con el modo/tiempo; por eso no es exhaustiva.",
+          "relevance_and_conciseness": "Cada campo se centra en su pregunta sin agregar información externa; sin embargo, el 'qué' es algo genérico y podría haber incluido el matiz temporal para mayor precisión.",
+          "clarity_and_readability": "Las respuestas son gramaticalmente correctas y comprensibles por sí mismas.",
+          "source_faithfulness": "No introduce información inventada y se atiene a la fuente, aunque omite un detalle relevante presente en el texto original.",
+          "overall_coherence": "Los elementos extraídos forman un relato consistente y lógico del evento, pese a la omisión del aspecto temporal/metodológico que habría mejorado la coherencia completa."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1533,
+        "completion_tokens": 1050,
+        "total_tokens": 2583
+      }
+    },
+    {
+      "document_idx": 236,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 3,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción acierta en fecha (1984), lugar (Cleveland) y la pena (cadena perpetua), pero omite que la sentencia fue por la violación y asesinato y no menciona al condenado (Broom); además 'Quién' sólo lista a la víctima.",
+          "completeness": "Faltan elementos esenciales presentes en la fuente: identidad del agresor (Broom), la naturaleza del delito (violación y asesinato) y el modo del secuestro; varias 5W1H incompletas.",
+          "relevance_and_conciseness": "Las respuestas son concisas y en su mayoría relevantes, pero 'Quién' está mal planteado (solo la víctima) y 'No especificado' oculta detalles disponibles en la fuente.",
+          "clarity_and_readability": "Legible y breve, pero con redacción torpe ('Quién: de Tryna Middleton') y ambigüedad por omisiones que dificultan la comprensión plena.",
+          "source_faithfulness": "La extracción se basa en la fuente para algunos hechos, sin introducir alucinaciones, pero omite información que la fuente sí proporciona, reduciendo fidelidad.",
+          "overall_coherence": "El conjunto no forma un relato totalmente coherente porque falta el sujeto actor (Broom) y la descripción del delito y del modo, impidiendo entender el evento completo."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1559,
+        "completion_tokens": 1348,
+        "total_tokens": 2907
+      }
+    },
+    {
+      "document_idx": 1352,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción capta parcialmente la idea de 'presión asistencial' y identifica correctamente 'Departamento de Salud' y 'el lunes', pero omite cifras clave (1.474 hospitalizados; 403 en UCI) y la subida concreta, y asigna erróneamente 'Dónde' como 'en la UCI' cuando el aumento se refiere a los hospitales en general.",
+          "completeness": "Faltan datos esenciales de la fuente (número total de hospitalizados, número en UCI, aumentos y que es el segundo día consecutivo), por lo que la extracción no captura la información 5W1H completa.",
+          "relevance_and_conciseness": "Las respuestas son breves pero imprecisas; algunos campos mezclan conceptos (p. ej. 'Dónde: en la UCI' confunde la ubicación de pacientes graves con el ámbito del aumento), por lo que no están perfectamente atomizados.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y fácil de entender por sí mismo, aunque escaso en detalle.",
+          "source_faithfulness": "La extracción se basa en elementos reales de la fuente (fecha y autoridad) pero omite y simplifica información importante sin introducir contenido inventado, aunque sitúa parcialmente la información en un lugar inexacto.",
+          "overall_coherence": "Los elementos aislados no conforman un relato completo ni conectado: falta el contexto numérico y temporal de la subida y hay ambigüedad sobre el lugar, lo que reduce la coherencia global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1570,
+        "completion_tokens": 1134,
+        "total_tokens": 2704
+      }
+    },
+    {
+      "document_idx": 784,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 2,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Incorrecta atribución del hablante: el texto indica que el Ministro de Salud Fernando Ruiz explicó que los lineamientos están en la Resolución 411; la extracción identifica al Presidente como quien habló. Además, el 'Qué' es demasiado vago.",
+          "completeness": "Faltan detalles clave que están en la fuente (Resolución 411, fecha 29 de marzo y contenido sobre control de pasajeros, limpieza, desinfección, medidas de protección); 'Por qué' y 'Cómo' no se extraen aunque la fuente ofrece contexto sobre la resolución.",
+          "relevance_and_conciseness": "Las entradas son en general concisas y sin información superflua, pero el 'Qué' es demasiado impreciso y el 'Quién' no responde correctamente a quién explicó la información.",
+          "clarity_and_readability": "La mayoría de los campos son comprensibles, pero 'Qué: que estos lineamientos' es poco claro y no constituye una frase autónoma bien formada.",
+          "source_faithfulness": "La extracción añade una atribución incorrecta (Presidente como explicador) y omite información presente en la fuente, por lo que no es totalmente fiel.",
+          "overall_coherence": "Las piezas temporal y de lugar son consistentes con la fuente, pero la imprecisión en 'Quién' y la vaguedad del 'Qué', más las omisiones, impiden un relato completo y coherente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1610,
+        "completion_tokens": 1878,
+        "total_tokens": 3488
+      }
+    },
+    {
+      "document_idx": 423,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "Captura hechos clave (17 zonas cerradas; fecha; autoridad) pero omite la mención del 'toque de queda' que aparece en la fuente y no expresa el verbo 'cierra' explícitamente.",
+          "completeness": "Falta la información sobre el mantenimiento del toque de queda en toda la región; además no se especifica claramente la acción ('cierra') asociada a las 17 zonas.",
+          "relevance_and_conciseness": "La extracción es concisa pero mezcla/traslada la localización del toque de queda a 'Dónde' sin diferenciar que la fuente menciona dos acciones distintas con ámbitos distintos.",
+          "clarity_and_readability": "Texto breve y comprensible, aunque formato y falta de verbo en 'Qué' reducen ligeramente la fluidez.",
+          "source_faithfulness": "No introduce información externa, pero omite un hecho presente en la fuente (toque de queda) y reasigna la localización de manera imprecisa.",
+          "overall_coherence": "Las partes individuales son entendibles pero no forman un relato completamente consistente debido a la omisión del toque de queda y la imprecisa asignación del 'Dónde'."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1524,
+        "completion_tokens": 1121,
+        "total_tokens": 2645
+      }
+    },
+    {
+      "document_idx": 828,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 2,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Los elementos proporcionados (qué, quién, cuándo, dónde) coinciden correctamente con el texto fuente; no hay información falsa.",
+          "completeness": "Falta información relevante que está en la fuente: el detalle de que los lineamientos unifican en una única norma el plan de emergencia/contingencia/protección y prevención frente al covid-19 y la referencia a llegadas y salidas de vuelos nacionales e internacionales; 'por qué' sí puede inferirse (frente al covid-19) pero fue marcado como no especificado.",
+          "relevance_and_conciseness": "Cada campo responde únicamente a su pregunta 5W1H sin mezclar elementos ni añadir datos superfluos; las omisiones fueron explícitas ('No especificado').",
+          "clarity_and_readability": "Las respuestas son gramaticalmente correctas y comprensibles por sí solas (frases cortas y claras).",
+          "source_faithfulness": "La extracción se basa en la fuente y no introduce alucinaciones, pero omite detalles explícitos del texto (unidad de norma y alcance frente al covid-19), por lo que no es completamente exhaustiva.",
+          "overall_coherence": "Las piezas forman un relato consistente y lógico del evento, aunque incompleto por las omisiones señaladas."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1568,
+        "completion_tokens": 1660,
+        "total_tokens": 3228
+      }
+    },
+    {
+      "document_idx": 746,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 5,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción reproduce correctamente los hechos del texto: ONU, identificación biométrica, 2030 y alcance mundial.",
+          "completeness": "Captura todas las 5W1H presentes en la fuente y marca adecuadamente 'Por qué' y 'Cómo' como no especificados porque el texto no los menciona.",
+          "relevance_and_conciseness": "Cada campo responde únicamente a su pregunta 5W1H sin añadir información irrelevante o mezclar elementos.",
+          "clarity_and_readability": "El contenido es comprensible pero presenta una falta de ortografía ('identifición') y formato irregular que disminuyen ligeramente la legibilidad.",
+          "source_faithfulness": "Fiel a la fuente; no hay inferencias ni añadidos más allá de lo que el texto original comunica.",
+          "overall_coherence": "Las respuestas juntas forman un relato lógico y consistente: la ONU planea una identificación biométrica mundial para 2030."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1536,
+        "completion_tokens": 1777,
+        "total_tokens": 3313
+      }
+    },
+    {
+      "document_idx": 109,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 2,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 3,
+          "overall_coherence": 3
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja parte de la información (campañas, EFSA, desde 2013) pero omite actores clave (gobiernos nacionales, Ministerio de Sanidad y AECOSAN) y mezcla elementos.",
+          "completeness": "Faltan datos esenciales presentes en la fuente: actores adicionales, el objetivo de reducir la exposición y la acción dirigida a empresas; 'por qué' y 'cómo' sí están en la fuente pero no en la extracción.",
+          "relevance_and_conciseness": "Las respuestas son en su mayoría concisas, pero 'Quién' y 'Dónde' están incompletos/ambigüos y no separan claramente las dos acciones descritas en la fuente.",
+          "clarity_and_readability": "El texto es breve y comprensible por sí mismo, con formato claro aunque escaso en detalle.",
+          "source_faithfulness": "La extracción se basa en la fuente sin inventar información, pero omite y simplifica pasajes relevantes de la fuente original.",
+          "overall_coherence": "Las piezas aisladas son coherentes en general, pero al omitir información clave no forman un relato completamente conectado del evento descrito."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1601,
+        "completion_tokens": 1311,
+        "total_tokens": 2912
+      }
+    },
+    {
+      "document_idx": 158,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 2,
+          "completeness": 2,
+          "relevance_and_conciseness": 2,
+          "clarity_and_readability": 3,
+          "source_faithfulness": 3,
+          "overall_coherence": 2
+        },
+        "justifications": {
+          "factual_accuracy": "Parte de la extracción es correcta (Qué: campaña a favor de la Sputnik V; Dónde: en prisión), pero identifica incorrectamente el 'Quién' (se extrae 'al líder de la oposición' cuando el sujeto que retoma la campaña es 'Rusia') y el 'Cuándo' está truncado ('Tras encerrar' en lugar de la frase completa).",
+          "completeness": "No captura el actor principal (Rusia) y el tiempo completo; omite contexto relevante — aunque la fuente no da 'Por qué' o 'Cómo', la extracción debería reflejar completamente la cláusula temporal y el sujeto.",
+          "relevance_and_conciseness": "Las respuestas mezclan roles: el 'Quién' corresponde al objeto de la acción de encarcelamiento en vez del agente que retoma la campaña; hay además información incompleta ('Tras encerrar'). No añade información irrelevante, pero tampoco concentra cada campo en su pregunta.",
+          "clarity_and_readability": "En general comprensible, pero contiene fragmentos incompletos ('Tras encerrar') y una asignación confusa del sujeto ('Quién: al líder de la oposición') que reduce la claridad autónoma del extracto.",
+          "source_faithfulness": "No hay información inventada, sólo una interpretación errónea de la estructura de la oración y omisiones; por tanto es parcialmente fiel a la fuente pero no estrictamente.",
+          "overall_coherence": "Los campos juntos crean una narrativa confusa (sugieren que el líder en prisión es quien realiza la campaña), por la mala asignación del 'Quién' y el tiempo incompleto; el conjunto no es lógicamente consistente con la fuente."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1530,
+        "completion_tokens": 1438,
+        "total_tokens": 2968
+      }
+    },
+    {
+      "document_idx": 87,
+      "model_evaluated": "flares_ground_truth",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 2,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 4,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Los datos extraídos (cantidad, persona, momento y lugar) coinciden exactamente con la fuente y son verificables.",
+          "completeness": "Faltan elementos presentes en la fuente: fabricante (Pfizer) y el motivo ('permite seguir avanzando en el Plan Nacional de Vacunación'), además del canal de comunicación (Twitter).",
+          "relevance_and_conciseness": "Cada campo responde a su pregunta 5W1H sin mezclar información ni añadir contenido irrelevante.",
+          "clarity_and_readability": "Texto claro y entendible; la notación del número (280.800) y la minúscula en 'al país' son menores problemas de formato.",
+          "source_faithfulness": "No hay añadidos ni inferencias; la extracción se ciñe a lo expresado en la fuente, aunque omite partes.",
+          "overall_coherence": "Las partes forman un relato consistente pero incompleto por la omisión de 'por qué' y 'cómo', lo que reduce la coherencia global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 1576,
+        "completion_tokens": 1621,
+        "total_tokens": 3197
+      }
+    }
+  ]
+}

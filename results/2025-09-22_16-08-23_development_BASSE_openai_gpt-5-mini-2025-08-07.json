@@ -1,0 +1,275 @@
+{
+  "total_tokens": 43145,
+  "results": [
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción contiene datos correctos verificables en la fuente (marcador 55-74, 26+11 de Willy, minutos limitados de Ricky, bajas de Marc y Rudy, problemas de tiro y pérdidas).",
+          "completeness": "Captura las ideas principales 5W1H pero omite cifras concretas detalladas (porcentajes de tiro exactos, 18 pérdidas, 12 robos) y algunos ajustes tácticos mencionados en el texto.",
+          "relevance_and_conciseness": "Cada apartado responde a su pregunta sin información irrelevante, aunque el 'Quién' mezcla la idea de 'actuaciones destacadas' para Ricky pese a que su papel fue más limitado, lo que introduce ligera confusión.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y comprensible por sí mismo; las frases son claras y siguen una estructura lógica.",
+          "source_faithfulness": "La extracción se basa en la información del artículo y no añade hechos no presentes ni inferencias no justificadas por la fuente.",
+          "overall_coherence": "Los seis elementos conforman un relato consistente y lógico del partido y su contexto preparatorio para el Mundial."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2767,
+        "completion_tokens": 2086,
+        "total_tokens": 4853
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente el hecho central (derrota ante Rusia, problemas en rebote, pérdidas y bajos porcentajes) pero omite cifras clave (55-74, porcentajes exactos, 18 pérdidas) y presenta una leve interpretación al decir 'liderada por Ricky y Willy'.",
+          "completeness": "Faltan datos numéricos y detalles relevantes del original (marcador, porcentajes exactos, 26 pts y 11 rbts de Willy, ausencia de Marc/Rudy, minutos limitados de Ricky), por lo que no captura toda la información esencial.",
+          "relevance_and_conciseness": "Cada apartado se centra en su pregunta, sin información irrelevante, aunque hay repetición del 'Qué' y cierta mezcla ligera en 'Quién' al atribuir liderazgo.",
+          "clarity_and_readability": "Texto gramaticalmente correcto y fácil de entender; redacción clara y coherente.",
+          "source_faithfulness": "Mayoritariamente fiel al texto fuente; no obstante añade una interpretación ligera ('liderada') y asume la ubicación en vez de reproducir la ausencia de dato exacto.",
+          "overall_coherence": "Las secciones conforman un relato lógico y coherente del partido, pero omisiones y repeticiones reducen algo la cohesión global."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2746,
+        "completion_tokens": 1485,
+        "total_tokens": 4231
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos principales (derrota, ausencias, dominio ruso), pero presenta a Ricky como 'actuación destacada' sin matizar que su protagonismo en este partido fue limitado; por eso se resta un punto.",
+          "completeness": "Cubre las 5W1H esenciales, pero omite datos numéricos relevantes presentes en la fuente (resultado 55-74, porcentajes de tiro y cifras exactas de pérdidas/robos).",
+          "relevance_and_conciseness": "Cada elemento se centra en su pregunta 5W1H sin mezclar temas ni añadir información superflua.",
+          "clarity_and_readability": "Texto gramaticalmente correcto y comprensible por sí mismo; formulaciones claras y breves.",
+          "source_faithfulness": "La extracción se basa en la información de la fuente y no introduce inferencias no sostenidas; las causas y ausencias mencionadas están en el texto original.",
+          "overall_coherence": "Las piezas 5W1H forman un relato lógico y consistente del partido y su contexto de preparación para el Mundial."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2722,
+        "completion_tokens": 1940,
+        "total_tokens": 4662
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 4,
+          "completeness": 4,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 3,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La mayoría de los datos clave (marcador, porcentajes, pérdidas, robos, actuaciones de Willy y Ricky, temporización respecto a Argentina y al Mundial) coinciden con la fuente; sin embargo hay una inferencia sobre el lugar (se afirma que se jugó en España) y una ambigüedad en la atribución de las bajas por precaución entre Rudy y Marc.",
+          "completeness": "Incluye las respuestas 5W1H principales (qué, quién, cuándo, dónde, por qué, cómo) y las estadísticas relevantes, pero omite detalles secundarios presentes en la fuente como cambios en el quinteto (Llull, Rabaseda), la limitación de minutos a Ricky y citas textuales del seleccionador.",
+          "relevance_and_conciseness": "Cada componente responde a su pregunta sin información excesiva; no obstante el apartado 'Quién' mezcla rol del entrenador, ausencias y rendimiento individual que podrían haberse separado para mayor atomicidad.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto, claro y entendible por sí mismo, con frases concisas que comunican los hechos principales.",
+          "source_faithfulness": "En su mayor parte fiel a la fuente, pero añade una afirmación no explícita en el texto original (ubicación en España) y no refleja con precisión que ambas bajas —Rudy y Marc— se mencionan por precaución en la fuente.",
+          "overall_coherence": "Las partes forman un relato coherente y consistente del partido y sus causas, permitiendo entender qué pasó, por qué y cómo afectó al equipo antes del Mundial."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2780,
+        "completion_tokens": 1535,
+        "total_tokens": 4315
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/deportes/2019/08/17/actualidad/1566005143_044557.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos clave del texto original (resultado 55-74, entrenadores, fecha relativa, bajas de Rudy y Marc, dominio de Rusia y esfuerzo de Willy).",
+          "completeness": "Cubre las 5W1H principales pero omite detalles estadísticos relevantes del texto (porcentajes de tiro, número exacto de pérdidas/robos y los 26+11 de Willy), que serían información esencial.",
+          "relevance_and_conciseness": "Cada elemento responde a su pregunta 5W1H sin mezclar temas ni añadir información ajena; es conciso y enfocado.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y comprensible por sí mismo, con formulaciones claras y coherentes.",
+          "source_faithfulness": "Las afirmaciones se basan en el texto fuente sin introducir inferencias o datos no presentes en la referencia.",
+          "overall_coherence": "Las seis partes forman un relato lógico y consistente del partido y su contexto preparatorio antes del Mundial."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2784,
+        "completion_tokens": 1094,
+        "total_tokens": 3878
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "claude",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 4,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos clave (proyecto, lugar, objetivo, acciones y participantes) tal como aparecen en la fuente.",
+          "completeness": "Cubre las respuestas 5W1H principales pero omite detalles secundarios presentes en la fuente (fecha exacta del viaje, mención de los 20 compañeros, años de llegada del agua/luz y otros matices).",
+          "relevance_and_conciseness": "Cada elemento responde a su pregunta específica sin mezclar información ni añadir contenido innecesario.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto, claro y fácil de entender por sí mismo.",
+          "source_faithfulness": "Mayormente fiel a la fuente, aunque incorpora una leve inferencia (p. ej. referirse explícitamente a las estudiantes como 'españolas') que no se afirma textualmente.",
+          "overall_coherence": "Los seis elementos forman un relato consistente y lógico del proyecto y su evolución."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2847,
+        "completion_tokens": 1078,
+        "total_tokens": 3925
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "commandr",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 3,
+          "relevance_and_conciseness": 4,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos claves (quién, qué, dónde, cuándo, cómo) tal como aparecen en la fuente; no contiene errores verificables.",
+          "completeness": "Faltan datos relevantes presentes en la fuente: número de colaboradores (~20), detalles de la Jornada Solidaria, consecución de objetivos económicos en septiembre de 2018, duración del viaje (5 días) y contexto sobre agua/luz en la zona.",
+          "relevance_and_conciseness": "Cada elemento responde a su pregunta 5W1H sin mezclar información mayormente, aunque la frase final del resumen añade un comentario meta y hay leves omisiones que podrían haberse incluido concisamente.",
+          "clarity_and_readability": "Texto bien redactado y gramaticalmente correcto; cada sección es comprensible y autónoma.",
+          "source_faithfulness": "La extracción se basa en la fuente sin introducir inferencias o alucinaciones; mantiene fidelidad al contenido original.",
+          "overall_coherence": "Las partes juntas conforman un relato cronológico y coherente del proyecto, pero la omisión de ciertos detalles reduce la exhaustividad del conjunto."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2948,
+        "completion_tokens": 1243,
+        "total_tokens": 4191
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "gpt4o",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos clave (objetivo, participantes, fechas, lugar y acciones) tal como aparecen en la fuente.",
+          "completeness": "Cubre los elementos 5W1H principales pero omite detalles presentes en la fuente (mención de la ONG Acción Geoda, la duración del viaje de cinco días, el conjunto de ~80 aldeas, y la expansión/éxito económico alcanzado en sept. 2018).",
+          "relevance_and_conciseness": "Cada componente responde a su pregunta 5W1H sin mezclar temas ni añadir información superflua; es concisa y enfocada.",
+          "clarity_and_readability": "El texto es gramaticalmente correcto y se entiende por sí mismo sin ambigüedades.",
+          "source_faithfulness": "La extracción se basa en la información del documento y no introduce interpretaciones ni alucinaciones evidentes.",
+          "overall_coherence": "Las partes 5W1H forman un relato lógico y conectado del proyecto (origen, acciones, objetivos y continuidad), pese a la ausencia de algunos detalles menores."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2878,
+        "completion_tokens": 1109,
+        "total_tokens": 3987
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "reka",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 3,
+          "completeness": 4,
+          "relevance_and_conciseness": 3,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 3,
+          "overall_coherence": 4
+        },
+        "justifications": {
+          "factual_accuracy": "Recoge lugar, participantes, objetivos y acciones correctamente, pero afirma erróneamente que las cinco universitarias 'fundaron' Acción Geoda; además omite la fecha exacta (9 de marzo) y duración del viaje.",
+          "completeness": "Incluye los 5W1H principales y las actividades de recaudación y sensibilización, pero carece de algunos detalles secundarios (fecha exacta del viaje, duración, edades) y del matiz de que la ONG ya existía.",
+          "relevance_and_conciseness": "Cada elemento responde a su pregunta con concisión en la mayoría de los casos; sin embargo 'Qué' mezcla rol (fundación de la ONG) no respaldado por la fuente.",
+          "clarity_and_readability": "Redacción en español correcta y fácil de entender; las frases son coherentes y autocontenidas.",
+          "source_faithfulness": "Mayormente fiel a la fuente en hechos y objetivos, pero introduce una inferencia incorrecta sobre la fundación de la ONG y simplifica algunos matices del texto original.",
+          "overall_coherence": "Las partes forman un relato lógico y conectado sobre el proyecto (inicio, motivos, acciones, crecimiento), a pesar de la inexactitud puntual sobre la ONG."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2876,
+        "completion_tokens": 1969,
+        "total_tokens": 4845
+      }
+    },
+    {
+      "document_idx": "http://elpais.com/elpais/2019/07/10/planeta_futuro/1562757015_950583.html",
+      "model_evaluated": "llama3",
+      "evaluation_data": {
+        "scores": {
+          "factual_accuracy": 5,
+          "completeness": 4,
+          "relevance_and_conciseness": 5,
+          "clarity_and_readability": 5,
+          "source_faithfulness": 5,
+          "overall_coherence": 5
+        },
+        "justifications": {
+          "factual_accuracy": "La extracción refleja correctamente los hechos clave del texto: cinco universitarias, colegio mayor en Madrid, Valle del Tessaout/Tasslent, proyecto de escuela infantil y empoderamiento, actividades (Jornada Solidaria, Semana de la Mujer), recaudación y difusión del \"virus del valle\".",
+          "completeness": "Captura la mayoría de los elementos 5W1H pero omite detalles presentes en la fuente como la fecha exacta del viaje (9 de marzo), la duración del viaje (cinco días), el apoyo explícito de ~20 compañeros y algunos resultados/fechas (objetivos alcanzados en septiembre de 2018) y anécdotas específicas.",
+          "relevance_and_conciseness": "Cada sección se mantiene enfocada en su pregunta específica sin mezclar información irrelevante; la extracción es directa y concisa.",
+          "clarity_and_readability": "Texto gramaticalmente correcto y fácilmente entendible por sí mismo; la redacción es clara y coherente.",
+          "source_faithfulness": "La extracción se limita a parafrasear la información del original sin introducir interpretaciones, inferencias o datos no presentes.",
+          "overall_coherence": "Las partes 5W1H forman un relato lógico y consistente que conecta origen, acciones, motivos y resultados del proyecto."
+        }
+      },
+      "token_usage": {
+        "prompt_tokens": 2898,
+        "completion_tokens": 1360,
+        "total_tokens": 4258
+      }
+    }
+  ]
+}
