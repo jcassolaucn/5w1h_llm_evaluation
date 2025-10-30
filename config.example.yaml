@@ -1,0 +1,50 @@
+# Application configuration for 5W1H LLM evaluation
+# Copy this file to `config.yaml` and adjust values as needed.
+
+run:
+  # development | production (used only for naming and light behaviors like logging)
+  environment: development
+  # Which step(s) to run. Options: preprocess, prepare, evaluate, validate, all
+  step: all
+  # Dataset to process: BASSE | FLARES (case-insensitive)
+  dataset: BASSE
+  # Limit number of documents/tasks to process (0 or null = no limit)
+  limit: 5
+  # Verbose console output with per-step banners and per-task progress (notebook-like)
+  verbose: true
+
+paths:
+  # Data roots
+  data_dir: data
+  results_dir: results
+
+  # BASSE
+  basse_jsonl: data/basse/BASSE.jsonl
+
+  # FLARES
+  flares_train: data/flares/5w1h_subtarea_1_train.json
+  flares_trial: data/flares/5w1h_subtask_1_trial.json
+
+llm:
+  # Provider can be: openai | anthropic (claude) | gemini
+  # Set the corresponding API key via environment variable or llm.api_key below.
+  provider: openai
+  model: gpt-5-mini-2025-08-07
+  # Optional: inline API key (overrides env var). Prefer using environment variables.
+  # api_key: "YOUR_KEY_HERE"
+  # Temperature and other sampling params
+  temperature: 0.2
+  max_output_tokens: 1200
+
+prompts:
+  # Prompt templates to guide evaluation
+  system_prompt_path: prompts/system_evaluation_prompt.txt
+  user_prompt_path: prompts/user_evaluation_prompt.txt
+
+# Validation / expert review tasks
+validation:
+  # If true, also generate the human-review JSON ("*_review.json")
+  generate_review_task: true
+  # If true, also create an Excel file ("*_review.xlsx") next to the review JSON.
+  # Note: Excel generation only runs when generate_review_task is also true.
+  generate_excel: true
