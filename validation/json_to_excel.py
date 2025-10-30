@@ -23,9 +23,19 @@ def create_excel_for_review(json_path: str, excel_path: str):
         print(f"Error: The file '{json_path}' is not a valid JSON.")
         return
 
+    # Normalize input structure: accept either a list of tasks or a dict with 'review_items'
+    tasks = None
+    if isinstance(json_data, list):
+        tasks = json_data
+    elif isinstance(json_data, dict) and 'review_items' in json_data:
+        tasks = json_data['review_items']
+    else:
+        print("Error: Unrecognized JSON structure. Expected a list or a dict with 'review_items'.")
+        return
+
     # Flatten the JSON structure to convert it into a table
     rows_for_excel = []
-    for task in json_data:
+    for task in tasks:
         # Common information repeated across the 6 rows for each task
         common_info = {
             'doc_id': task['document_info']['doc_id'],
@@ -68,7 +78,7 @@ def create_excel_for_review(json_path: str, excel_path: str):
     ]
     df = df[column_order]
 
-    print(f"Creating Excel file at '{excel_path}'...")
+    print(f"Creating Excel file...")
 
     # Use XlsxWriter to add advanced formatting to the Excel file. Make sure to install it via pip if not already installed.
     with pd.ExcelWriter(excel_path, engine='xlsxwriter') as writer:
