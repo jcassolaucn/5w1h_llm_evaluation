@@ -1,0 +1,31 @@
+# Exclude VCS
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# Data/results that should not be baked into the image
+results/
+notebooks/
+
+# Local config and secrets should not be copied into the image
+.env
+config.yaml
+
+# OS junk
+.DS_Store
+Thumbs.db
