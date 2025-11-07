@@ -165,3 +165,81 @@ python json_to_excel.py ..\results\your_results_review.json ..\results\review.xl
   python -c "import os; print(bool(os.getenv('OPENAI_API_KEY')))"  # or ANTHROPIC_API_KEY / GEMINI_API_KEY
   ```
 - Models must support tool/function calling. If a model doesn’t return a tool call, the runner tries a JSON fallback and logs a helpful message when `run.verbose: true`.
+
+
+## Run with Docker
+
+You can run the evaluator in a container without installing local Python dependencies.
+
+### 1) Build the image
+```
+docker build -t llm-as-a-judge-5w1h-eval:latest .
+```
+
+### 2) Prepare config and environment
+- Copy `config.example.yaml` to `config.yaml` and adjust it as usual.
+- Create a `.env` file with your API keys (the app auto-loads `.env`; Docker Compose also uses it):
+  ```
+  OPENAI_API_KEY=...
+  ANTHROPIC_API_KEY=...
+  GEMINI_API_KEY=...
+  ```
+
+### 3) Run with plain Docker
+Examples below mount your local `data/` and `results/` so inputs/outputs stay on your host, and pass in `config.yaml`.
+
+- Evaluate with defaults from `config.yaml`:
+  ```powershell
+  docker run --rm \
+    -v ${PWD}/data:/app/data \
+    -v ${PWD}/results:/app/results \
+    -v ${PWD}/config.yaml:/app/config.yaml:ro \
+    -e OPENAI_API_KEY=$env:OPENAI_API_KEY \
+    -e ANTHROPIC_API_KEY=$env:ANTHROPIC_API_KEY \
+    -e GEMINI_API_KEY=$env:GEMINI_API_KEY \
+    llm-as-a-judge-5w1h-eval:latest
+  ```
+
+- Override step/dataset/limit:
+  ```powershell
+  docker run --rm \
+    -v ${PWD}/data:/app/data \
+    -v ${PWD}/results:/app/results \
+    -v ${PWD}/config.yaml:/app/config.yaml:ro \
+    --env-file .env \
+    llm-as-a-judge-5w1h-eval:latest \
+    python main.py --step evaluate --dataset BASSE --limit 5
+  ```
+
+On PowerShell, `${PWD}` expands to the current directory. If using CMD, replace `${PWD}` with the full absolute path (e.g., `C:\Users\My_UserName\MyProject\5w1h-llm-evaluation`).
+
+### 4) Run with Docker Compose
+A `docker-compose.yml` is provided for convenience.
+
+- Evaluate with defaults from `config.yaml`:
+  ```powershell
+  docker compose up --build
+  ```
+
+- Override parameters at runtime using environment variables (Compose injects them into the command):
+  ```powershell
+  $env:STEP="evaluate"; $env:DATASET="FLARES"; $env:LIMIT="10"
+  docker compose up --build
+  ```
+
+- One-off runs without keeping the container:
+  ```powershell
+  docker compose run --rm app
+  ```
+
+Compose mounts these volumes by default:
+- `./data -> /app/data`
+- `./results -> /app/results`
+- `./config.yaml -> /app/config.yaml:ro`
+
+And it reads API keys from your local `.env` file (along with any other variables you include there).
+
+### Notes for Docker usage
+- The app loads environment variables from the container environment and from `.env` (thanks to `python-dotenv`). When using Compose, keep your keys in the `.env` file next to `docker-compose.yml`.
+- Large datasets stay outside the image due to `docker-compose` volume mounts and `.dockerignore`.
+- If you change only code (not `requirements.txt`), Docker layer caching will make rebuilds faster.
