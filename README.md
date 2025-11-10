@@ -1,6 +1,6 @@
 # 5W1H LLM Evaluation — Modular Runner
 
-This repository evaluates 5W1H extractions with LLMs over pluggable datasets (e.g., BASSE, FLARES). It replaces the notebook with a scalable, configurable application. Pipelines are split into independent steps: preprocessing, preparation, evaluation, and validation.
+This repository evaluates 5W1H extractions with LLMs over pluggable datasets (e.g., BASSE, FLARES). Pipelines are split into independent steps: preprocessing, preparation, evaluation, and validation.
 
 ## Project Structure
 ```
@@ -21,8 +21,8 @@ This repository evaluates 5W1H extractions with LLMs over pluggable datasets (e.
 │   ├── basse_preprocessing.py
 │   └── flares_preprocessing.py
 ├── prompts/
-│   ├── system_evaluation_prompt_v4.txt
-│   └── user_evaluation_prompt_v4.txt
+│   ├── system_evaluation_prompt.txt
+│   └── user_evaluation_prompt.txt
 ├── pydantic_models/
 │   └── output_pydantic_models.py
 ├── validation/
