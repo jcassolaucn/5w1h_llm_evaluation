@@ -34,7 +34,7 @@ llm:
   # api_key: "YOUR_KEY_HERE"
   # Temperature and other sampling params
   temperature: 0.2
-  max_output_tokens: 1200
+  max_output_tokens: 5000
 
 prompts:
   # Prompt templates to guide evaluation
