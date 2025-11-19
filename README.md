@@ -132,7 +132,7 @@ Ensure the corresponding API key is set in your environment or `.env`.
 To support a new dataset (e.g., `MYDATA`) without touching the core pipeline:
 1. Create preprocessing and preparation modules:
    - `preprocessing/mydata_preprocessing.py` → expose a function that returns a `List[dict]` of documents.
-   - `preparation/mydata_preparation.py` → expose a generator that yields tasks `(doc_id, original_text, summary_to_evaluate, model_name)` for each document.
+   - `preparation/mydata_preparation.py` → expose a generator that yields tasks `(doc_id, original_text, extraction_to_evaluate, model_name)` for each document.
 2. Register the dataset in `core/datasets.py` with two lightweight wrappers:
    - `_mydata_preprocess(cfg) -> List[Doc]`
    - `_mydata_prepare_tasks(doc) -> Iterable[Task]`

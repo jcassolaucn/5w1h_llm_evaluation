@@ -6,7 +6,7 @@ def prepare_flares_tasks(doc_entry: dict):
     doc_id = doc_entry["Id"]
     original_text = doc_entry["Text"]
     model_name = "flares_ground_truth"
-    summary_to_evaluate = f"""
+    extraction_to_evaluate = f"""
                         Qué: {doc_entry.get("What", "No especificado")}
                         Quién: {doc_entry.get("Who", "No especificado")}
                         Cuándo: {doc_entry.get("When", "No especificado")}
@@ -15,4 +15,4 @@ def prepare_flares_tasks(doc_entry: dict):
                         Cómo: {doc_entry.get("How", "No especificado")}
                         """.strip()
     # Yield a standardized task tuple
-    yield doc_id, original_text, summary_to_evaluate, model_name
+    yield doc_id, original_text, extraction_to_evaluate, model_name

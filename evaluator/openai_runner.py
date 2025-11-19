@@ -58,7 +58,7 @@ class OpenAIEvaluator:
     def evaluate(self, tasks: Iterable[Tuple[str, str, str, str]]) -> List[Dict]:
         """
         Run evaluation over prepared tasks.
-        Each task is a tuple: (doc_id, original_text, summary_to_evaluate, model_name)
+        Each task is a tuple: (doc_id, original_text, extraction_to_evaluate, model_name)
         Returns list of result dicts suitable for JSON serialization.
         """
         results: List[Dict] = []
@@ -70,7 +70,7 @@ class OpenAIEvaluator:
                 short_doc = str(doc_id)
                 if len(short_doc) > 80:
                     short_doc = short_doc[:77] + "..."
-                print(f"[{i}] Evaluating doc_id={short_doc} | summary_from={model_name} → calling OpenAI…")
+                print(f"[{i}] Evaluating doc_id={short_doc} | extraction_from={model_name} → calling OpenAI…")
             user_prompt = self.build_user_prompt(original_text, extraction)
 
             completion = self.client.chat.completions.create(

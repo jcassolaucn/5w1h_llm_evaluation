@@ -99,7 +99,7 @@ class ConfidenceLevel(BaseModel):
 
 class DetailedEvaluation(BaseModel):
     """
-    Root model for a structured and detailed evaluation of a 5W1H summary,
+    Root model for a structured and detailed evaluation of a 5W1H extraction,
     based on a set of research-driven metrics.
     """
     scores: Scores = Field(..., description="The set of all numerical scores for the evaluation.")

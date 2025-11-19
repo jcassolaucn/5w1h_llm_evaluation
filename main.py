@@ -21,7 +21,7 @@ from validation.create_expert_review_task import create_expert_review_task
 from validation.json_to_excel import create_excel_for_review
 
 
-Task = Tuple[str, str, str, str]  # doc_id, original_text, summary_to_evaluate, model_name
+Task = Tuple[str, str, str, str]  # doc_id, original_text, extraction_to_evaluate, model_name
 
 
 def iter_tasks(plugin_name: str, cfg: dict, limit: int | None = None) -> Iterable[Task]:

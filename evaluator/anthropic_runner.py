@@ -72,7 +72,7 @@ class AnthropicEvaluator:
                 short_doc = str(doc_id)
                 if len(short_doc) > 80:
                     short_doc = short_doc[:77] + "..."
-                print(f"[{i}] Evaluating doc_id={short_doc} | summary_from={model_name} → calling Anthropic (OpenAI client)…")
+                print(f"[{i}] Evaluating doc_id={short_doc} | extraction_from={model_name} → calling Anthropic (OpenAI client)…")
 
             user_prompt = self.build_user_prompt(original_text, extraction)
 
