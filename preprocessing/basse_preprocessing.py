@@ -33,7 +33,7 @@ def get_list_of_objects_from_basse_dataset(filepath):
                 round_val = json_object.get('round')
                 original_document = json_object.get('original_document')
 
-                model_extractions = json_object.get('model_extractions', {})
+                model_extractions = json_object.get('model_summaries', {})
 
                 claude_summ = model_extractions.get('claude-5w1h', {}).get('summ')
                 commandr_summ = model_extractions.get('commandr-5w1h', {}).get('summ')
