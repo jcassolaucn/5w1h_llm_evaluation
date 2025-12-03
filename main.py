@@ -122,7 +122,17 @@ def run_evaluate(dataset: str, cfg: dict, limit: int | None = None) -> dict:
         for r, t in zip(results_list, tasks):
             doc_id, original_text, extraction_to_evaluate, model_name = t
             from pydantic_models.output_pydantic_models import DetailedEvaluation
-            evaluation_object = DetailedEvaluation.model_validate(r["evaluation_data"])  # type: ignore
+            eval_data = r.get("evaluation_data")
+            if not eval_data:
+                if verbose:
+                    print(f"[!] Skipping review item for doc_id={doc_id} | model={model_name}: no valid evaluation_data. Error={r.get('error')}")
+                continue
+            try:
+                evaluation_object = DetailedEvaluation.model_validate(eval_data)  # type: ignore
+            except Exception as e:
+                if verbose:
+                    print(f"[!] Skipping review item for doc_id={doc_id} | model={model_name}: cannot validate evaluation_data: {e}")
+                continue
             review_obj = create_expert_review_task(
                 doc_id=doc_id,
                 model_name=model_name,

@@ -109,9 +109,35 @@ class AnthropicEvaluator:
                     content = msg.content or "{}"
                     evaluation = DetailedEvaluation.model_validate(json.loads(content))
             except Exception as e:
+                # Do not stop the loop on parse/validation errors
                 if self.verbose:
                     print(f"[!] Parsing error for doc_id={doc_id} | model={model_name}: {e}")
-                raise RuntimeError(f"Failed to parse model output as DetailedEvaluation: {e}")
+                usage = completion.usage
+                token_usage = {
+                    "prompt_tokens": getattr(usage, 'prompt_tokens', None),
+                    "completion_tokens": getattr(usage, 'completion_tokens', None),
+                    "total_tokens": getattr(usage, 'total_tokens', None),
+                } if usage else {}
+                raw_content = None
+                try:
+                    # Try to capture the raw JSON that failed
+                    msg = completion.choices[0].message
+                    tool_calls = getattr(msg, "tool_calls", None) or []
+                    if tool_calls:
+                        raw_content = tool_calls[0].function.arguments
+                    else:
+                        raw_content = msg.content
+                except Exception:
+                    pass
+                results.append({
+                    "document_idx": doc_id,
+                    "model_evaluated": model_name,
+                    "evaluation_data": None,
+                    "token_usage": token_usage,
+                    "error": f"Pydantic parsing error: {e}",
+                    "raw_output": raw_content,
+                })
+                continue
 
             usage = completion.usage
             token_usage = {

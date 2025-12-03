@@ -113,9 +113,24 @@ class OpenAIEvaluator:
                     raw_obj = json.loads(content)
                     evaluation = DetailedEvaluation.model_validate(raw_obj)
                 except Exception as e:
+                    # Do not stop iteration: record error and continue
                     if self.verbose:
                         print(f"[!] Parsing error for doc_id={doc_id} | model={model_name}: {e}")
-                    raise RuntimeError(f"Failed to parse model output as DetailedEvaluation: {e}")
+                    usage = completion.usage
+                    token_usage = {
+                        "prompt_tokens": getattr(usage, 'prompt_tokens', None),
+                        "completion_tokens": getattr(usage, 'completion_tokens', None),
+                        "total_tokens": getattr(usage, 'total_tokens', None),
+                    } if usage else {}
+                    results.append({
+                        "document_idx": doc_id,
+                        "model_evaluated": model_name,
+                        "evaluation_data": None,
+                        "token_usage": token_usage,
+                        "error": f"Pydantic parsing error: {e}",
+                        "raw_output": content,
+                    })
+                    continue
 
             # Collect token usage if available
             usage = completion.usage
