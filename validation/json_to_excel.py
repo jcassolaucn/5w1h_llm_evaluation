@@ -90,19 +90,20 @@ def create_excel_for_review(json_path: str, excel_path: str):
         # 1. Adjust column widths
         worksheet.set_column('A:A', 40)  # review_id
         worksheet.set_column('B:B', 30)  # doc_id
-        worksheet.set_column('C:D', 25)  # model, criterion
-        worksheet.set_column('E:E', 10)  # ai_score
-        worksheet.set_column('F:F', 50)  # ai_justification
-        worksheet.set_column('G:G', 25)  # expert_score_validity
-        worksheet.set_column('H:H', 28)  # expert_explanation_quality
-        worksheet.set_column('I:I', 50)  # expert_optional_notes
-        worksheet.set_column('J:K', 50)  # source_text, extraction
-        worksheet.set_column('L:L', 15)  # confidence_level
-        worksheet.set_column('M:M', 50)  # confidence_level_justification
+        worksheet.set_column('C:C', 30)  # model_evaluated
+        worksheet.set_column('D:E', 50)  # confidence_level, confidence_level_justification
+        worksheet.set_column('F:F', 10)  # criterion
+        worksheet.set_column('G:G', 10)  # ai_score
+        worksheet.set_column('H:H', 25)  # ai_justification
+        worksheet.set_column('I:I', 10)  # expert_score_validity
+        worksheet.set_column('J:J', 15)  # expert_explanation_quality
+        worksheet.set_column('K:K', 15)  # expert_optional_notes
+        worksheet.set_column('L:L', 50)  # full_source_text
+        worksheet.set_column('M:M', 50)  # extraction_to_evaluate
 
         # 2. Create a drop-down menu for 'expert_explanation_quality'
         quality_options = ['Precisa y Útil', 'Plausible pero Imprecisa', 'Incorrecta o No Útil']
-        worksheet.data_validation('H2:H{}'.format(len(df) + 1), {
+        worksheet.data_validation('J2:J{}'.format(len(df) + 1), {
             'validate': 'list',
             'source': quality_options
         })
